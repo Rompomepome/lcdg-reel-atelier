@@ -1,0 +1,3 @@
+[{"type": "icones", "cartes": [{"icone": "repere", "label": "Zones sous-denses"},
+  {"icone": "lune", "label": "Permanence des soins"}, {"icone": "casque", "label": "Régulation"}]},
+ {"type": "tampon", "texte": "Rien n’est publié", "temps": 1, "sur": true}]

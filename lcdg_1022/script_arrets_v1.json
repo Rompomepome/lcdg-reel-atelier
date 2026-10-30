@@ -1,0 +1,90 @@
+{
+  "slug": "arrets-travail-mso",
+  "date": "2026-10-22",
+  "rubrique": "pro",
+  "label": "Arrêts de travail",
+  "sous_titre": "Arrêts de travail : *650 médecins* dans le viseur ?",
+  "appel": "Nos 2 recommandations :",
+  "voix_off": "homme_age",
+  "badge": "Mise sous objectifs",
+  "bandeau": "L’analyse complète | sur *notre site*",
+  "blocs": [
+    {
+      "duree": 3.0,
+      "texte": null,
+      "requete": "medical certificate form pen",
+      "fichier": "B0.mp4"
+    },
+    {
+      "duree": 7.0,
+      "texte": "Une nouvelle campagne de *mise sous objectifs*. | Annoncée aux syndicats le 14 octobre.",
+      "requete": "telephone on desk office",
+      "voix": "L’Assurance Maladie prépare une nouvelle mise sous objectifs sur les arrêts de travail. | Elle l’a annoncée aux syndicats le quatorze octobre, selon MG France.",
+      "fichier": "B1.mp4"
+    },
+    {
+      "duree": 5.5,
+      "type": "chiffre",
+      "valeur": 650,
+      "suffixe": " médecins",
+      "legende": "vont être contrôlés, *selon la CSMF*",
+      "requete": "stack of letters mail",
+      "voix": "Six cent cinquante médecins vont être contrôlés, selon la C.S.M.F.",
+      "fichier": "B2.mp4"
+    },
+    {
+      "duree": 6.0,
+      "texte": "Les critères de ciblage ? | Au 22 octobre, *rien de publié* sur ameli.fr.",
+      "requete": "charts statistics screen",
+      "voix": "Les critères de ciblage ? | Au vingt-deux octobre, l’Assurance Maladie n’a rien publié sur ameli.fr.",
+      "fichier": "B3.mp4"
+    },
+    {
+      "duree": 6.0,
+      "texte": "D’abord, un appel de votre CPAM. | Puis un courrier, *prochainement*.",
+      "requete": "hand picking up phone",
+      "voix": "Le scénario annoncé : un appel de votre caisse, | puis un courrier, prochainement, selon MG France.",
+      "fichier": "B4.mp4"
+    },
+    {
+      "duree": 7.0,
+      "texte": "*1 mois* pour présenter vos observations. | *15 jours* pour refuser une mise sous objectifs.",
+      "requete": "calendar marking dates",
+      "voix": "Les délais sont courts : un mois pour présenter vos observations, | puis quinze jours pour refuser une mise sous objectifs.",
+      "fichier": "B5.mp4"
+    },
+    {
+      "duree": 4.5,
+      "type": "phrase",
+      "texte": "Votre silence vaut *acceptation*.",
+      "requete": "signing registered letter",
+      "voix": "Et sans réponse dans ce délai, elle est réputée acceptée.",
+      "fichier": "B6.mp4"
+    },
+    {
+      "duree": 7.0,
+      "texte": "Le 20 octobre, l’Assurance Maladie lance *SOS IJ*. | Pour les arrêts complexes : 1er retour sous 48 h.",
+      "requete": "page : https://www.ameli.fr/medecin/actualites/sos-ij-un-nouvel-outil-de-l-assurance-maladie-au-service-des-medecins",
+      "voix": "Le vingt octobre, l’Assurance Maladie a lancé S.O.S. I.J. : | un téléservice sur amelipro pour les arrêts de travail complexes, avec un premier retour sous quarante-huit heures.",
+      "fichier": "B7.mp4"
+    },
+    {
+      "duree": 7.0,
+      "texte": "Un arrêt signalé dans SOS IJ sortira-t-il *du calcul* ? | Rien ne le dit.",
+      "requete": "data analytics dashboard laptop",
+      "voix": "Mais un arrêt signalé dans S.O.S. I.J. sortira-t-il du calcul qui sert à cibler les médecins ? | Rien de ce qu’a publié l’Assurance Maladie ne le dit.",
+      "fichier": "B8.mp4"
+    },
+    {
+      "duree": 5.0,
+      "texte": "Votre CPAM vous appelle ? | Ce qu’il faut faire, *dès l’appel*.",
+      "requete": "desk with phone and notebook",
+      "voix": "Votre caisse vous appelle ? | Le Cercle vous dit quoi faire, dès l’appel, sur son site.",
+      "insert": {
+        "type": "verrou",
+        "n": 2
+      },
+      "fichier": "B9.mp4"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+Cumul emploi-retraite : six illustrations dessinees et la teleconsultation apres 67 ans
+
+Inserts (Romain, 27/10/2026 : « ça doit vraiment être beaucoup développé ») :
+- ages : une regle en zones colorees, un curseur qui va de zone en zone, une
+  bulle dit ce que devient la pension ;
+- vases : deux bocaux communicants (1 € gagne, 1 € de pension en moins), une
+  piece « IJ » qui tombe ;
+- pieces : deux piles, deux pieces gagnees, une piece de pension qui s'envole ;
+- part : un anneau d'activite, la part plafonnee qui se detache (20 % au plus) ;
+- bascule : un ephemeride dont la page du 30 septembre se plie sur le
+  1er janvier 2027 ;
+- icones : des cartes a icone dessinee (repere, lune, casque) et leur « ? ».
+
+Cumul emploi-retraite : bloc « a partir de 67 ans » retabli, avec la
+teleconsultation en complement, dans la limite de 20 % des actes sur l'annee
+(livre blanc de Romain : recommandation de l'Ordre, plafond conventionnel) ;
+placee apres 67 ans, ou le cumul ne reduit plus la pension. Nouveaux plans :
+mains sur un ordinateur (bloc 6), mains qui signent (bloc final, sans visage).
+
+Review Codex : gpt-5.6-luna, effort high, un constat (valeurs de mise en page
+et de rythme ecrites en dur dans les nouveaux inserts) : deplacees dans les
+*_GEO de la charte ; les proportions internes des dessins restent dans le code,
+comme pour le cadenas. smoke_test conforme.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>

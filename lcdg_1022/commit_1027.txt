@@ -1,0 +1,19 @@
+Cumul emploi-retraite v3, liens des articles, niveau de motion de reference
+
+- cumul emploi-retraite : script v3 au niveau du reel arrets de travail
+  (accroche sur l'enjeu, barre des trois ages « des 2027, seul l'age compte »,
+  ticket, circuit 2 € -> 1 €, calendrier du 30 septembre, phrase « une decision
+  prise a l'aveugle », questions ouvertes en « ? ») et ses legendes ;
+- calcul : "ton" rouge, vert ou bleu colore une part et son libelle ;
+- legendes des reels arrets et vaccins : liens de l'article en ligne (27/10) ;
+- CLAUDE.md : tout reel au niveau de motion du reel arrets de travail (Romain,
+  27/10/2026).
+
+Review Codex : gpt-5.6-luna, effort high, trois constats. Corriges : le bloc
+final reprenait le plan de la couverture (B6.mp4 desormais) ; l'adresse de la
+page Service Public manquait au champ requete. Laisse a la decision de Romain :
+la duree (environ 75 s, au-dela des 50 a 55 s du CLAUDE.md), comme le reel
+arrets de travail publie, avec une version publicite d'environ 40 s.
+smoke_test conforme.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>

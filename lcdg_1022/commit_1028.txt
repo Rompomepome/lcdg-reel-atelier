@@ -1,0 +1,18 @@
+Vaccins au cabinet : boites de vaccin etiquetees et questions en cartes dessinees
+
+- prix (nouvel insert) : des boites de vaccin dessinees, une etiquette de prix
+  tombe sur chacune et se balance, puis « plus du double » claque ; remplace les
+  barres du bloc des prix ;
+- icones : poubelle, bon de prise en charge, enfant ; une carte peut porter son
+  propre "temps" ; remplacent les pilules de texte des questions ouvertes ;
+- l'etiquette de prix est partagee entre le refrigerateur et les boites.
+
+Romain, 28/10/2026 : l'apercu vaccins qu'il regardait datait du 23/10, avant la
+correction du bandeau (« notre site » en deux encadres). Apercus vaccins et cumul
+refaits avec le moteur du jour et verifies en 9:16 et en carre.
+
+Review Codex : gpt-5.6-luna, effort high, un constat (P2 : les boites du prix
+entraient toujours au debut du bloc, meme quand leur etiquette suivait un temps
+plus tardif), corrige : chaque boite entre avec son temps. smoke_test conforme.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>

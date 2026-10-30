@@ -1,0 +1,95 @@
+{
+  "slug": "vaccins-cabinet",
+  "date": "2026-10-22",
+  "rubrique": "pro",
+  "label": "Vaccins au cabinet",
+  "sous_titre": "Vaccins au cabinet : *qui paie* les doses perdues ?",
+  "appel": "Notre recommandation :",
+  "voix_off": "homme_jeune",
+  "badge": "Nouveau décret",
+  "bandeau": "L’analyse complète | sur *notre site*",
+  "blocs": [
+    {
+      "duree": 3.0,
+      "texte": null,
+      "requete": "flu vaccine syringe vial",
+      "fichier": "B0.mp4"
+    },
+    {
+      "duree": 7.0,
+      "texte": "Depuis le 11 octobre, les vaccins *au cabinet*. | Grippe et Covid-19, encadrés par un décret.",
+      "requete": "page : https://www.ameli.fr/medecin/sante-prevention/vaccination/vaccination-grippe-saisonniere",
+      "voix": "Depuis le onze octobre, un décret vous permet de garder au cabinet les vaccins contre la grippe et le Covid-19. | Il fixe les règles de détention et de conservation.",
+      "fichier": "B1.mp4"
+    },
+    {
+      "duree": 7.0,
+      "texte": "Depuis le 13 octobre, *3 majorations*. | SKB : grippe standard. SKC : hautement dosé. SKA : Covid-19.",
+      "requete": "keyboard hands office desk",
+      "voix": "Depuis le treize octobre, trois majorations remboursent la dose : | S.K.B. pour la grippe standard, S.K.C. pour le vaccin hautement dosé, S.K.A. pour le Covid-19.",
+      "fichier": "B2.mp4"
+    },
+    {
+      "duree": 6.0,
+      "type": "chiffre",
+      "valeur": 11.75,
+      "decimales": 2,
+      "suffixe": " €",
+      "legende": "la dose de Vaxigrip : vous *l’avancez* au pharmacien",
+      "requete": "pharmacist handing medicine box",
+      "voix": "Le principe : vous avancez le prix des doses au pharmacien. Une dose de Vaxigrip : onze euros soixante-quinze. S.K.B. vous la rembourse quand vous l’injectez.",
+      "fichier": "B3.mp4"
+    },
+    {
+      "duree": 5.5,
+      "type": "chiffre",
+      "valeur": 0.02,
+      "decimales": 2,
+      "suffixe": " €",
+      "legende": "SKA, pour un vaccin Covid-19 du *stock de l’État*",
+      "requete": "euro coins table",
+      "voix": "Pour le Covid-19, le vaccin vient du stock de l’État : S.K.A. vaut deux centimes.",
+      "fichier": "B4.mp4"
+    },
+    {
+      "duree": 6.0,
+      "texte": "L’injection, elle, n’a *pas de code*. | Elle se fait dans la consultation.",
+      "requete": "syringe injection upper arm",
+      "voix": "Et l’injection n’a pas de code propre : | elle se fait dans le cadre de la consultation.",
+      "fichier": "B5.mp4"
+    },
+    {
+      "duree": 4.5,
+      "type": "phrase",
+      "texte": "Mais *3 questions* restent sans réponse.",
+      "requete": "cold chain vaccine storage",
+      "voix": "Mais trois questions restent sans réponse.",
+      "fichier": "B6.mp4"
+    },
+    {
+      "duree": 7.0,
+      "texte": "Qui paie une dose *perdue ou périmée* ? | Le bon de prise en charge est-il exigé ?",
+      "requete": "medicine vials trash",
+      "voix": "Qui paie une dose perdue, ou périmée ? | Le bon de prise en charge est-il exigé ?",
+      "fichier": "B7.mp4"
+    },
+    {
+      "duree": 7.0,
+      "texte": "Les enfants de 2 à 17 ans sans comorbidité sont-ils *exclus* ? | Au 22 octobre, aucun texte ne répond clairement.",
+      "requete": "pediatric vaccine injection",
+      "voix": "Et les enfants de deux à dix-sept ans sans comorbidité, sont-ils exclus ? | Au vingt-deux octobre, aucun texte n’y répond clairement.",
+      "fichier": "B8.mp4"
+    },
+    {
+      "duree": 5.0,
+      "texte": "Comment commander *sans y perdre* ? | Notre recommandation, sur le site du Cercle.",
+      "requete": "hands writing notebook",
+      "voix": "Alors, comment commander sans y perdre ? | Le Cercle vous donne sa recommandation sur son site.",
+      "insert": {
+        "type": "verrou",
+        "n": 1
+      },
+      "fichier": "B9.mp4"
+    }
+  ]
+}

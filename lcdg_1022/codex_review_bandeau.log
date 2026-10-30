@@ -1,0 +1,1778 @@
+OpenAI Codex v0.153.0
+--------
+workdir: C:\Users\NR SMART\tools\lcdg-reel
+model: gpt-5.6-luna
+provider: openai
+approval: never
+sandbox: danger-full-access
+reasoning effort: high
+reasoning summaries: none
+session id: 01a1685e-0190-7db3-8ac7-ed554e37fae2
+--------
+user
+current changes
+warning: failed to parse plugin hooks config C:\Users\NR SMART\.codex\plugins\cache\claude-plugins-official\code-modernization\1.0.0\hooks\hooks.json: unknown field `modules`, expected `description` or `hooks` at line 71 column 11
+2026-10-23T10:45:54.913496Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when AuthRequired(AuthRequiredError { www_authenticate_header: "Bearer error=\"invalid_token\", error_description=\"No authorization provided\", resource_metadata=\"https://mcp.vercel.com/.well-known/oauth-protected-resource\"" })
+2026-10-23T10:45:57.155623Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when AuthRequired(AuthRequiredError { www_authenticate_header: "Bearer error=\"invalid_token\", error_description=\"No authorization provided\", resource_metadata=\"https://mcp.vercel.com/.well-known/oauth-protected-resource\"" })
+2026-10-23T10:45:57.163450Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when AuthRequired(AuthRequiredError { www_authenticate_header: "Bearer error=\"invalid_token\", error_description=\"No authorization provided\", resource_metadata=\"https://mcp.vercel.com/.well-known/oauth-protected-resource\"" })
+warning: failed to parse plugin hooks config C:\Users\NR SMART\.codex\plugins\cache\claude-plugins-official\code-modernization\1.0.0\hooks\hooks.json: unknown field `modules`, expected `description` or `hooks` at line 71 column 11
+2026-10-23T10:45:57.349095Z ERROR rmcp::transport::worker: worker quit with fatal: Transport channel closed, when AuthRequired(AuthRequiredError { www_authenticate_header: "Bearer resource_metadata=\"https://public-api.wordpress.com/.well-known/oauth-protected-resource?resource=wpcom/v2/chatgpt-mcp/v1\"" })
+exec
+"C:\\Program Files\\PowerShell\\7\\pwsh.exe" -Command "Get-Content -LiteralPath 'C:\\Users\\NR SMART\\.codex\\memories\\MEMORY.md' | Select-String -Pattern 'lcdg|review|reel' -Context 2,3" in C:\Users\NR SMART\tools\lcdg-reel
+ succeeded in 1442ms:
+
+  - Symptom: a surgical post-build edit is presented as a complete regression rerun. Fix: retain the exact proof 
+boundary: the earlier QA is evidence for its version; after legend shift or heading removal, report the performed 
+file/coordinate checks and explicitly state whether full browser verification was rerun. [Task 1][Task 2]
+  
+> # Task Group: LCDG revue teaser reconnaissance and architecture
+  
+> scope: Read-only discovery and planning for splitting weekly revues into teaser articles in the Next.js/Neon 
+`lcdg-migration` project; use before choosing a source-unification path or implementing teaser storage, routing, and 
+gating.
+> applies_to: cwd=C:\Users\NR SMART\lcdg-migration; reuse_rule=Reuse the structural findings as an initial map only 
+after rechecking the current branch, database, MDX inventory, and user approval gate; counts and implementation status 
+are time-specific.
+  
+  ## Task 1: Inventory the actual revue storage, MDX format, routes, and existing gate; success
+  
+  ### rollout_summary_files
+  
+> - rollout_summaries/2026-07-30T10-06-25-Nzrz-reconnaissance_eclatement_revues_teasers.md (cwd=C:\Users\NR 
+SMART\lcdg-migration, rollout_path=\\?\C:\Users\NR 
+SMART\.codex\sessions\2026\07\30\rollout-2026-07-30T12-06-25-019fb27d-5489-7c02-8ed4-76d0ad5431f1.jsonl, 
+updated_at=2026-07-30T10:06:26+00:00, thread_id=019fb27d-5489-7c02-8ed4-76d0ad5431f1, read-only evidence)
+  
+  ### keywords
+  
+  ### rollout_summary_files
+  
+> - rollout_summaries/2026-07-30T10-06-25-Nzrz-reconnaissance_eclatement_revues_teasers.md (cwd=C:\Users\NR 
+SMART\lcdg-migration, rollout_path=\\?\C:\Users\NR 
+SMART\.codex\sessions\2026\07\30\rollout-2026-07-30T12-06-25-019fb27d-5489-7c02-8ed4-76d0ad5431f1.jsonl, 
+updated_at=2026-07-30T10:06:26+00:00, thread_id=019fb27d-5489-7c02-8ed4-76d0ad5431f1, architecture proposal; no 
+production code or commit)
+  
+  ### keywords
+  
+  - during reconnaissance, the user asked: “AUCUN CODE DE PRODUCTION”, “pas de migration”, “rapport + plan seulement” 
+-> keep the phase strictly read-only; do not modify files or the database. [Task 1]
+  - the user expects data verified by a real database query, not assumptions based on project context. [Task 1]
+> - the user wants existing gating, taxonomy, reclassification, and routes reused rather than duplicated; split future 
+work into reviewable lots with `tsc + build + lint + Codex` before each commit, not a mega-commit. [Task 2]
+  
+  ## Reusable knowledge
+  
+
+
+exec
+"C:\\Program Files\\PowerShell\\7\\pwsh.exe" -Command '$ErrorActionPreference='"'Stop'; Write-Output '--- status ---'; git status --short; Write-Output '--- instruction files ---'; Get-ChildItem -Path . -Filter 'AGENTS*.md' -Recurse -Force | Select-Object -ExpandProperty FullName; Write-Output '--- root ---'; Get-ChildItem -Force | Select-Object Mode,Length,Name" in C:\Users\NR SMART\tools\lcdg-reel
+ succeeded in 2110ms:
+--- status ---
+ M lcdg/habillage.py
+--- instruction files ---
+--- root ---
+
+Mode  Length  Name
+----  ------  ----
+d--h-         .git
+d----         .venv
+d----         assets
+d----         config
+d----         episodes
+d----         lcdg
+d----         scripts
+-a--- 406     .env
+-a--- 401     .env.example
+-a--- 84      .gitattributes
+-a--- 632     .gitignore
+-a--- 22859   CLAUDE.md
+-a--- 17021   MANUEL.md
+-a--- 8430    README.md
+-a--- 59      requirements.txt
+-a--- 3906413 smoke_test.mp4
+
+
+exec
+"C:\\Program Files\\PowerShell\\7\\pwsh.exe" -Command "Write-Output '--- CLAUDE relevant headings ---'; Select-String -LiteralPath .\\CLAUDE.md -Pattern '"'^#|''^##|review|test|habillage|overlay|subtitle|sous-titre'"' | Select-Object -First 120; Write-Output '--- diff stat ---'; git diff --stat; Write-Output '--- diff ---'; git diff -- lcdg/habillage.py; Write-Output '--- cached diff ---'; git diff --cached --stat; git diff --cached -- lcdg/habillage.py" in C:\Users\NR SMART\tools\lcdg-reel
+ succeeded in 1245ms:
+--- CLAUDE relevant headings ---
+
+CLAUDE.md:1:# Instructions pour Claude Code
+CLAUDE.md:6:## La règle qui prime sur toutes les autres
+CLAUDE.md:18:## Ton rôle
+CLAUDE.md:24:### 1. Écrire le script d'un épisode
+CLAUDE.md:235:### 2. Choisir les plans
+CLAUDE.md:298:### 3. Lancer les étapes
+CLAUDE.md:302:python scripts/smoke_test.py                       # après toute modification de lcdg/ ou de la charte
+CLAUDE.md:313:### 4. Ce que tu ne fais pas
+CLAUDE.md:319:- Tu ne pousses jamais sans avoir lancé `scripts/smoke_test.py`.
+CLAUDE.md:325:## Points de vigilance connus
+CLAUDE.md:340:**Durée du rendu.** Deux à trois minutes par version. L'habillage est composé image par
+--- diff stat ---
+warning: in the working copy of 'lcdg/habillage.py', CRLF will be replaced by LF the next time Git touches it
+ lcdg/habillage.py | 9 ++++++++-
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+--- diff ---
+warning: in the working copy of 'lcdg/habillage.py', CRLF will be replaced by LF the next time Git touches it
+diff --git a/lcdg/habillage.py b/lcdg/habillage.py
+index 62adaa1..1cd9adb 100644
+--- a/lcdg/habillage.py
++++ b/lcdg/habillage.py
+@@ -437,7 +437,14 @@ class Bandeau:
+         self.lignes = []           # par ligne : mots (ombre, glyphes, x, y) et encadres (image, centre)
+         y = C.BANDEAU_Y
+         for ligne in (l.strip() for l in texte.split('|') if l.strip()):
+-            atomes = T.atomes(ligne)
++            # un surlignage de plusieurs mots ne fait qu'un encadre : « notre site » d'un
++            # bloc, pas en deux (Romain, 23/10/2026)
++            atomes = []
++            for at in T.atomes(ligne):
++                if at[1] and atomes and atomes[-1][1]:
++                    atomes[-1] = (atomes[-1][0] + at[0], True)
++                else:
++                    atomes.append(at)
+             px = self._corps_appel(atomes) if any(at[1] for at in atomes) else C.BANDEAU_PX
+             cap = T._police(px, g).getbbox("H")
+             x = 0.0
+--- cached diff ---
+
+
+exec
+"C:\\Program Files\\PowerShell\\7\\pwsh.exe" -Command "Write-Output '--- CLAUDE 1-380 ---'; Get-Content .\\CLAUDE.md | Select-Object -First 380; Write-Output '--- habillage imports/context ---'; Get-Content .\\lcdg\\habillage.py | Select-Object -First 520; Write-Output '--- tokenizer references ---'; rg -n \"def atomes|atomes\\(|_corps_appel|class Bandeau|surlign|encadr\" lcdg scripts tests 2>"'$null' in C:\Users\NR SMART\tools\lcdg-reel
+ exited 1 in 1258ms:
+--- CLAUDE 1-380 ---
+# Instructions pour Claude Code
+
+Ce dépôt produit les reels vidéo du Cercle des Généralistes à partir de la revue
+hebdomadaire. Tourne sur Windows et macOS.
+
+## La règle qui prime sur toutes les autres
+
+**Le gabarit visuel est figé.** Il a été validé écran par écran (style v2, validé par
+Romain le 01/10/2026). Les valeurs vivent dans `config/charte.py` et nulle part ailleurs.
+
+- Ne modifie jamais une constante de `config/charte.py` sans demande explicite.
+- Ne code jamais une valeur en dur dans `lcdg/`. Une taille de logo écrite en dur dans
+  le script de rendu a déjà écrasé la charte pendant quatre corrections successives,
+  sans que ça se voie sur les aperçus.
+- Ne juge jamais un rendu sur un aperçu généré à part. `lcdg/controles.py` mesure le
+  fichier de sortie ; c'est la seule vérification qui compte.
+
+## Ton rôle
+
+Tu fais l'éditorial : le sujet, l'écriture, le choix des plans. Le montage est
+déterministe et ne t'appartient pas. La qualité d'un reel se joue surtout ici : le
+moteur donne le style, pas le rythme ni l'accroche.
+
+### 1. Écrire le script d'un épisode
+
+À partir de l'article, tu produis `episodes/<date>-<slug>/script.json`. Le modèle est
+`episodes/exemple/script.json` : le reel « Franchises médicales », validé par Romain le
+01/10/2026. C'est la référence de ton, de structure et de rythme.
+
+**Choix du sujet.** Le critère est « est-ce qu'un généraliste s'arrête ? », pas le
+nombre de vues potentielles : une audience grand public n'est pas convertible et pollue
+le signal du pixel Meta. Un sujet à double lecture (restes à charge, régime sans gluten)
+reste possible si l'angle est celui du médecin : ce qu'il change au cabinet, dans son
+ordonnance, en consultation.
+
+**Exactitude.** Chaque phrase doit se retrouver dans l'article. Un « jusqu'à », un
+« environ », un « quand il existe » ne se simplifient pas : l'accroche peut être
+tranchante, jamais fausse. Chaque phrase dit explicitement de quoi elle
+parle : « vos patients vont payer plus » ne suffit pas, il faut « paieront jusqu'à 40 € de
+plus par an » et le dispositif (les franchises). Une formule vague ou approximative est une
+erreur de fond, pas un effet de style : c'est un média pour médecins (Romain, 01/10/2026). Lis l'article en entier : il est réservé aux membres pendant
+14 jours, passe par le compte de Romain ou par le PDF de la revue.
+
+L'article lui-même peut se tromper : vérifie chaque fait du reel à la source officielle,
+y compris la FAQ et les courriers de l'autorité. Le 05/10/2026, « impossible de savoir si
+la patiente a reçu le courrier » était faux : la FAQ de l'ANSM disait que le prescripteur
+reçoit la liste nominative. Deux règles, après deux erreurs relevées par Romain dans les
+PDF le 06/10/2026 :
+- **Une condition ne se coupe jamais.** Une exonération, un droit ou une indication garde
+  sa condition entière, même dans une pastille ou une liste coche / croix. Les femmes
+  enceintes ne sont exonérées des franchises qu'à partir du 1er jour du 6e mois de
+  grossesse, et jusqu'au 12e jour après l'accouchement.
+- **Une liste officielle se reprend mot pour mot,** avec la source exacte de cette
+  formulation. Pour les signes du méningiome, l'actualité de l'ANSM dit « troubles de la
+  mémoire », sa FAQ et ses recommandations aux médecins disent « perte de mémoire ».
+
+**Des mots qu'on dit.** Le reel s'écoute et se lit en une seconde : on doit être compris
+presque instantanément (Romain, 05/10/2026). Pas de tournure d'écrit ou de communiqué :
+« si la date glisse » devient « et si c'est plus long que prévu ? », « contingentée »
+devient « les livraisons sont limitées », « une prévision fondée sur » devient « c'est ce
+que prévoient », « présente un épisode dépressif » devient « fait un épisode dépressif ».
+Pas de « or », de « car », de « dans la limite de » dans le texte lu. Le terme technique
+reste quand il est exact et que les médecins le disent (épisode dépressif, ALD) ; sinon,
+la phrase simple qui dit la même chose. Relis chaque phrase à voix haute.
+
+**Le reel est une porte d'entrée, pas un résumé.** Les lecteurs lisent la revue pour
+tout ce qui suit « CE QUI POSE QUESTION » : les questions ouvertes, l'impact financier et
+organisationnel, le regard du Cercle, les recommandations. C'est la valeur réservée aux
+membres. Le reel doit donner envie de cliquer vers l'article, jamais dispenser de le lire.
+
+- **On donne** les faits (Situation, Ce qui est confirmé) et un ou deux chiffres qui
+  frappent : c'est ce qui rend le reel crédible et utile.
+- **On ouvre** une ou deux vraies questions de « Ce qui pose question », formulées comme
+  le médecin se les pose, et l'enjeu (le risque, l'injustice).
+- **On garde** la solution et les recommandations. On les promet sans les livrer.
+- **On finit** sur le champ `appel` du script, qui nomme ce que l'article donne et que
+  le reel a gardé (« Nos 2 recommandations : »). Une ligne, une trentaine de caractères.
+- **Le bandeau** (champ `bandeau`) renvoie au site : « L'analyse complète | sur *notre
+  site* ». Depuis le 22/10/2026, plus de « commentez un mot clé » : personne ne commentait,
+  l'objectif est le clic vers le site (Romain). Il s'efface tout seul le temps d'un bloc qui
+  entrerait dans sa zone. La légende donne le lien de la bio, avec un lien de suivi pour la
+  story du jour (sticker lien).
+- **Jamais de piège à clic** : chaque promesse est tenue par l'article.
+
+**La structure** (voir l'exemple) :
+
+1. **Accroche** (bloc 0, champ `sous_titre`, 5 à 9 mots) : **c'est l'image de couverture,
+   pas le début du reel** (Romain, 02/10/2026). Le bloc 0 n'a pas de voix ; il est rendu
+   le temps d'exporter la couverture (9:16, 4:5 et 1:1), puis coupé
+   (`charte.ACCROCHE_COUVERTURE`). Elle parle au médecin (« vos patients », « votre
+   ordonnance ») et pose un enjeu : une perte, une injustice, une erreur à éviter, un
+   chiffre qui surprend. Jamais le titre de l'article. Le champ `label` est la pastille
+   au-dessus : le sujet en 2 à 4 mots. Son plan est l'image de couverture : net, lumineux,
+   lisible en vignette.
+2. **Les faits**, deux ou trois plans, en chiffres de préférence. **Le reel livré commence
+   ici** : le bloc 1 ouvre sur un fait fort, dit et écrit (« Depuis le 1er octobre, … »).
+   L'entrée est animée (Romain, 05/10/2026 : « c'est l'entrée qu'il faut soigner ») :
+   l'image arrive en zoom et floue puis se pose nette, un éclair blanc très bref, et la
+   pastille du champ `badge` (2 à 4 mots : « Tension d'approvisionnement », « Nouveau
+   remboursement », « Pharmacovigilance · ANSM ») s'ouvre au-dessus du premier texte, un
+   reflet la traverse. Le bandeau n'entre qu'au bloc 2. Aucun bruitage à l'entrée.
+3. **La bascule** vers les questions, en phrase forte (« Et une question reste sans
+   réponse. »), puis **la question** elle-même et pourquoi elle compte.
+4. **L'enjeu** : le vrai risque, en phrase forte.
+5. **La chute**, qui fait réagir sans trahir l'article (« 140 €, ce n'est qu'un point de
+   départ. »).
+6. **La promesse**, au dernier plan, juste avant la carte finale : c'est elle qui fait
+   cliquer (« Que faire au cabinet ? | Le Cercle fait 2 recommandations. »). Elle ne
+   promet que ce que l'article contient : le Cercle ne propose pas de « parade ».
+
+**Le ton.** Grave sur les faits, jamais sombre : le reel décrypte et donne envie d'en
+savoir plus, il n'inquiète pas pour inquiéter. Les mots de l'article plutôt que les
+formules qui dramatisent (« un point de départ, pas un maximum » plutôt que « ce n'est
+qu'un début »).
+
+La légende de la publication porte la question qui fait commenter et le « lien en bio ».
+
+**Les types de blocs.**
+
+- Texte (par défaut) : champ `texte`. Un `|` le découpe en deux temps sur le même plan.
+  Trois lignes au plus par temps, soit une soixantaine de caractères.
+- `"type": "phrase"` : phrase forte, au corps de l'accroche, centrée. Deux ou trois par
+  reel, pas plus : c'est un coup de poing, pas un style.
+- `"type": "chiffre"` : le nombre défile jusqu'à `valeur`. `depuis` barre l'ancienne
+  valeur, `suffixe` porte l'unité (« € », « boîtes »), `legende` se pose dessous.
+  `"pictos": true` allume une boîte par unité (120 au plus) : à réserver aux quantités
+  qu'on veut rendre tangibles. Deux ou trois chiffres par reel ; le fond est flouté.
+
+**Les inserts** (champ `insert` d'un bloc de texte, `lcdg/inserts.py`) : une petite
+illustration animée au-dessus du texte, pour comprendre d'un coup d'œil (Romain,
+05/10/2026 : « les inserts et les illustrations en plus, ça aide à la compréhension »).
+Depuis le 23/10/2026, un reel destiné à la publicité en porte sur presque chaque bloc de
+texte (Romain : « rajoute encore du motion », « ça doit être interactif et ultra ludique ») ;
+toujours là où ils éclairent le propos, jamais en décor. La liste complète, avec leurs
+champs, est en tête de `lcdg/inserts.py` :
+
+- `{"type": "verrou", "n": 3}` : les recommandations gardées pour le site, en cartes
+  fermées d'un cadenas, sur le dernier bloc (« Le Cercle fait 3 recommandations »).
+- `{"type": "calendrier", "annee": 2026, "mois": 10, "du": 12, "au": 18, "legende":
+  "mi-octobre"}` : une date ou une période (sur une même semaine).
+- `{"type": "barres", "unite": "×", "lignes": [{"label": "Sans désogestrel", "valeur": 1},
+  ...]}` : comparer des valeurs ; une première ligne à ×1 sert de référence (grise).
+- `{"type": "choix", "lignes": [{"label": "En pharmacie", "ok": true}, ...]}` : oui / non ;
+  sans `"ok"`, un « ? » qui se balance : une question encore ouverte.
+- `{"type": "tampon", "texte": "Export interdit", "temps": 1}` : une interdiction.
+- `circuit` (ce que devient l'argent), `duel` (deux annonces contraires, un « ≠ »), `frise`
+  (une procédure et ses délais).
+- Illustrations : `frigo` (le réfrigérateur qui se remplit, ou qui enregistre sa
+  température), `ticket` (ce qui se facture, ligne par ligne), `appel` (un téléphone qui
+  sonne, puis le courrier), `loupe` (une page fouillée où rien ne sort), `calcul` (une part
+  qui se détache, un « ? »).
+
+Le champ `insert` peut être une liste ; `"sur": true` centre un élément sur le premier (un
+tampon qui claque sur un dessin). Une illustration montre un mécanisme, jamais un chiffre
+inventé : les parts de `calcul` n'affichent aucune valeur ; la courbe et l'écran de `frigo`
+restent dans la plage de conservation du RCP (+2 à +8 °C), la seule donnée qu'ils citent.
+
+`"temps"` fait arriver un élément avec le temps du texte de ce numéro (0 = début du
+bloc). Un insert n'invente rien : il dit ce que dit le texte, avec les mots de l'article.
+`render` refuse un insert sans place au-dessus du texte. La version carrée est plus basse :
+au bloc 1, sous la pastille d'ouverture, un calendrier ou une liste ne tient pas. Ajoute
+alors `"carre": false` dans l'insert : il reste dans le 9:16 et sort du carré. Contrôle les
+deux formats avant de rendre : `render_carre` ne s'arrête qu'après le rendu du 9:16
+(06/10/2026).
+
+**Surlignage.** Un segment par temps, entre astérisques : le fait, pas l'adjectif. Il ne
+se coupe jamais, donc il reste court : une vingtaine de caractères dans un texte, une
+quinzaine dans une accroche ou une phrase forte. `render` refuse de monter un texte qui
+déborde, avant les minutes de rendu.
+
+**Durées.** 50 à 55 s au total, une dizaine de plans. Compte 2,6 mots par seconde, un
+nombre vaut un mot et demi, et une seconde de plus par plan pour l'arrivée du texte. Un
+chiffre clé tient 5 à 6 s.
+
+**La voix off.** Chaque bloc porte son texte lu dans le champ `voix`, sauf le bloc 0
+(couverture, sans voix). C'est la voix qui fixe la durée de chaque plan : le champ `duree` ne sert
+plus qu'à vérifier la mise en page, et à un reel sans voix. Le texte lu peut être plus
+développé que l'écran, mais dit la même chose dans le même ordre ; un `|` y marque
+l'instant où le temps suivant de l'écran apparaît (autant de `|` qu'à l'écran). Nombres
+en toutes lettres (« cent quarante euros »), sigles épelés avec des points (« A.L.D. »).
+Compte 140 à 150 mots pour une cinquantaine de secondes. Le dernier plan dit où aller
+(« on vous la détaille sur le site du Cercle ») sans « lien en bio » : la même voix sert à
+LinkedIn. La première phrase lue (bloc 1) entre directement dans un fait : jamais le
+libellé du sujet (« Franchises médicales : … », « Fluoxétine 20 mg : … »). Relis le texte lu comme une phrase dite
+à voix haute : articles compris (« ni la fiche de Service Public », pas « ni Service
+Public »).
+
+Le champ `voix_off` prend une des quatre voix de `charte.VOIX_CATALOGUE` (Romain,
+02/10/2026) : un homme et une femme plus âgés, un homme et une femme jeunes. On choisit
+selon le thème, la gravité et l'urgence, et on alterne d'un reel à l'autre :
+
+- `homme_age` (Guillaume, posé) : alertes de sécurité sanitaire, sujets graves ou
+  réglementaires lourds.
+- `femme_agee` (Emilie, « plus sérieuse, genre 42 ans ») : prévention, santé des
+  patientes, sujets qui demandent de l'empathie ou du sérieux ; urgence pratique (rupture,
+  contingentement) dite calmement.
+- `homme_jeune` : organisation du cabinet, numérique, tarifs, bonnes nouvelles.
+- `femme_jeune` (Jeanne, « plus jeune donc plus punchy ») : sujets pratiques ou légers,
+  jeunes patients, contraception, remboursements nouveaux, reels à booster en publicité.
+
+Depuis le 20/10/2026, les deux voix de femme sont des comédiennes de la bibliothèque
+ElevenLabs (enregistrées en studio) : les voix créées par synthèse résonnaient (« comme
+dans un bocal »). Elles restent au catalogue sous `femme_agee_creee` et
+`femme_jeune_creee`, pour les reels déjà rendus avec elles ; ne pas les choisir pour un
+nouveau reel. Avec une voix qui résonne, chaque prise sonne sur une autre fréquence : des
+prises recollées par `revoix.py` s'entendent alors, et le filtre anti-résonance ne les
+rattrape pas toutes.
+
+Sans `voix_off`, c'est `charte.VOIX_ID`. Le compte ElevenLabs reste gratuit (Romain ne
+paiera pas d'abonnement) : trois emplacements de voix ; Guillaume, Jeanne et Emilie
+viennent de la bibliothèque et n'en prennent pas. Les indications de jeu entre
+crochets (v3) donnent le ton : `[curious]`, `[thoughtful]`, `[matter-of-fact]`, `[warm]` ;
+`[serious]` et `[concerned]` se gardent pour les vrais sujets de gravité.
+Une narration est générée une fois puis gardée en cache (`episodes/<dossier>/voix/`) :
+changer une virgule du texte lu la régénère et consomme le quota ElevenLabs.
+Pour corriger une phrase d'un reel déjà validé, lance `python scripts/revoix.py
+episodes/<dossier>` après avoir modifié le champ `voix`, avant de commiter (`--essai`
+d'abord : ce qui sera relu, et le quota consommé). Seuls les blocs modifiés sont relus,
+entre leurs voisins, puis collés dans l'ancienne narration : le reste de la lecture déjà
+validée ne change pas (Romain, 05/10/2026).
+
+**Ponctuation.** Espace insécable (U+00A0) avant « : ? ! » et entre un nombre et son
+unité (« 70 € »). Le moteur impose un retour à la ligne à chaque fin de phrase et
+équilibre les lignes : n'ajoute pas de retours manuels.
+
+**Requêtes B-roll.** En anglais, l'index de Pexels y est bien meilleur. Registre : le
+quotidien du soin en lumière du jour (consultation, pharmacie, domicile éclairé, gestes du
+soin), des patients actifs plutôt que fragiles. Le reel ne doit être ni sombre ni morbide
+(Romain, 02/10/2026) : pas de personne âgée seule dans la pénombre, de pilulier dans le
+noir, d'escalier dans l'ombre. Jamais d'image de violence, de sourire de banque d'images,
+ni de mise en scène médicale trop léchée. Une image dit le sens du texte, jamais son
+contraire (un escalator qui descend sous « les plafonds vont monter »). Sous un chiffre
+clé, le fond est flouté : un plan calme suffit.
+
+### 2. Choisir les plans
+
+`prepare` télécharge le premier candidat de chaque requête, en écartant les plans déjà
+montés dans un autre reel (`episodes/plans_utilises.json`). C'est un point de départ,
+rarement le bon choix. Pour chaque plan :
+
+```
+python scripts/broll.py chercher episodes/<dossier> <bloc> [--paysage] "<requete 1>" "<requete 2>"
+python scripts/broll.py choisir  episodes/<dossier> <bloc> C<n>
+python scripts/broll.py tournages     # tournages vus dans plusieurs reels
+```
+
+**Jamais deux fois le même tournage.** Romain reconnaît une actrice ou un décor d'un reel
+à l'autre (la même femme médecin, 02/10/2026). La planche marque en orange
+(« TOURNAGE VU ») un plan du même auteur Pexels et du même tournage qu'un plan d'un autre
+reel, et `choisir` le refuse. Le fonds médical vertical de Pexels est épuisé (cabinets,
+pharmacies) : `--paysage` cherche des plans paysage 4K, recadrés au centre sans perte.
+Préfère aussi les mains, les objets, les patients à domicile, moins reconnaissables
+qu'un visage. La « pharmacie » de Pexels est un décor d'époque : Romain la refuse.
+
+**Durée des plans.** Le zoom lent émet une image par image source : un plan tourné à 24
+ou 25 i/s défile un peu plus vite et dure 20 à 25 % de moins que sa source. Préfère un plan
+qui dure au moins 1,3 fois sa phrase. Sinon, `render` duplique ses images pour qu'il couvre
+le bloc, et il prévient si le ralenti se voit. Il s'arrête si un plan reste plus court que
+sa phrase, car l'image prendrait de l'avance sur la voix pour tout le reste du reel. C'est
+arrivé sans erreur jusqu'au 05/10/2026 : 1,7 s de décalage sur le désogestrel, 2,6 s sur
+les protections périodiques.
+
+**Textes officiels et institutions sans lieu.** Quand le texte cite un décret, un arrêté,
+une fiche ou une institution qu'on ne peut pas filmer (Service Public, Légifrance, ameli,
+la HAS), le plan montre la vraie page officielle, capturée à l'écran (Romain, 02/10/2026) :
+« Ni le décret ni la fiche de Service Public » ne se comprend pas sans elle. Romain a
+retenu la présentation en diagonale, barre d'adresse lisible, voile léger :
+
+```
+python scripts/page.py capturer episodes/<dossier> <nom> "<url>"     # + <nom>_reperes.jpg
+python scripts/page.py monter episodes/<dossier> <bloc> <nom> 0:1600 --colonne 392:1880 --flou x0,y0,x1,y1
+```
+
+Sur un téléphone, seuls l'adresse et le titre se lisent : montre la page en continu (un
+passage qui remplit la fenêtre), pas des lignes isolées, et resserre la colonne pour
+grossir le texte. Floute les photos de la page où l'on voit un visage. Légifrance bloque
+les navigateurs automatiques (vérification anti-robots) : on ne la contourne pas, on
+montre la page officielle qui cite le texte, ou Romain filme la page lui-même.
+
+**Plans fournis.** De préférence des images dont LCDG a les droits : tournées par Romain
+ou sous licence. Un extrait de reportage télé ou de réseau social expose à une réclamation
+de droits : le dire à Romain, c'est sa décision (le 02/10/2026, il a choisi d'utiliser des
+captures d'un reportage France 24 pour le reel Franchises, et pose lui-même le crédit). Dans
+tous les cas : aucun visage visible (Romain, 02/10/2026) ; on écarte ou on recadre les
+passages où l'on voit un visage, reflets compris, les personnes de dos restent ; on ne
+retire jamais un filigrane (on écarte le passage) ; on rogne les incrustations du lecteur.
+Un plan paysage sous la 4K, ou dont l'enseigne serait coupée en 9:16, se monte en pleine
+largeur sur fond flou : `"cadrage": "largeur"` dans le bloc. Le champ `"credit"` affiche
+la source sous le logo, si Romain le demande.
+
+Puis `python scripts/broll.py revue episodes/<dossier>` : début, milieu et fin de la
+portion utilisée de chaque plan, recadrés comme au montage. Une vignette Pexels ment
+souvent sur ce que montre le plan deux secondes plus tard.
+
+Si aucun candidat n'est fort, ne te contente pas d'un plan moyen : décris à Romain la
+scène exacte dont tu as besoin, il fournit l'image.
+
+### 3. Lancer les étapes
+
+```
+python scripts/doctor.py                           # après un clone, ou en cas de doute
+python scripts/smoke_test.py                       # après toute modification de lcdg/ ou de la charte
+python scripts/prepare.py episodes/<dossier>       # premiers plans, planche contact
+python scripts/broll.py revue episodes/<dossier>   # controle des plans retenus
+python scripts/render.py  episodes/<dossier>       # reel 9:16 + couverture, controles
+python scripts/render_carre.py episodes/<dossier>  # declinaison carree LinkedIn
+```
+
+Après la revue des plans, **arrête-toi**. Montre à Romain le script et
+`revue_plans.jpg`, et attends sa validation avant de lancer `render`. C'est une étape de
+son processus, pas une formalité.
+
+### 4. Ce que tu ne fais pas
+
+- Tu ne rejoues pas `render` pour « voir ce que ça donne ». La mise en page se vérifie
+  d'abord : `render` refuse un texte hors zone avant de rendre la moindre image.
+- Tu ne modifies pas `lcdg/` pour un ajustement ponctuel. Si un réglage revient, il
+  remonte dans `config/charte.py`.
+- Tu ne pousses jamais sans avoir lancé `scripts/smoke_test.py`.
+- **Tu ne changes pas la musique de toi-même.** Depuis le 01/10/2026, Romain veut sa
+  musique (`charte.MUSIQUE_DEFAUT`, dans `assets/audio`, non versionnée) sous la voix,
+  et des bruitages calés sur le motion (`lcdg/son.py`). Un contrôle vérifie qu'il n'y a
+  qu'une piste audio, et son niveau.
+
+## Points de vigilance connus
+
+**Zone sûre 4:5.** Le reel reste en 9:16, mais le fil Instagram et Facebook le
+recadre en 4:5 au centre. Tout ce qui doit rester lisible tient entre y 285 et 1635
+(`ZONE_SURE_HAUT`, `ZONE_SURE_BAS`), et les textes dans leur colonne, à l'écart des
+boutons de l'onglet Reels. `render` refuse de monter un bloc qui en déborde : raccourcis
+le texte ou le surlignage plutôt que de toucher à la charte.
+
+**Version carrée.** `render_carre` applique `charte.CARRE` : chiffres et pictogrammes y
+sont plus petits, et la zone sûre s'arrête 40 px avant chaque bord, sinon un élément
+rogné au bord du cadre ne serait jamais détecté.
+
+**Pexels et les formats paysage.** Un plan paysage sous 4K devient mou une fois recadré
+en 9:16. `prepare` et `broll.py chercher` le signalent, prends l'avertissement au sérieux.
+
+**Durée du rendu.** Deux à trois minutes par version. L'habillage est composé image par
+image, environ 1600 images en 1080x1920.
+--- habillage imports/context ---
+"""
+Moteur d'habillage du reel LCDG, style v2 : accroche, blocs de texte animes, phrases
+fortes, chiffres cles, transition en croix, carte finale.
+Toutes les constantes viennent de config/charte.py — ne rien coder en dur ici.
+"""
+import sys
+from pathlib import Path
+
+from PIL import Image, ImageChops, ImageDraw, ImageFilter
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from config import charte as C
+from lcdg import texte as T
+from lcdg.logo import lockup
+
+W, H = C.LARGEUR, C.HAUTEUR
+NAVY, WHITE = C.NAVY, C.BLANC
+
+_RUBRIQUE = C.PRIMARY
+
+
+def rubrique(nom: str | None):
+    """Fixe la couleur d'accent selon la categorie de l'article (cf. charte.RUBRIQUES)."""
+    global _RUBRIQUE
+    _RUBRIQUE = C.RUBRIQUES.get(nom or "pro", C.PRIMARY)
+    return _RUBRIQUE
+
+
+# droite autorisee pour les textes (marge du surlignage, +1 car getbbox donne un bord
+# droit exclusif) : un surlignage ne se coupe jamais, trop long il deborderait
+COLONNE = C.TEXTE_X + C.TEXTE_LARGEUR + C.SURLIGNE_MARGE + 1
+
+
+def shadow(layer, blur=16, alpha=150, offset=(0, 5)):
+    a = layer.split()[3].filter(ImageFilter.GaussianBlur(blur))
+    sh = Image.new('RGBA', layer.size, (0, 0, 0, 0))
+    sh.putalpha(a.point(lambda p: int(p * alpha / 255)))
+    out = Image.new('RGBA', layer.size, (0, 0, 0, 0))
+    out.paste(sh, offset, sh)
+    out.alpha_composite(layer)
+    return out
+
+
+def hors_zone(layer, droite=W):
+    """(haut, bas, droite) des pixels opaques si la couche sort de la zone sure 4:5
+    ou depasse `droite`, sinon None."""
+    bbox = layer.split()[3].point(lambda p: 255 if p > 128 else 0).getbbox()
+    if bbox and (bbox[1] < C.ZONE_SURE_HAUT or bbox[3] > C.ZONE_SURE_BAS or bbox[2] > droite):
+        return bbox[1], bbox[3], bbox[2]
+    return None
+
+
+def cross_mask(size, cx=W // 2, cy=H // 2, canvas=(W, H)):
+    """Masque en croix medicale, aux proportions du logo."""
+    m = Image.new('L', canvas, 0)
+    if size <= 2: return m
+    d = ImageDraw.Draw(m)
+    a, r = size * 0.335, max(2, size * 0.055)
+    d.rounded_rectangle([cx - a / 2, cy - size / 2, cx + a / 2, cy + size / 2], radius=r, fill=255)
+    d.rounded_rectangle([cx - size / 2, cy - a / 2, cx + size / 2, cy + a / 2], radius=r, fill=255)
+    return m
+
+
+# ---------- couches fixes ----------
+_WM = {}
+def watermark(size=C.LOGO_PX, margin=C.LOGO_MARGE_X):
+    if size not in _WM:
+        logo = lockup(size)
+        lay = Image.new('RGBA', (W, H), (0, 0, 0, 0))
+        lay.paste(logo, (W - logo.width - margin, C.LOGO_Y), logo)
+        _WM[size] = shadow(lay, blur=12, alpha=140, offset=(0, 4))
+    return _WM[size]
+
+
+def scrim():
+    g = Image.new('L', (1, H))
+    bas = C.SCRIM_BAS_DEBUT
+    for i in range(H):
+        t = i / H
+        v = int(C.SCRIM_BAS_ALPHA * ((t - bas) / (1 - bas)) ** 1.25) if t > bas else 0
+        haut = 1 - (i - C.ZONE_SURE_HAUT) / C.SCRIM_HAUT_PX
+        if haut > 0: v = max(v, int(C.SCRIM_HAUT_ALPHA * min(1.0, haut)))
+        g.putpixel((0, i), min(v, C.SCRIM_MAX))
+    lay = Image.new('RGBA', (W, H), (0, 0, 0, 0))
+    lay.putalpha(g.resize((W, H)))
+    return lay
+
+
+# ---------- styles de texte ----------
+def style_bloc():
+    return dict(px=C.BLOC_PX, graisse=C.BLOC_GRAISSE, cle=C.CLE_GRAISSE,
+                approche=C.BLOC_APPROCHE, interligne=C.BLOC_INTERLIGNE,
+                x=C.TEXTE_X, y=C.BLOC_Y, largeur=C.TEXTE_LARGEUR)
+
+
+def style_accroche(y, px=None):
+    px = px or C.ACCROCHE_PX
+    return dict(px=px, graisse=C.ACCROCHE_GRAISSE, cle=C.ACCROCHE_GRAISSE,
+                approche=C.ACCROCHE_APPROCHE,
+                interligne=round(C.ACCROCHE_INTERLIGNE * px / C.ACCROCHE_PX),
+                x=C.TEXTE_X, y=y, largeur=C.TEXTE_LARGEUR)
+
+
+def style_ajuste(texte):
+    """(style au corps de l'accroche, nombre de lignes). Au-dela de ACCROCHE_LIGNES_MAX
+    lignes, le corps diminue : une phrase precise ne se raccourcit pas pour tenir."""
+    px = C.ACCROCHE_PX
+    while True:
+        st = style_accroche(0, px)
+        n = len(T.equilibrer(texte, T.mesureur(st), st["largeur"]))
+        if n <= C.ACCROCHE_LIGNES_MAX or px <= C.ACCROCHE_PX_MIN:
+            return st, n
+        px -= 4
+
+
+def style_centre(texte):
+    """Corps de l'accroche (ajuste), centre verticalement dans la zone sure."""
+    st, n = style_ajuste(texte)
+    return style_accroche(C.ACCROCHE_CENTRE - n * st["interligne"] // 2, st["px"])
+
+
+def _vide():
+    return Image.new('RGBA', (W, H), (0, 0, 0, 0))
+
+
+def voile(lay, opacite):
+    """Assombrit tout le cadre (opacite 0 a 1). Pas de cache : une couche pleine par
+    valeur d'opacite, pendant les fondus, ferait des centaines de Mo."""
+    if opacite <= 0.003:
+        return
+    lay.alpha_composite(Image.new('RGBA', (W, H), (0, 0, 0, int(255 * opacite))))
+
+
+_PICTO = {}
+def picto(taille):
+    """Boite de medicament : carre arrondi blanc frappe d'une croix de la rubrique."""
+    cle = (taille, tuple(_RUBRIQUE))
+    if cle not in _PICTO:
+        m = max(6, taille // 5)                       # marge pour l'ombre
+        im = Image.new('RGBA', (taille + 2 * m, taille + 2 * m), (0, 0, 0, 0))
+        d = ImageDraw.Draw(im)
+        d.rounded_rectangle([m, m, m + taille - 1, m + taille - 1],
+                            radius=max(4, int(taille * C.PICTO_RAYON)),
+                            fill=WHITE + (C.PICTO_OPACITE,))
+        longueur, epaisseur = C.PICTO_CROIX
+        c, b, l = m + taille / 2, taille * longueur, max(2, taille * epaisseur)
+        d.rectangle([c - l / 2, c - b / 2, c + l / 2, c + b / 2], fill=tuple(_RUBRIQUE) + (255,))
+        d.rectangle([c - b / 2, c - l / 2, c + b / 2, c + l / 2], fill=tuple(_RUBRIQUE) + (255,))
+        _PICTO[cle] = (shadow(im, blur=max(3, taille // 10), alpha=C.PICTO_OMBRE,
+                              offset=(0, 2)), m)
+    return _PICTO[cle]
+
+
+# ---------- scenes ----------
+class Texte:
+    """Bloc de texte. Un '|' le decoupe en temps successifs sur le meme plan.
+    grand=True : phrase forte, au corps de l'accroche, centree, sur fond voile."""
+
+    def __init__(self, nom, texte, debut, fin, grand=False, instants=None, retard=0.0):
+        """instants : debut de chaque temps apres le premier, relatif au debut du bloc
+        (donnes par la voix off) ; sinon les temps se partagent le bloc au prorata des mots.
+        retard : le premier temps arrive plus tard (entree du reel, cf. Ouverture)."""
+        self.nom, self.debut, self.fin, self.grand = nom, debut, fin, grand
+        temps = [b.strip() for b in texte.split('|') if b.strip()]
+        poids = [max(1, len(b.replace('*', '').split())) for b in temps]
+        cales = instants is not None and len(instants) == len(temps) - 1
+        self.parts, t = [], debut + retard
+        for k, (b, p) in enumerate(zip(temps, poids)):
+            if k == len(temps) - 1:
+                f = fin
+            elif cales:
+                f = min(fin, debut + instants[k])
+            else:
+                f = t + (fin - debut) * p / sum(poids)
+            st = style_centre(b) if grand else style_bloc()
+            self.parts.append(T.Cinetique(b, t, f, st, _RUBRIQUE))
+            t = f
+
+    def dessiner(self, lay, t):
+        for c in self.parts:
+            if c.debut <= t < c.fin:
+                c.dessiner(lay, t)
+
+    def voiler(self, lay, t):
+        if self.grand:
+            voile(lay, C.VOILE_PHRASE * T.lisse((t - self.debut) / C.VOILE_DUREE)
+                  * (1 - self.parts[-1]._sortie(t)))
+
+    def couches(self):
+        out = []
+        for k, c in enumerate(self.parts):
+            lay = _vide(); c.dessiner(lay, 0, final=True)
+            out.append((self.nom + (f" (temps {k + 1})" if len(self.parts) > 1 else ""),
+                        lay, COLONNE))
+        return out
+
+
+def pastille(texte):
+    """Pastille du sujet : capitales blanches sur la couleur de la rubrique."""
+    label = texte.upper()
+    lw = T.largeur(label, C.SURTITRE_PX, C.SURTITRE_GRAISSE, C.SURTITRE_APPROCHE)
+    pw, ph = int(lw + 2 * C.SURTITRE_PAD), C.SURTITRE_H
+    im = Image.new('RGBA', (pw, ph), (0, 0, 0, 0))
+    ImageDraw.Draw(im).rounded_rectangle([0, 0, pw - 1, ph - 1], radius=C.RADIUS,
+                                         fill=tuple(_RUBRIQUE) + (255,))
+    _, gl, m = T.sprite(label, C.SURTITRE_PX, C.SURTITRE_GRAISSE, C.SURTITRE_APPROCHE)
+    f = T._police(C.SURTITRE_PX, C.SURTITRE_GRAISSE)
+    cap = f.getbbox("H")
+    dy = (ph - (cap[3] - cap[1])) // 2 - cap[1]
+    im.alpha_composite(gl, (C.SURTITRE_PAD - m, dy - m))
+    return im
+
+
+class Accroche:
+    """Ouverture : pastille du sujet (label) puis phrase d'accroche (sous_titre),
+    centrees ensemble dans la zone sure. Le premier mot arrive des 0,2 s."""
+
+    def __init__(self, label, accroche, debut, fin):
+        self.nom, self.debut, self.fin = "accroche", debut, fin
+        st, n = style_ajuste(accroche)
+        haut = C.SURTITRE_H + C.SURTITRE_ECART + n * st["interligne"]
+        self.y = C.ACCROCHE_CENTRE - haut // 2
+        self.texte = T.Cinetique(accroche, debut + C.PASTILLE_DUREE * 0.4, fin,
+                                 style_accroche(self.y + C.SURTITRE_H + C.SURTITRE_ECART,
+                                                st["px"]),
+                                 _RUBRIQUE)
+        self.pastille = pastille(label)
+
+    def dessiner(self, lay, t, final=False):
+        so = 0.0 if final else self.texte._sortie(t)
+        if so >= 1:
+            return
+        p = 1.0 if final else T.lisse((t - self.debut) / C.PASTILLE_DUREE)
+        if p > 0:
+            w = max(1, int(self.pastille.width * p))
+            T.coller(lay, self.pastille.crop((0, 0, w, self.pastille.height)),
+                     (C.TEXTE_X, self.y - C.SORTIE_MONTEE * so), 1 - so)
+        self.texte.dessiner(lay, t, final)
+
+    def voiler(self, lay, t):
+        voile(lay, C.VOILE_ACCROCHE * T.lisse((t - self.debut) / C.VOILE_DUREE)
+              * (1 - self.texte._sortie(t)))
+
+    def couches(self):
+        lay = _vide(); self.dessiner(lay, 0, final=True)
+        return [(self.nom, lay, COLONNE)]
+
+
+class Chiffre:
+    """Chiffre cle : la valeur defile jusqu'a sa cible, l'ancienne valeur est barree,
+    la legende se pose dessous a la place habituelle du texte. Avec "pictos", une boite
+    par unite s'allume (ou s'eteint) au rythme du compteur, au-dessus du chiffre.
+
+    Champs du bloc : valeur, depuis (optionnel), prefixe, suffixe, decimales,
+    compte (defaut vrai), pictos (defaut faux), legende."""
+
+    def __init__(self, nom, bl, debut, fin):
+        self.nom, self.debut, self.fin = nom, debut, fin
+        self.valeur = bl["valeur"]
+        self.depuis = bl.get("depuis")
+        self.compte = bl.get("compte", True)
+        self.dec = bl.get("decimales", 0)
+        suf = bl.get("suffixe", "")
+        # une unite en toutes lettres ("boites") passe en petit, sur la ligne de base du
+        # chiffre ; un symbole (EUR, %) garde le corps du chiffre, avec une espace fine :
+        # une espace pleine ouvrirait un trou a ce corps
+        self.suf_mot = sum(ch.isalpha() for ch in suf) >= 3
+        suf, pre = T.normaliser(suf), T.normaliser(bl.get("prefixe", ""))
+        self.suf = suf if self.suf_mot else suf.replace(" ", "\u2009")
+        self.pre = pre.replace(" ", "\u2009")
+        self.legende = T.Cinetique(bl.get("legende", ""),
+                                   debut + C.COMPTE_DELAI + C.COMPTE_DUREE * 0.5,
+                                   fin, style_bloc(), _RUBRIQUE)
+        # le compteur affiche aussi la valeur de depart : le corps se regle sur la plus large
+        valeurs = [self.valeur] + ([self.depuis] if self.compte and self.depuis is not None else [])
+        px = C.CHIFFRE_PX
+        while px > C.ANCIEN_PX and max(self._largeur(v, px) for v in valeurs) > C.TEXTE_LARGEUR:
+            px -= 4
+        self.px = px
+        self.px_suf = int(px * C.UNITE_ECHELLE) if self.suf_mot else px
+        f = T._police(px, C.CHIFFRE_GRAISSE)
+        self.asc, _ = f.getmetrics()
+        self.y = C.BLOC_Y - C.CHIFFRE_ECART - self.asc       # origine du trace du chiffre
+        haut = self.y + f.getbbox("0")[1]                    # haut visible des chiffres
+        if self.depuis is not None:
+            fa = T._police(C.ANCIEN_PX, C.ANCIEN_GRAISSE)
+            asc_a, _ = fa.getmetrics()
+            self.y_ancien = haut - C.ANCIEN_ECART - asc_a
+            b = fa.getbbox("0")
+            self.y_barre = self.y_ancien + (b[1] + b[3]) // 2
+            self.w_ancien = T.largeur(self.texte(self.depuis), C.ANCIEN_PX, C.ANCIEN_GRAISSE, 0)
+            haut = self.y_ancien + b[1]
+        self.pictos = self._pictos(haut) if bl.get("pictos") else None
+
+    # -- texte du chiffre
+    def nombre(self, v):
+        return f"{v:,.{self.dec}f}".replace(",", "\u2009").replace(".", ",")
+
+    def texte(self, v):
+        return self.pre + self.nombre(v) + self.suf
+
+    def _largeur(self, v, px):
+        g, ap = C.CHIFFRE_GRAISSE, C.CHIFFRE_APPROCHE
+        w = T.largeur(self.pre + self.nombre(v), px, g, ap)
+        if self.suf_mot:
+            return w + T.largeur(self.suf, int(px * C.UNITE_ECHELLE), g, 0)
+        return w + T.largeur(self.suf, px, g, ap)
+
+    def _valeur(self, lay, v, y, alpha):
+        """Prefixe et unite dans la couleur de la rubrique, chiffre en blanc."""
+        g, ap = C.CHIFFRE_GRAISSE, C.CHIFFRE_APPROCHE
+        x = C.TEXTE_X
+        for morceau, couleur in ((self.pre, _RUBRIQUE), (self.nombre(v), WHITE)):
+            if not morceau:
+                continue
+            om, gl, m = T.sprite_chiffre(morceau, self.px, g, ap, tuple(couleur))
+            T.coller(lay, om, (x - m, y - m), alpha)
+            T.coller(lay, gl, (x - m, y - m), alpha)
+            x += T.largeur(morceau, self.px, g, ap) + ap * self.px
+        if self.suf:
+            asc_s, _ = T._police(self.px_suf, g).getmetrics()
+            ys = y + self.asc - asc_s                        # meme ligne de base
+            om, gl, m = T.sprite(self.suf, self.px_suf, g, 0 if self.suf_mot else ap,
+                                 tuple(_RUBRIQUE))
+            T.coller(lay, om, (x - m, ys - m), alpha)
+            T.coller(lay, gl, (x - m, ys - m), alpha)
+
+    # -- pictogrammes
+    def _pictos(self, bas):
+        n = int(round(max(self.valeur, self.depuis or 0)))
+        if n < 1 or n > C.PICTO_MAX:
+            return None
+        if n <= C.PICTO_GRAND_MAX:
+            s, g, cols = C.PICTO_GRAND, C.PICTO_GRAND_ECART, n
+            # une ligne de grandes boites tient dans la colonne : au-dela de 7 boites
+            # (9:16), elles retrecissent
+            k = min(1.0, (C.TEXTE_LARGEUR + g) / (n * (s + g)))
+            s, g = int(s * k), int(g * k)
+        else:
+            s, g, cols = C.PICTO_PX, C.PICTO_ECART, C.PICTO_COLONNES
+        lignes = -(-n // cols)
+        haut = bas - C.PICTO_MARGE - lignes * (s + g) + g
+        return s, [(C.TEXTE_X + (i % cols) * (s + g), haut + (i // cols) * (s + g))
+                   for i in range(n)]
+
+    def _dessiner_pictos(self, lay, v, t, a_s, dy_s, final):
+        s, pos = self.pictos
+        sp, m = picto(s)
+        v0 = self.depuis if self.depuis is not None else 0
+        t0 = self.debut + C.ENTREE_DELAI
+        for i, (x, y) in enumerate(pos):
+            allume = min(1.0, max(0.0, v - i))
+            if i < v0:
+                # deja la au depart : apparait avec le chiffre, s'eteint si le compte descend
+                e = 1.0 if final else T.lisse((t - t0 - i * C.PICTO_DECALAGE) / C.MOT_DUREE)
+                a = e * (C.PICTO_ETEINT + (1 - C.PICTO_ETEINT) * allume)
+                k = 1.0
+            else:
+                # une boite qui s'allume rebondit : elle part petite et se pose a sa taille
+                a = allume
+                k = C.PICTO_ECHELLE + (1 - C.PICTO_ECHELLE) * T.rebond(allume)
+            im = sp if abs(k - 1) < 0.01 else sp.resize(
+                (max(1, int(sp.width * k)), max(1, int(sp.height * k))), Image.BICUBIC)
+            cx, cy = x - m + sp.width / 2, y - m + sp.height / 2 + dy_s
+            T.coller(lay, im, (cx - im.width / 2, cy - im.height / 2), min(1.0, a * a_s))
+
+    def dessiner(self, lay, t, final=False):
+        so = 0.0 if final else self.legende._sortie(t)
+        if so >= 1:
+            return
+        a_s, dy_s = 1 - so, -C.SORTIE_MONTEE * so
+        t0 = self.debut + C.ENTREE_DELAI
+        v0 = self.depuis if self.depuis is not None else 0
+        k = 1.0 if (final or not self.compte) else T.lisse(
+            (t - (self.debut + C.COMPTE_DELAI)) / C.COMPTE_DUREE)
+        v_continu = v0 + (self.valeur - v0) * k if self.compte else self.valeur
+        if self.pictos:
+            self._dessiner_pictos(lay, v_continu, t, a_s, dy_s, final)
+        if self.depuis is not None:
+            e = 1.0 if final else T.lisse((t - t0) / C.MOT_DUREE)
+            om, gl, m = T.sprite(self.texte(self.depuis), C.ANCIEN_PX, C.ANCIEN_GRAISSE, 0)
+            y = self.y_ancien + C.MOT_MONTEE * (1 - e) + dy_s
+            T.coller(lay, om, (C.TEXTE_X - m, y - m), e * a_s)
+            T.coller(lay, gl, (C.TEXTE_X - m, y - m), e * a_s * C.ANCIEN_ALPHA)
+            p = 1.0 if final else T.lisse((t - (t0 + C.BARRE_DELAI)) / C.BARRE_DUREE)
+            if p > 0:
+                largeur_barre = self.w_ancien + 2 * C.BARRE_DEBORD
+                barre = Image.new('RGBA', (max(1, int(largeur_barre * p)), C.BARRE_PX),
+                                  tuple(_RUBRIQUE) + (255,))
+                T.coller(lay, barre, (C.TEXTE_X - C.BARRE_DEBORD,
+                                      self.y_barre - C.BARRE_PX // 2 + dy_s), a_s)
+        e = 1.0 if final else T.lisse((t - (t0 + C.CHIFFRE_DELAI)) / C.MOT_DUREE)
+        if e > 0:
+            v = round(v_continu, self.dec) if self.dec else int(round(v_continu))
+            self._valeur(lay, v, self.y + C.MOT_MONTEE * (1 - e) + dy_s, e * a_s)
+        self.legende.dessiner(lay, t, final)
+
+    def voiler(self, lay, t):
+        voile(lay, C.VOILE_CHIFFRE * T.lisse((t - self.debut) / C.VOILE_DUREE)
+              * (1 - self.legende._sortie(t)))
+
+    def couches(self):
+        lay = _vide(); self.dessiner(lay, 0, final=True)
+        out = [(self.nom, lay, COLONNE)]
+        if self.compte and self.depuis is not None:
+            # le compteur part de l'ancienne valeur : elle doit tenir dans la colonne aussi
+            depart = _vide(); self._valeur(depart, self.depuis, self.y, 1.0)
+            out.append((self.nom + " (depart du compteur)", depart, COLONNE))
+        return out
+
+
+def _bbox(lay, marge=0):
+    """Boite englobante des pixels nettement visibles d'une couche (ombres legeres
+    exclues), elargie de marge ; None si la couche est vide."""
+    b = lay.getchannel("A").point(lambda v: 255 if v > 24 else 0).getbbox()
+    return None if b is None else (b[0] - marge, b[1] - marge, b[2] + marge, b[3] + marge)
+
+
+def _croise(a, b):
+    return (a is not None and b is not None
+            and a[0] < b[2] and b[0] < a[2] and a[1] < b[3] and b[1] < a[3])
+
+
+class Bandeau:
+    """Invitation a commenter, en haut a gauche, en blanc sans fond : la raison en petit
+    corps, l'appel (la ligne qui porte le mot cle) en plus grand, pour qu'on le voie. Le mot
+    cle (entre asterisques) dans un encadre de la couleur de la rubrique, en blanc,
+    legerement penche. Un "|" passe a la ligne. Visible du premier bloc a la croix : les
+    lignes glissent depuis la gauche, l'encadre s'ouvre avec un rebond, puis le tout
+    repart vers la gauche. Il fait de meme pour laisser la place a un bloc qui entrerait
+    dans sa zone (scenes), et revient apres lui."""
+
+    def __init__(self, texte, debut, fin, scenes=()):
+        self.debut, self.fin = debut, fin
+        g = C.BANDEAU_GRAISSE
+        self.marge = m = C.HALO_FLOU * 2
+        self.lignes = []           # par ligne : mots (ombre, glyphes, x, y) et encadres (image, centre)
+        y = C.BANDEAU_Y
+        for ligne in (l.strip() for l in texte.split('|') if l.strip()):
+            # un surlignage de plusieurs mots ne fait qu'un encadre : « notre site » d'un
+            # bloc, pas en deux (Romain, 23/10/2026)
+            atomes = []
+            for at in T.atomes(ligne):
+                if at[1] and atomes and atomes[-1][1]:
+                    atomes[-1] = (atomes[-1][0] + at[0], True)
+                else:
+                    atomes.append(at)
+            px = self._corps_appel(atomes) if any(at[1] for at in atomes) else C.BANDEAU_PX
+            cap = T._police(px, g).getbbox("H")
+            x = 0.0
+            mots, boites = [], []
+            for at in atomes:
+                mot, cle = at[0], at[1]
+                if mot == " ":
+                    x += T.largeur(" ", px, g, 0)
+                elif cle:
+                    boite, bw = self._boite(mot, px)
+                    boites.append((boite, (C.TEXTE_X + x + bw / 2, y + (cap[1] + cap[3]) / 2)))
+                    x += bw
+                else:
+                    om, gl, _ = T.sprite(mot, px, g, 0)
+                    mots.append((om, gl, C.TEXTE_X + x - m, y - m))
+                    x += T.largeur(mot, px, g, 0)
+            self.lignes.append((mots, boites))
+            y += round(px * C.BANDEAU_INTERLIGNE)
+        self.segments = self._segments(scenes)
+
+    def _segments(self, scenes):
+        """Intervalles (debut, fin) ou le bandeau est visible."""
+        zone = _bbox(self.couche(), C.BANDEAU_ECART_BLOC)
+        pauses = sorted((sc.debut, sc.fin) for sc in scenes
+                        if any(_croise(zone, _bbox(lay)) for _, lay, _ in sc.couches()))
+        segs, a = [], self.debut
+        for p0, p1 in pauses:
+            if p1 <= a or p0 >= self.fin:
+                continue
+            if p0 - a >= C.BANDEAU_SEGMENT_MIN:
+                segs.append((a, p0))
+            a = max(a, p1)
+        if self.fin - a >= C.BANDEAU_SEGMENT_MIN:
+            segs.append((a, self.fin))
+        return segs
+
+    @staticmethod
+    def _corps_appel(atomes):
+        """Corps de la ligne du mot cle : BANDEAU_ACTION_PX, moins si la ligne ne tient pas
+        entre la marge et le logo (ombres comprises), jamais sous BANDEAU_ACTION_PX_MIN."""
+        g = C.BANDEAU_GRAISSE
+        dispo = (watermark().getchannel("A").getbbox()[0] - C.BANDEAU_ECART_LOGO - C.TEXTE_X
+                 - 4)                                     # ombre de l'encadre
+
+        def largeur(px):
+            total = 0.0
+            for at in atomes:
+                mot, cle = at[0], at[1]
+                if mot == " ":
+                    total += T.largeur(" ", px, g, 0)
+                elif cle:
+                    total += T.largeur(mot, px, C.CLE_GRAISSE, 0) + 2 * round(px * C.BANDEAU_BOITE_PAD[0])
+                else:
+                    total += T.largeur(mot, px, g, 0)
+            return total
+
+        px = C.BANDEAU_ACTION_PX
+        while px > C.BANDEAU_ACTION_PX_MIN and largeur(px) > dispo:
+            px -= 1
+        return px
+
+    @staticmethod
+    def _boite(mot, px):
+        """(encadre penche, largeur avant rotation) du mot cle, au corps de sa ligne."""
+        g = C.CLE_GRAISSE
+        f = T._police(px, g)
+        cap = f.getbbox("H")
+        pad_x, pad_y = (round(px * r) for r in C.BANDEAU_BOITE_PAD)
+        bw = int(T.largeur(mot, px, g, 0) + 2 * pad_x)
+        bh = int(cap[3] - cap[1] + 2 * pad_y)
+        im = Image.new('RGBA', (bw, bh), (0, 0, 0, 0))
+        d = ImageDraw.Draw(im)
+        d.rounded_rectangle([0, 0, bw - 1, bh - 1], radius=round(px * C.BANDEAU_BOITE_RAYON),
+--- tokenizer references ---
+lcdg\habillage.py:29:# droite autorisee pour les textes (marge du surlignage, +1 car getbbox donne un bord
+lcdg\habillage.py:30:# droit exclusif) : un surlignage ne se coupe jamais, trop long il deborderait
+lcdg\habillage.py:424:class Bandeau:
+lcdg\habillage.py:427:    cle (entre asterisques) dans un encadre de la couleur de la rubrique, en blanc,
+lcdg\habillage.py:429:    lignes glissent depuis la gauche, l'encadre s'ouvre avec un rebond, puis le tout
+lcdg\habillage.py:437:        self.lignes = []           # par ligne : mots (ombre, glyphes, x, y) et encadres (image, centre)
+lcdg\habillage.py:440:            # un surlignage de plusieurs mots ne fait qu'un encadre : « notre site » d'un
+lcdg\habillage.py:443:            for at in T.atomes(ligne):
+lcdg\habillage.py:448:            px = self._corps_appel(atomes) if any(at[1] for at in atomes) else C.BANDEAU_PX
+lcdg\habillage.py:485:    def _corps_appel(atomes):
+lcdg\habillage.py:490:                 - 4)                                     # ombre de l'encadre
+lcdg\habillage.py:511:        """(encadre penche, largeur avant rotation) du mot cle, au corps de sa ligne."""
+lcdg\controles.py:108:def _temps_surlignes(ep: dict, bornes: list) -> list:
+lcdg\controles.py:109:    """[(nom, texte anime, bande de l'image)] des temps de texte qui portent un surlignage :
+lcdg\controles.py:135:    """Pixels de la couleur du surlignage dans la bande, colonne de texte comprise."""
+lcdg\controles.py:142:def mesurer_surlignages(video: Path, ep: dict, bornes: list, decalage: float = 0.0,
+lcdg\controles.py:144:    """(temps controles, temps ou le surlignage manque).
+lcdg\controles.py:146:    Le controle du texte sur le fichier livre : pour chaque temps qui porte un surlignage,
+lcdg\controles.py:153:    for nom, cine, bande in _temps_surlignes(ep, bornes):
+lcdg\controles.py:173:    bornes des plans, controle aussi la duree et le texte (surlignages) du fichier livre.
+lcdg\controles.py:206:        n, manques = mesurer_surlignages(video, ep, bornes, decalage, couverture)
+lcdg\controles.py:209:        lignes.append(f"  {'OK ' if bon else 'ECHEC'}  {'surlignages':22} {n - len(manques)}/{n}"
+lcdg\inserts.py:11:      le mois, la periode surlignee (sur une meme semaine), une etiquette
+lcdg\inserts.py:247:    """Le mois en carte, la periode qui compte surlignee, une etiquette a cote."""
+lcdg\montage.py:200:            + "\n".join(debords) + "\n    Raccourcis le texte ou le surlignage dans script.json.")
+scripts\smoke_test.py:51:        {"duree": 5.0, "texte": "Premier bloc avec un *segment surligné* et une virgule. "
+scripts\smoke_test.py:53:         "voix": "Premier bloc, avec un segment surligne. | Puis un second temps.",
+scripts\revoix.py:8:de blocs dont le texte lu a change est relu seul, encadre de la phrase qui le precede et de
+scripts\revoix.py:11:l'ancienne lecture (mesure sur les phrases d'encadrement, lues dans les deux prises). Le
+lcdg\texte.py:2:Texte anime du style v2 : les mots se posent un par un, le segment cle se surligne
+lcdg\texte.py:101:def atomes(texte):
+lcdg\texte.py:102:    """Transforme '*mot* suivant' en atomes (texte, surligne), espaces compris.
+lcdg\texte.py:103:    La ponctuation collee reste collee, et un surlignage multi-mots reste continu."""
+lcdg\texte.py:122:    # un espace n'est surligne que s'il est encadre de deux atomes surlignes
+lcdg\texte.py:128:    # espace au bord d'un surlignage : elle s'elargit de son debord, sinon le mot
+lcdg\texte.py:129:    # voisin touche le surlignage (troisieme element a True)
+lcdg\texte.py:142:    surligne et sa ponctuation, apostrophe devant un surlignage) changent de ligne ensemble.
+lcdg\texte.py:151:        for at in atomes(ph):
+lcdg\texte.py:158:                # ne jamais couper au milieu d'un surlignage : on reporte le segment entier
+lcdg\texte.py:209:    style : px, graisse, cle (graisse du segment surligne), approche, interligne,
+lcdg\texte.py:281:        # 1) ombres de tous les mots, 2) surlignages, 3) lettres : le surlignage reste net
+
+exec
+"C:\\Program Files\\PowerShell\\7\\pwsh.exe" -Command "Get-Content .\\lcdg\\texte.py | Select-Object -First 190; Write-Output '--- remaining Bandeau ---'; Get-Content .\\lcdg\\habillage.py | Select-Object -Skip 510 -First 120; Write-Output '--- smoke test ---'; Get-Content .\\scripts\\smoke_test.py | Select-Object -First 180; Write-Output '--- git log ---'; git log --oneline -8 -- lcdg/habillage.py lcdg/texte.py scripts/smoke_test.py" in C:\Users\NR SMART\tools\lcdg-reel
+ succeeded in 1678ms:
+"""
+Texte anime du style v2 : les mots se posent un par un, le segment cle se surligne
+de gauche a droite, puis le texte sort vers le haut.
+Toutes les constantes viennent de config/charte.py — ne rien coder en dur ici.
+"""
+import sys
+from functools import lru_cache
+from pathlib import Path
+
+from PIL import Image, ImageChops, ImageDraw, ImageFilter
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from config import charte as C
+from lcdg.logo import police
+
+BLANC = C.BLANC
+# Montserrat n'a pas de glyphe pour l'espace fine insecable : elle sortirait en carre vide
+REMPLACEMENTS = {"\u202f": "\u00a0"}
+
+
+def normaliser(texte: str) -> str:
+    """Remplace les caracteres que Montserrat ne sait pas dessiner."""
+    for a, b in REMPLACEMENTS.items():
+        texte = texte.replace(a, b)
+    return texte
+
+
+def lisse(x: float) -> float:
+    """Sortie cubique : rapide au debut, posee a la fin."""
+    x = max(0.0, min(1.0, x))
+    return 1 - (1 - x) ** 3
+
+
+def rebond(x: float) -> float:
+    """Comme lisse(), mais depasse legerement la cible avant de s'y poser (rebond)."""
+    x = max(0.0, min(1.0, x))
+    c = C.REBOND
+    return 1 + (c + 1) * (x - 1) ** 3 + c * (x - 1) ** 2
+
+
+@lru_cache(maxsize=64)
+def _police(px: int, graisse: str):
+    return police(px, graisse)
+
+
+def largeur(mot: str, px: int, graisse: str, approche: float) -> float:
+    """Largeur d'un mot avec son interlettrage (approche en fraction du corps)."""
+    return _police(px, graisse).getlength(mot) + max(0, len(mot) - 1) * approche * px
+
+
+@lru_cache(maxsize=4096)
+def sprite(mot: str, px: int, graisse: str, approche: float, couleur=BLANC):
+    """(ombre, glyphes, marge) d'un mot, gardes en cache : un mot sert sur des
+    dizaines d'images."""
+    return _sprite(mot, px, graisse, approche, couleur)
+
+
+@lru_cache(maxsize=48)
+def sprite_chiffre(mot: str, px: int, graisse: str, approche: float, couleur=BLANC):
+    """Meme chose pour le grand chiffre : chaque valeur du compteur ne sert qu'une
+    image ou deux, inutile de garder toutes ces grandes couches en memoire."""
+    return _sprite(mot, px, graisse, approche, couleur)
+
+
+def _sprite(mot: str, px: int, graisse: str, approche: float, couleur=BLANC):
+    """(ombre, glyphes, marge) : le mot en deux couches, ombre douce comprise.
+
+    L'ombre remplace le contour du style v1 : un halo large qui assourdit le fond,
+    plus une ombre portee courte qui detache la lettre."""
+    f = _police(px, graisse)
+    m = C.HALO_FLOU * 2
+    w = int(largeur(mot, px, graisse, approche)) + 2 * m + 6
+    h = int(px * 1.4) + 2 * m
+    glyphes = Image.new("RGBA", (w, h), (0, 0, 0, 0))
+    d = ImageDraw.Draw(glyphes)
+    for k, ch in enumerate(mot):
+        d.text((m + f.getlength(mot[:k]) + k * approche * px, m), ch, font=f,
+               fill=tuple(couleur) + (255,))
+    a = glyphes.getchannel("A")
+    halo = a.filter(ImageFilter.GaussianBlur(C.HALO_FLOU)).point(
+        lambda p: p * C.HALO_ALPHA // 255)
+    portee = Image.new("L", (w, h), 0)
+    portee.paste(a.filter(ImageFilter.GaussianBlur(C.OMBRE_FLOU)).point(
+        lambda p: p * C.OMBRE_ALPHA // 255), (0, C.OMBRE_DECALAGE))
+    noir = Image.new("L", (w, h), 0)
+    ombre = Image.merge("RGBA", (noir, noir, noir, ImageChops.lighter(halo, portee)))
+    return ombre, glyphes, m
+
+
+def coller(fond: Image.Image, im: Image.Image, xy, alpha: float = 1.0):
+    """Compose `im` sur `fond` en (x, y), opacite multipliee par alpha."""
+    if alpha <= 0.003:
+        return
+    if alpha < 0.997:
+        im = im.copy()
+        im.putalpha(im.getchannel("A").point(lambda p: int(p * alpha)))
+    fond.alpha_composite(im, (int(round(xy[0])), int(round(xy[1]))))
+
+
+# ---------------------------------------------------------------- mise en page
+def atomes(texte):
+    """Transforme '*mot* suivant' en atomes (texte, surligne), espaces compris.
+    La ponctuation collee reste collee, et un surlignage multi-mots reste continu."""
+    texte = normaliser(texte)
+    runs, surl = [], False
+    for part in texte.split("*"):
+        if part:
+            runs.append((part, surl))
+        surl = not surl
+    out = []
+    for txt, hl in runs:
+        buf = ""
+        for ch in txt:
+            if ch == " ":
+                if buf:
+                    out.append((buf, hl)); buf = ""
+                out.append((" ", hl))
+            else:
+                buf += ch
+        if buf:
+            out.append((buf, hl))
+    # un espace n'est surligne que s'il est encadre de deux atomes surlignes
+    for i, (t, hl) in enumerate(out):
+        if t == " " and hl:
+            g = out[i - 1][1] if i > 0 else False
+            dr = out[i + 1][1] if i + 1 < len(out) else False
+            out[i] = (" ", g and dr)
+    # espace au bord d'un surlignage : elle s'elargit de son debord, sinon le mot
+    # voisin touche le surlignage (troisieme element a True)
+    for i, (t, hl) in enumerate(out):
+        if t == " " and not hl:
+            g = out[i - 1][1] if i > 0 else False
+            dr = out[i + 1][1] if i + 1 < len(out) else False
+            if g or dr:
+                out[i] = (" ", False, True)
+    return out
+
+
+def lignes(texte, mesure, maxw):
+    """Retour a la ligne impose a chaque fin de phrase (. ? !), puis habillage a la largeur.
+    On ne coupe que sur une espace ordinaire : des atomes sans espace entre eux (mot
+    surligne et sa ponctuation, apostrophe devant un surlignage) changent de ligne ensemble.
+    `mesure(atome)` donne la largeur d'un atome, selon sa graisse."""
+    res = []
+    for fin in ".?!":
+        texte = texte.replace(fin + " ", fin + "\n")
+    for ph in (p.strip() for p in texte.split("\n")):
+        if not ph:
+            continue
+        cur, larg = [], 0
+        for at in atomes(ph):
+            w = mesure(at)
+            if larg + w > maxw and cur and at[0] != " ":
+                report = []
+                # atome colle au precedent (pas d'espace entre eux) : ils partent ensemble
+                while cur and cur[-1][0] != " ":
+                    report.insert(0, cur.pop())
+                # ne jamais couper au milieu d'un surlignage : on reporte le segment entier
+                if (report or [at])[0][1]:
+                    while cur and cur[-1][1]:
+                        report.insert(0, cur.pop())
+                    while report and report[0][0] == " ":
+                        report.pop(0)
+                while cur and cur[-1][0] == " ":
+                    cur.pop()
+                if cur:
+                    res.append(cur)
+                cur = report
+                larg = sum(mesure(a) for a in cur)
+            if not (not cur and at[0] == " "):
+                cur.append(at); larg += w
+        while cur and cur[-1][0] == " ":
+            cur.pop()
+        if cur:
+            res.append(cur)
+    return res
+
+
+def mesureur(style):
+    """Largeur d'un atome selon le style : le segment cle a sa propre graisse, et
+    l'espace porte l'interlettrage qui suit la derniere lettre du mot precedent."""
+    px, ap = style["px"], style["approche"]
+
+    def mesure(at):
+        if at[0] == " ":
+            bord = C.SURLIGNE_MARGE if len(at) > 2 else 0
+            return largeur(" ", px, style["graisse"], 0) + ap * px + bord
+        return largeur(at[0], px, style["cle"] if at[1] else style["graisse"], ap)
+    return mesure
+
+--- remaining Bandeau ---
+        """(encadre penche, largeur avant rotation) du mot cle, au corps de sa ligne."""
+        g = C.CLE_GRAISSE
+        f = T._police(px, g)
+        cap = f.getbbox("H")
+        pad_x, pad_y = (round(px * r) for r in C.BANDEAU_BOITE_PAD)
+        bw = int(T.largeur(mot, px, g, 0) + 2 * pad_x)
+        bh = int(cap[3] - cap[1] + 2 * pad_y)
+        im = Image.new('RGBA', (bw, bh), (0, 0, 0, 0))
+        d = ImageDraw.Draw(im)
+        d.rounded_rectangle([0, 0, bw - 1, bh - 1], radius=round(px * C.BANDEAU_BOITE_RAYON),
+                            fill=tuple(_RUBRIQUE) + (255,))
+        d.text((pad_x, pad_y - cap[1]), mot, font=f, fill=WHITE + (255,))
+        im = im.rotate(C.BANDEAU_INCLINAISON, resample=Image.BICUBIC, expand=True)
+        return shadow(im, blur=5, alpha=110, offset=(0, 2)), bw
+
+    def dessiner(self, lay, t, final=False):
+        debut = fin = 0.0
+        if not final:
+            seg = next(((a, b) for a, b in self.segments if a <= t < b), None)
+            if seg is None:
+                return
+            debut, fin = seg
+        sortie = 0.0 if final else T.lisse((t - (fin - C.BANDEAU_FONDU)) / C.BANDEAU_FONDU)
+        for i, (mots, boites) in enumerate(self.lignes):
+            t0 = debut + i * C.BANDEAU_DECALAGE
+            e = 1.0 if final else T.lisse((t - t0) / C.BANDEAU_ENTREE)
+            alpha = e * (1 - sortie) * C.BANDEAU_ALPHA
+            if alpha <= 0.003:
+                continue
+            dx = -C.BANDEAU_GLISSEMENT * ((1 - e) + sortie)
+            for om, gl, x, y in mots:
+                T.coller(lay, om, (x + dx, y), alpha)
+                T.coller(lay, gl, (x + dx, y), alpha)
+            p = 1.0 if final else T.rebond((t - t0 - C.BANDEAU_BOITE_RETARD) / C.BANDEAU_BOITE_POP)
+            if p <= 0:
+                continue
+            k = C.BANDEAU_BOITE_ECHELLE + (1 - C.BANDEAU_BOITE_ECHELLE) * p
+            for boite, (cx, cy) in boites:
+                im = boite if abs(k - 1) < 0.01 else boite.resize(
+                    (max(1, int(boite.width * k)), max(1, int(boite.height * k))), Image.BICUBIC)
+                T.coller(lay, im, (cx + dx - im.width / 2, cy - im.height / 2),
+                         min(1.0, (1 - sortie) * C.BANDEAU_ALPHA * min(1.0, p * 2)))
+
+    def couche(self):
+        lay = _vide(); self.dessiner(lay, 0, final=True)
+        return lay
+
+
+class Credit:
+    """Source d'un plan (champ "credit" du bloc), en petit sous le logo, alignee sur sa
+    droite, le temps du plan."""
+
+    def __init__(self, texte, debut, fin):
+        self.debut, self.fin = debut, fin
+        px, g = C.CREDIT_PX, C.CREDIT_GRAISSE
+        m = C.HALO_FLOU * 2
+        self.ombre, self.glyphes, _ = T.sprite(texte, px, g, 0)
+        x = W - C.LOGO_MARGE_X - T.largeur(texte, px, g, 0)
+        y = C.LOGO_Y + lockup(C.LOGO_PX).height + C.CREDIT_ECART
+        self.pos = (x - m, y - m)
+
+    def dessiner(self, lay, t, final=False):
+        a = 1.0 if final else min(T.lisse((t - self.debut) / C.CREDIT_FONDU),
+                                  T.lisse((self.fin - t) / C.CREDIT_FONDU))
+        if a <= 0.003:
+            return
+        T.coller(lay, self.ombre, self.pos, a * C.CREDIT_ALPHA)
+        T.coller(lay, self.glyphes, self.pos, a * C.CREDIT_ALPHA)
+
+    def couche(self):
+        lay = _vide(); self.dessiner(lay, 0, final=True)
+        return lay
+
+
+def credits(ep, bornes):
+    return [Credit(bl["credit"], a, b) for (a, b), bl in zip(bornes, ep["blocs"])
+            if bl.get("credit")]
+
+
+# types de bloc dont l'arriere-plan passe en flou de profondeur (cf. montage.base)
+TYPES_FLOUS = ("chiffre",)
+
+
+def scenes(ep, bornes, croix):
+    """Les scenes du reel, dans l'ordre : accroche sur le premier plan, puis un bloc par plan."""
+    out = [Accroche(ep["label"], ep["sous_titre"], 0.0, bornes[0][1])]
+    blocs = ep["blocs"]
+    for k in range(1, len(blocs)):
+        a, b = bornes[k]
+        if k == len(blocs) - 1:
+            b = croix + C.BLOC_RESIDU
+        bl = blocs[k]
+        if bl.get("type") == "chiffre":
+            out.append(Chiffre(f"bloc {k}", bl, a, b))
+        else:
+            entree = C.ACCROCHE_COUVERTURE and k == 1
+            out.append(Texte(f"bloc {k}", bl["texte"], a, b, grand=bl.get("type") == "phrase",
+                             instants=bl.get("temps"),
+                             retard=C.OUVERTURE_TEXTE_DELAI if entree else 0.0))
+    return out
+
+
+class Ouverture:
+    """Entree du reel livre, quand l'accroche ne sert que de couverture : un eclair blanc
+    tres bref, puis la pastille du sujet s'ouvre au-dessus du premier texte et un reflet la
+    traverse ; elle sort avec le texte du bloc. L'image, elle, arrive en zoom et floue
+    (montage.base). Aucun bruitage (Romain, 02/10/2026)."""
+
+    def __init__(self, texte, scene):
+        self.scene, self.debut, self.fin = scene, scene.debut, scene.fin
+        self.pastille = pastille(texte)
+        hauts = [b[1] for b in (_bbox(lay) for _, lay, _ in scene.couches()) if b]
+        haut = min(hauts) if hauts else C.BLOC_Y
+        self.pos = (C.TEXTE_X, haut - C.SURTITRE_ECART - self.pastille.height)
+
+    def _sortie(self, t):
+        cine = self.scene.parts[-1] if isinstance(self.scene, Texte) else self.scene.legende
+        return cine._sortie(t)
+
+    @staticmethod
+--- smoke test ---
+"""
+Test de fumee : monte un episode de 5 plans a partir de mires generees,
+puis verifie que les controles passent.
+
+    python scripts/smoke_test.py
+
+Ne demande ni cle Pexels, ni B-roll. Couvre tous les types de scene : accroche,
+texte en deux temps (separes par "|"), chiffre cle avec valeur barree, chiffre a
+pictogrammes (fond flou) et phrase forte, plus la voix off : une fausse narration
+(tonalite generee localement) remplace ElevenLabs, sans cle ni credit ; musique et
+bruitages de assets/ s'ils sont presents. A lancer
+apres un clone, apres une mise a jour de la charte, ou avant de pousser une
+modification de lcdg/.
+"""
+import json
+import shutil
+import sys
+import tempfile
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
+from config import charte as C
+from lcdg import binaires as B
+from lcdg import controles, montage, son, voix
+
+PAS = 0.06          # duree d'un caractere dans la fausse narration
+
+
+def fausse_synthese(texte, voice_id, dossier, modele=None, reglages=None):
+    """Tonalite de la duree du texte, horodatage lineaire : teste le calage et le mixage."""
+    dossier.mkdir(parents=True, exist_ok=True)
+    mp3 = dossier / "fausse_voix.mp3"
+    B.run(["-f", "lavfi", "-i", f"sine=frequency=220:duration={len(texte) * PAS:.2f}",
+           "-ac", "2", str(mp3), "-y"])
+    return mp3, {"characters": list(texte),
+                 "character_start_times_seconds": [i * PAS for i in range(len(texte))],
+                 "character_end_times_seconds": [(i + 1) * PAS for i in range(len(texte))]}
+
+EPISODE = {
+    "slug": "smoke", "rubrique": "pro",
+    "label": "Test de fumée",
+    "badge": "Test · ouverture",
+    "sous_titre": "Vérification de la chaîne de *montage*.",
+    "appel": "Le test, en détail :",
+    "blocs": [
+        {"duree": 3.8, "texte": None, "fichier": "B0.mp4", "cadrage": "largeur",
+         "credit": "Images : source test"},                 # accroche : couverture, sans voix
+        {"duree": 5.0, "texte": "Premier bloc avec un *segment surligné* et une virgule. "
+                                "| Puis un second temps.",
+         "voix": "Premier bloc, avec un segment surligne. | Puis un second temps.",
+         "fichier": "B1.mp4",
+         "insert": {"type": "choix", "lignes": [{"label": "Oui", "ok": True},
+                                                {"label": "Non", "ok": False, "temps": 1}]}},
+        {"duree": 5.0, "type": "chiffre", "valeur": 140, "depuis": 100, "suffixe": " €",
+         "legende": "de reste à charge *par an*",
+         "voix": "Cent quarante euros par an.", "fichier": "B2.mp4"},
+        {"duree": 5.0, "type": "chiffre", "valeur": 70, "suffixe": " boîtes", "pictos": True,
+         "legende": "par an, *six par mois*",
+         "voix": "Soixante-dix boites par an.", "fichier": "B3.mp4"},
+        {"duree": 5.0, "type": "phrase", "texte": "Une phrase forte, *centrée*.",
+         "voix": "Une phrase forte, centree.", "fichier": "B4.mp4"},
+    ],
+}
+
+
+def mire(dest: Path, secondes: float, teinte: int):
+    B.run(["-f", "lavfi", "-i",
+           f"gradients=s={C.LARGEUR}x{C.HAUTEUR}:c0=0x{teinte:02x}2233:"
+           f"c1=0x{teinte:02x}8899:d={secondes + 4}",
+           "-t", str(secondes + 4), "-r", str(C.FPS),
+           "-c:v", "libx264", "-preset", "ultrafast", "-crf", "28",
+           "-pix_fmt", "yuv420p", str(dest), "-y"])
+
+
+def main():
+    B.exiger()
+    ep = EPISODE
+    with tempfile.TemporaryDirectory() as tmp:
+        dossier = Path(tmp) / "smoke"
+        (dossier / "broll").mkdir(parents=True)
+        (dossier / "script.json").write_text(
+            json.dumps(ep, ensure_ascii=False), encoding="utf-8")
+        for i, bl in enumerate(ep["blocs"]):
+            mire(dossier / "broll" / bl["fichier"], bl["duree"], 0x20 + i * 0x30)
+
+        print("\n1/3  normalisation")
+        montage.verifier(ep)              # avant d'encoder le moindre plan
+        voix.synthese = fausse_synthese
+        piste = voix.preparer(dossier, ep)
+        _, bornes, total = montage.base(dossier, ep["blocs"])
+        print(f"     {len(bornes)} plans, {total:.2f} s")
+        print("2/3  habillage")
+        muet = montage.habiller(dossier, ep, bornes, total)
+        audio = son.bande(dossier, ep, bornes, total, piste)
+        sortie = montage.finaliser(muet, dossier / f"reel_{ep['slug']}.mp4", audio)
+        couv = montage.couverture(sortie)
+        avant = B.duree(sortie)
+        montage.couper_accroche(sortie, bornes[1][0])
+        if len(couv) != 2:
+            raise SystemExit("[!] couvertures incorrectes")
+        print("3/3  controles")
+        conforme = controles.rapport(sortie, ep, bornes, bornes[1][0], couv[0])
+        print(f"     accroche coupee : {avant:.2f} s -> {B.duree(sortie):.2f} s, "
+              f"{len(couv)} couvertures")
+
+        garde = Path(__file__).resolve().parent.parent / "smoke_test.mp4"
+        shutil.copy(sortie, garde)
+        print(f"\nSortie conservee : {garde}")
+
+    if not conforme:
+        raise SystemExit("[!] Le test de fumee a echoue : ne pas pousser en l'etat.")
+    print("[OK] chaine de montage conforme")
+
+
+if __name__ == "__main__":
+    main()
+--- git log ---
+0b077ef Voix off, son, entree animee, inserts et pages officielles
+4d4e933 Style v2 des reels : texte anime, chiffres cles, porte d'entree vers l'analyse
+abdc45c Zone sure 4:5, declinaison carree et controles fiabilises
+89bbe78 Chaîne de production des reels LCDG
+
+exec
+"C:\\Program Files\\PowerShell\\7\\pwsh.exe" -Command '$ErrorActionPreference='"'Continue'; Write-Output '--- diff check ---'; git diff --check; Write-Output '--- py_compile ---'; python -m py_compile lcdg/habillage.py; Write-Output ('py_compile exit=' + "'$LASTEXITCODE); Write-Output '"'--- smoke ---'; python scripts/smoke_test.py" in C:\Users\NR SMART\tools\lcdg-reel
+exec
+"C:\\Program Files\\PowerShell\\7\\pwsh.exe" -Command 'Get-Process python,ffmpeg -ErrorAction SilentlyContinue | Select-Object Id,ProcessName,CPU,StartTime,Path' in C:\Users\NR SMART\tools\lcdg-reel
+ succeeded in 1799ms:
+
+Id          : 6620
+ProcessName : ffmpeg
+CPU         : 48,1875
+StartTime   : 23/10/2026 12:47:49
+Path        : C:\Users\NR SMART\AppData\Local\Microsoft\WinGet\Links\ffmpeg.EXE
+
+Id          : 8436
+ProcessName : ffmpeg
+CPU         : 2,296875
+StartTime   : 23/10/2026 12:48:20
+Path        : C:\Users\NR SMART\AppData\Local\Microsoft\WinGet\Links\ffmpeg.EXE
+
+Id          : 828
+ProcessName : python
+CPU         : 23,59375
+StartTime   : 23/10/2026 12:46:43
+Path        : C:\Users\NR SMART\AppData\Local\Programs\Python\Python311\python.exe
+
+Id          : 31816
+ProcessName : python
+CPU         : 327,65625
+StartTime   : 23/10/2026 12:40:07
+Path        : 
+
+Id          : 39212
+ProcessName : python
+CPU         : 0,203125
+StartTime   : 23/10/2026 12:45:52
+Path        : C:\Users\NR SMART\AppData\Local\Programs\Python\Python311\python.exe
+
+Id          : 41264
+ProcessName : python
+CPU         : 
+StartTime   : 
+Path        : 
+
+Id          : 44768
+ProcessName : python
+CPU         : 4,96875
+StartTime   : 23/10/2026 12:45:52
+Path        : C:\Users\NR SMART\AppData\Local\Programs\Python\Python311\python.exe
+
+
+exec
+"C:\\Program Files\\PowerShell\\7\\pwsh.exe" -Command '$i=1; Get-Content .'"\\lcdg\\habillage.py | ForEach-Object { if("'$i -ge 432 -and $i -le 460){ '"'{0,4}: {1}' -f "'$i,$_ }; $i++ }' in C:\Users\NR SMART\tools\lcdg-reel
+ succeeded in 1917ms:
+ 432: 
+ 433:     def __init__(self, texte, debut, fin, scenes=()):
+ 434:         self.debut, self.fin = debut, fin
+ 435:         g = C.BANDEAU_GRAISSE
+ 436:         self.marge = m = C.HALO_FLOU * 2
+ 437:         self.lignes = []           # par ligne : mots (ombre, glyphes, x, y) et encadres (image, centre)
+ 438:         y = C.BANDEAU_Y
+ 439:         for ligne in (l.strip() for l in texte.split('|') if l.strip()):
+ 440:             # un surlignage de plusieurs mots ne fait qu'un encadre : « notre site » d'un
+ 441:             # bloc, pas en deux (Romain, 23/10/2026)
+ 442:             atomes = []
+ 443:             for at in T.atomes(ligne):
+ 444:                 if at[1] and atomes and atomes[-1][1]:
+ 445:                     atomes[-1] = (atomes[-1][0] + at[0], True)
+ 446:                 else:
+ 447:                     atomes.append(at)
+ 448:             px = self._corps_appel(atomes) if any(at[1] for at in atomes) else C.BANDEAU_PX
+ 449:             cap = T._police(px, g).getbbox("H")
+ 450:             x = 0.0
+ 451:             mots, boites = [], []
+ 452:             for at in atomes:
+ 453:                 mot, cle = at[0], at[1]
+ 454:                 if mot == " ":
+ 455:                     x += T.largeur(" ", px, g, 0)
+ 456:                 elif cle:
+ 457:                     boite, bw = self._boite(mot, px)
+ 458:                     boites.append((boite, (C.TEXTE_X + x + bw / 2, y + (cap[1] + cap[3]) / 2)))
+ 459:                     x += bw
+ 460:                 else:
+
+exec
+"C:\\Program Files\\PowerShell\\7\\pwsh.exe" -Command "rg -n -C 2 '\"bandeau\"|bandeau' episodes lcdg scripts | Select-Object -First 300; Write-Output '--- highlighted bandeau values ---'; rg -n -o '\"bandeau\"\\s*:\\s*\"["'^"]*'"' episodes | Select-String '\\*' | Select-Object -First 100" in C:\Users\NR SMART\tools\lcdg-reel
+ succeeded in 1413ms:
+scripts\render_carre.py-5-
+scripts\render_carre.py-6-Reprend script.json et les B-rolls de l'episode, avec la mise en page de charte.CARRE.
+scripts\render_carre.py:7:Un plan compose pour le 9:16 (photo posee en bandeau au-dessus du texte) peut avoir sa
+scripts\render_carre.py-8-version carree dans broll_carre/, sous le meme nom : elle est prise a la place.
+scripts\render_carre.py-9-Sortie : reel_<slug>_carre.mp4, controlee comme le reel (code retour 2 si non conforme).
+--
+lcdg\habillage.py-467-
+lcdg\habillage.py-468-    def _segments(self, scenes):
+lcdg\habillage.py:469:        """Intervalles (debut, fin) ou le bandeau est visible."""
+lcdg\habillage.py-470-        zone = _bbox(self.couche(), C.BANDEAU_ECART_BLOC)
+lcdg\habillage.py-471-        pauses = sorted((sc.debut, sc.fin) for sc in scenes
+--
+lcdg\montage.py-187-        couches.append(("pastille d'ouverture", ouv.couche(), hb.COLONNE))
+lcdg\montage.py-188-    couches += [(i.nom, i.couche(), hb.COLONNE) for i in ins.inserts(ep, les_scenes, ouv)]
+lcdg\montage.py:189:    if ep.get("bandeau"):
+lcdg\montage.py:190:        # le bandeau s'arrete avant le logo, qui garde sa place
+lcdg\montage.py-191-        logo_gauche = hb.watermark().getchannel("A").getbbox()[0]
+lcdg\montage.py:192:        couches.append(("bandeau", hb.Bandeau(ep["bandeau"], 0, 1).couche(),
+lcdg\montage.py-193-                        logo_gauche - C.BANDEAU_ECART_LOGO))
+lcdg\montage.py-194-    zones = [(nom, hb.hors_zone(lay, droite)) for nom, lay, droite in couches]
+--
+lcdg\montage.py-214-    carte = hb.CarteFinale(plein, ep.get("appel"))
+lcdg\montage.py-215-    # ni pendant l'accroche, ni sur la carte finale
+lcdg\montage.py:216:    # le bandeau laisse l'entree du reel livre a la pastille du sujet : il arrive au plan
+lcdg\montage.py-217-    # suivant
+lcdg\montage.py:218:    debut_bandeau = bornes[2][0] if C.ACCROCHE_COUVERTURE and len(bornes) > 2 else bornes[1][0]
+lcdg\montage.py:219:    bandeau = (hb.Bandeau(ep["bandeau"], debut_bandeau, croix, scenes)
+lcdg\montage.py:220:               if ep.get("bandeau") else None)
+lcdg\montage.py-221-    ouverture = hb.ouverture(ep, scenes)
+lcdg\montage.py-222-    les_inserts = ins.inserts(ep, scenes, ouverture)
+--
+lcdg\montage.py-243-            if cr.debut <= t < cr.fin:
+lcdg\montage.py-244-                cr.dessiner(lay, t)
+lcdg\montage.py:245:        if bandeau and bandeau.debut <= t < bandeau.fin:
+lcdg\montage.py:246:            bandeau.dessiner(lay, t)
+lcdg\montage.py-247-        for sc in actives:
+lcdg\montage.py-248-            sc.dessiner(lay, t)
+--
+episodes\exemple\script.json-125-  ],
+episodes\exemple\script.json-126-  "voix_off": "homme_age",
+episodes\exemple\script.json:127:  "bandeau": "Pour recevoir l’analyse, | commentez *140*",
+episodes\exemple\script.json-128-  "badge": "Reste à charge"
+episodes\exemple\script.json-129-}
+--
+episodes\2026-09-21-desogestrel\script.json-6-  "sous_titre": "Vos patientes sous désogestrel seul reçoivent un courrier sur le *méningiome*.",
+episodes\2026-09-21-desogestrel\script.json-7-  "appel": "Nos 3 recommandations :",
+episodes\2026-09-21-desogestrel\script.json:8:  "bandeau": "Pour recevoir l’analyse, | commentez *DESO*",
+episodes\2026-09-21-desogestrel\script.json-9-  "voix_off": "homme_age",
+episodes\2026-09-21-desogestrel\script.json-10-  "blocs": [
+--
+episodes\2026-09-21-franchises-medicales\script.json-127-  ],
+episodes\2026-09-21-franchises-medicales\script.json-128-  "voix_off": "homme_age",
+episodes\2026-09-21-franchises-medicales\script.json:129:  "bandeau": "Pour recevoir l’analyse, | commentez *140*",
+episodes\2026-09-21-franchises-medicales\script.json-130-  "badge": "Reste à charge"
+episodes\2026-09-21-franchises-medicales\script.json-131-}
+--
+episodes\2026-09-30-fluoxetine\script.json-6-  "sous_titre": "Votre patient adulte doit-il attendre *mi-octobre* ?",
+episodes\2026-09-30-fluoxetine\script.json-7-  "appel": "Nos 3 recommandations :",
+episodes\2026-09-30-fluoxetine\script.json:8:  "bandeau": "Pour recevoir l’analyse, | commentez *FLUOX*",
+episodes\2026-09-30-fluoxetine\script.json-9-  "voix_off": "femme_agee_creee",
+episodes\2026-09-30-fluoxetine\script.json-10-  "blocs": [
+--
+episodes\2026-09-30-protections-periodiques\script.json-6-  "sous_titre": "Vos patientes de moins de 26 ans : coupes et culottes menstruelles *remboursées*.",
+episodes\2026-09-30-protections-periodiques\script.json-7-  "appel": "Nos 2 recommandations :",
+episodes\2026-09-30-protections-periodiques\script.json:8:  "bandeau": "Pour recevoir l’analyse, | commentez *60*",
+episodes\2026-09-30-protections-periodiques\script.json-9-  "voix_off": "femme_jeune_creee",
+episodes\2026-09-30-protections-periodiques\script.json-10-  "blocs": [
+--
+episodes\2026-10-13-minimum-patients\script.json-6-  "sous_titre": "Un minimum de patients *obligatoire* pour vous ?",
+episodes\2026-10-13-minimum-patients\script.json-7-  "appel": "Nos 3 recommandations :",
+episodes\2026-10-13-minimum-patients\script.json:8:  "bandeau": "Pour recevoir l’analyse, | commentez *500*",
+episodes\2026-10-13-minimum-patients\script.json-9-  "voix_off": "femme_jeune",
+episodes\2026-10-13-minimum-patients\script.json-10-  "badge": "Cour des comptes",
+--
+episodes\2026-10-22-arrets-travail-mso\script.json-8-  "voix_off": "homme_age",
+episodes\2026-10-22-arrets-travail-mso\script.json-9-  "badge": "Arrêts de travail",
+episodes\2026-10-22-arrets-travail-mso\script.json:10:  "bandeau": "L’analyse complète | sur *notre site*",
+episodes\2026-10-22-arrets-travail-mso\script.json-11-  "blocs": [
+episodes\2026-10-22-arrets-travail-mso\script.json-12-    {
+--
+episodes\2026-10-22-vaccins-cabinet\script.json-8-  "voix_off": "homme_jeune",
+episodes\2026-10-22-vaccins-cabinet\script.json-9-  "badge": "Décret du 9 octobre",
+episodes\2026-10-22-vaccins-cabinet\script.json:10:  "bandeau": "L’analyse complète | sur *notre site*",
+episodes\2026-10-22-vaccins-cabinet\script.json-11-  "blocs": [
+episodes\2026-10-22-vaccins-cabinet\script.json-12-    {
+--
+episodes\2026-10-06-grippe-covid\script.json-6-  "sous_titre": "Vaccin antigrippal : bientôt *obligatoire* pour vous ?",
+episodes\2026-10-06-grippe-covid\script.json-7-  "appel": "Nos 2 recommandations :",
+episodes\2026-10-06-grippe-covid\script.json:8:  "bandeau": "Pour recevoir l’analyse, | commentez *GRIPPE*",
+episodes\2026-10-06-grippe-covid\script.json-9-  "voix_off": "femme_agee_creee",
+episodes\2026-10-06-grippe-covid\script.json-10-  "badge": "Campagne 2026-2027",
+--
+episodes\2026-10-22-cumul-emploi-retraite\script.json-8-  "voix_off": "femme_agee",
+episodes\2026-10-22-cumul-emploi-retraite\script.json-9-  "badge": "Retraite 2027",
+episodes\2026-10-22-cumul-emploi-retraite\script.json:10:  "bandeau": "L’analyse complète | sur *notre site*",
+episodes\2026-10-22-cumul-emploi-retraite\script.json-11-  "blocs": [
+episodes\2026-10-22-cumul-emploi-retraite\script.json-12-    {
+--
+episodes\2026-10-22-arrets-travail-mso-pub\script.json-8-  "voix_off": "homme_age",
+episodes\2026-10-22-arrets-travail-mso-pub\script.json-9-  "badge": "Arrêts de travail",
+episodes\2026-10-22-arrets-travail-mso-pub\script.json:10:  "bandeau": "L’analyse complète | sur *notre site*",
+episodes\2026-10-22-arrets-travail-mso-pub\script.json-11-  "blocs": [
+episodes\2026-10-22-arrets-travail-mso-pub\script.json-12-    {
+--
+episodes\2026-10-06-plfss-2027\script.json-6-  "sous_titre": "Soins de ville : *+900 millions*, établissements : +3,4 milliards.",
+episodes\2026-10-06-plfss-2027\script.json-7-  "appel": "Nos 2 recommandations :",
+episodes\2026-10-06-plfss-2027\script.json:8:  "bandeau": "Pour recevoir l’analyse, | commentez *PLFSS*",
+episodes\2026-10-06-plfss-2027\script.json-9-  "voix_off": "homme_age",
+episodes\2026-10-06-plfss-2027\script.json-10-  "badge": "Budget de la Sécu 2027",
+--
+episodes\2026-10-13-minimum-patients-pub\script.json-6-  "sous_titre": "Un minimum de patients *obligatoire* pour vous ?",
+episodes\2026-10-13-minimum-patients-pub\script.json-7-  "appel": "Nos 3 recommandations :",
+episodes\2026-10-13-minimum-patients-pub\script.json:8:  "bandeau": "Pour recevoir l’analyse, | commentez *500*",
+episodes\2026-10-13-minimum-patients-pub\script.json-9-  "voix_off": "femme_jeune",
+episodes\2026-10-13-minimum-patients-pub\script.json-10-  "badge": "Cour des comptes",
+--- highlighted bandeau values ---
+
+episodes\2026-10-06-plfss-2027\script.json:8:"bandeau": "Pour recevoir l’analyse, | commentez *PLFSS*
+episodes\2026-09-21-franchises-medicales\script.json:129:"bandeau": "Pour recevoir l’analyse, | commentez *140*
+episodes\2026-10-13-minimum-patients-pub\script.json:8:"bandeau": "Pour recevoir l’analyse, | commentez *500*
+episodes\2026-09-30-protections-periodiques\script.json:8:"bandeau": "Pour recevoir l’analyse, | commentez *60*
+episodes\2026-10-06-grippe-covid\script.json:8:"bandeau": "Pour recevoir l’analyse, | commentez *GRIPPE*
+episodes\2026-10-22-arrets-travail-mso\script.json:10:"bandeau": "L’analyse complète | sur *notre site*
+episodes\exemple\script.json:127:"bandeau": "Pour recevoir l’analyse, | commentez *140*
+episodes\2026-09-30-fluoxetine\script.json:8:"bandeau": "Pour recevoir l’analyse, | commentez *FLUOX*
+episodes\2026-10-22-cumul-emploi-retraite\script.json:10:"bandeau": "L’analyse complète | sur *notre site*
+episodes\2026-10-22-vaccins-cabinet\script.json:10:"bandeau": "L’analyse complète | sur *notre site*
+episodes\2026-10-22-arrets-travail-mso-pub\script.json:10:"bandeau": "L’analyse complète | sur *notre site*
+episodes\2026-09-21-desogestrel\script.json:8:"bandeau": "Pour recevoir l’analyse, | commentez *DESO*
+episodes\2026-10-13-minimum-patients\script.json:8:"bandeau": "Pour recevoir l’analyse, | commentez *500*
+
+
+exec
+"C:\\Program Files\\PowerShell\\7\\pwsh.exe" -Command "@'
+from lcdg.habillage import Bandeau
+for s in [\"L’analyse complète | sur *notre site*\", \"*notre site*\", \"sur *notre* *site*\", \"*site,*\"]:
+    b = Bandeau(s, 0, 1)
+    print(repr(s), [len(x[1]) for x in b.lignes], [len(x[0]) for x in b.lignes])
+'@ | python -" in C:\Users\NR SMART\tools\lcdg-reel
+ succeeded in 154127ms:
+--- diff check ---
+warning: in the working copy of 'lcdg/habillage.py', CRLF will be replaced by LF the next time Git touches it
+--- py_compile ---
+py_compile exit=0
+--- smoke ---
+
+1/3  normalisation
+     5 plans, 15.50 s
+2/3  habillage
+3/3  controles
+
+Controles sur le fichier livre :
+  OK   logo (hauteur)         122 px (attendu 124 px ±8)
+  OK   logo (position)        331 px (attendu 329 px ±8)
+  OK   hors zone 4:5 (fin)    0 px (attendu 0 px ±0)
+  OK   pistes audio           1 (attendu 1 ±0)
+  OK   son (loudness)         -14.3 LUFS (attendu -14 LUFS ±1.5)
+  OK   son (true peak)        -3.4 dBTP (plafond -1.0 dBTP)
+  OK   duree                  12.5 s (attendu 12.5 s ±0.1)
+  OK   surlignages            5/5
+  -> conforme
+     accroche coupee : 15.50 s -> 12.50 s, 2 couvertures
+
+Sortie conservee : C:\Users\NR SMART\tools\lcdg-reel\smoke_test.mp4
+[OK] chaine de montage conforme
+
+ succeeded in 2297ms:
+'L�analyse compl�te | sur *notre site*' [0, 1] [2, 1]
+'*notre site*' [1] [0]
+'sur *notre* *site*' [2] [1]
+'*site,*' [1] [0]
+
+exec
+"C:\\Program Files\\PowerShell\\7\\pwsh.exe" -Command 'git status --short; git diff --stat; git diff -- lcdg/habillage.py' in C:\Users\NR SMART\tools\lcdg-reel
+ succeeded in 979ms:
+ M lcdg/habillage.py
+warning: in the working copy of 'lcdg/habillage.py', CRLF will be replaced by LF the next time Git touches it
+ lcdg/habillage.py | 9 ++++++++-
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+warning: in the working copy of 'lcdg/habillage.py', CRLF will be replaced by LF the next time Git touches it
+diff --git a/lcdg/habillage.py b/lcdg/habillage.py
+index 62adaa1..1cd9adb 100644
+--- a/lcdg/habillage.py
++++ b/lcdg/habillage.py
+@@ -437,7 +437,14 @@ class Bandeau:
+         self.lignes = []           # par ligne : mots (ombre, glyphes, x, y) et encadres (image, centre)
+         y = C.BANDEAU_Y
+         for ligne in (l.strip() for l in texte.split('|') if l.strip()):
+-            atomes = T.atomes(ligne)
++            # un surlignage de plusieurs mots ne fait qu'un encadre : « notre site » d'un
++            # bloc, pas en deux (Romain, 23/10/2026)
++            atomes = []
++            for at in T.atomes(ligne):
++                if at[1] and atomes and atomes[-1][1]:
++                    atomes[-1] = (atomes[-1][0] + at[0], True)
++                else:
++                    atomes.append(at)
+             px = self._corps_appel(atomes) if any(at[1] for at in atomes) else C.BANDEAU_PX
+             cap = T._police(px, g).getbbox("H")
+             x = 0.0
+
+codex
+The change correctly merges adjacent highlighted atoms into one box for multi-word highlights. Syntax checks and the smoke test pass.
+The change correctly merges adjacent highlighted atoms into one box for multi-word highlights. Syntax checks and the smoke test pass.

@@ -1,0 +1,4 @@
+{"type": "icones", "cartes": [
+ {"icone": "poubelle", "label": "Doses perdues : qui paie ?", "temps": 0},
+ {"icone": "bon", "label": "Bon de prise en charge obligatoire ?", "temps": 0},
+ {"icone": "enfant", "label": "2 à 17 ans sans comorbidité ?", "temps": 1}]}

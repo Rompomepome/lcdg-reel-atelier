@@ -1,0 +1,21 @@
+__pycache__/
+node_modules/
+.env
+
+# ancien atelier Medadom : tout ce qui sert est dans l'outil a part medadom-reel (depot NRSmart26/medadom-reel)
+medadom/
+
+# images de controle et apercus regenerables (plusieurs Go)
+lcdg_1022/apercus/
+lcdg_1022/planches/
+
+# medias de travail ; les sons et voix a garder sont dans sauvegarde/
+*.mp4
+*.mov
+*.wav
+*.mp3
+!sauvegarde/**/*.mp3
+
+# journaux de rendu (les relectures Codex, elles, restent)
+*.log
+!codex_review*.log

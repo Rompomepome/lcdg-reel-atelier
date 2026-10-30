@@ -1,0 +1,3 @@
+{"type": "appel", "temps": 1, "etapes": [
+ {"icone": "telephone", "label": "Appel de votre CPAM", "note": "en principe"},
+ {"icone": "courrier", "label": "Puis le courrier"}]}

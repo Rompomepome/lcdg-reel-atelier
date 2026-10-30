@@ -1,0 +1,4 @@
+{"type": "ages", "titre": "Dès 2027, seul l’âge compte", "ordre": [2, 1, 0], "zones": [
+ {"label": "Avant l’âge légal", "bulle": "Réduite dès le 1er €", "ton": "rouge"},
+ {"label": "De l’âge légal à 67 ans", "bulle": "Réduite au-delà d’un seuil", "ton": "bleu"},
+ {"label": "67 ans et plus", "bulle": "Cumul intégral", "ton": "vert"}]}

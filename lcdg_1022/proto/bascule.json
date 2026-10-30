@@ -1,0 +1,4 @@
+{"type": "bascule", "avant": {"haut": "Sept. 2026", "jour": "30", "bas": "dernier jour"},
+ "apres": {"haut": "Janv. 2027", "jour": "1er", "bas": "au plus tôt"},
+ "legende_avant": "Dernier dépôt pour un effet en 2026", "legende_apres": "Date d’effet de la retraite",
+ "pilule": "Nouvelles règles", "temps": 1}

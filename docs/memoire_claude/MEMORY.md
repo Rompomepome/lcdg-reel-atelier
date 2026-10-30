@@ -1,0 +1,12 @@
+- [Revue B-roll exigeante](broll-revue-exigeante.md) — reels LCDG : vérifier chaque plan à l'œil, demander la scène exacte sinon
+- [Son et voix des reels](son-et-voix-des-reels.md) — voix de synthèse + musique de Romain + bruitages ; 4 voix : homme/femme, jeune/plus âgé(e) ; reels à booster : ton réactif et incrédule, mais pas d'interjection (« Pardon ?! ») en ouverture
+- [Niveau motion = reel arrêts](niveau-motion-reels.md) — chaque nouveau reel au niveau du reel « arrêts de travail » : illustration animée sur presque chaque plan, accroche forte, version pub
+- [Vérifier avant de dire OK](verifier-avant-ok.md) — refaire l'aperçu avec le moteur du jour et le regarder plan par plan avant d'annoncer un reel prêt
+- [Format reel v2](format-reel-v2.md) — style v2 + rythme chiffres/questions/chute ; depuis le 02/10 l'accroche = couverture seulement, le reel commence sur un fait
+- [Reel = porte d'entrée](reel-porte-entree.md) — la valeur commence à « Ce qui pose question » : donner les faits, ouvrir les questions, garder la solution pour le site
+- [Précision médicale](precision-mediale.md) — chaque phrase explicite et exacte (quoi, qui, combien) ; condition jamais coupée, liste officielle mot pour mot
+- [Jamais payant](jamais-payant.md) — aucun abonnement ni outil payant, jamais (02/10/2026) : solutions gratuites seulement
+- [Pages officielles à l'écran](pages-officielles-a-l-ecran.md) — décret ou institution sans lieu cités : montrer la vraie page officielle capturée
+- [Wording oral](wording-oral.md) — des mots qu'on dit, compris instantanément : jamais « si la date glisse », ni « patients suivis comme médecin traitant » (le patient n'est jamais le médecin traitant), ni raccourci de spécialiste (« L'injection ? Aucun code »)
+- [Reels déjà publiés](reels-deja-publies.md) — tout ce qui a été rendu avant le 22/10 est posté : ne jamais le refaire
+- [Moins d'allers-retours](moins-d-allers-retours.md) — 28/10 : juste du premier coup ; public nommé en 1re phrase (« Maîtres de stage : ») ; relecture indépendante du texte avant la voix

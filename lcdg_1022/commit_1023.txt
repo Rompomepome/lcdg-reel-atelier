@@ -1,0 +1,23 @@
+Reels du 22/10 : illustrations animees, arrets de travail et sa version publicite
+
+Inserts (lcdg/inserts.py, valeurs dans config/charte.py) :
+- schemas : circuit (ce que devient l'argent), duel (deux annonces contraires),
+  frise (une procedure et ses delais) ;
+- illustrations : frigo (le refrigerateur qui se remplit, ou qui enregistre sa
+  temperature entre +2 et +8 °C, RCP de Vaxigrip), ticket (ce qui se facture),
+  appel (telephone puis courrier), loupe (une page fouillee ou rien ne sort),
+  calcul (une part qui se detache, un « ? ») ;
+- choix : sans "ok", un « ? » qui se balance (question encore ouverte) ;
+- le champ "insert" peut etre une liste : les elements s'empilent, "sur": true
+  centre un element sur le premier (correctif de la review Codex : deux elements
+  sans "sur" se superposaient).
+
+Episodes : vaccins au cabinet (v3, voix apres la recharge du 27/10), arrets de
+travail MSO / SOS IJ (rendu, voix Guillaume) et sa version publicite de 41,6 s
+decoupee dans la meme narration, cumul emploi-retraite (script v1). Bandeau
+« L'analyse complete | sur notre site » (CLAUDE.md).
+
+Review Codex : gpt-5.6-luna, effort high, un constat (P2, empilement des
+inserts en liste), corrige. smoke_test conforme.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>

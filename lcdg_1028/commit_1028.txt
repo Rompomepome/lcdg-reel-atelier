@@ -1,0 +1,24 @@
+Reels docteurs juniors et acces direct aux IPA : six illustrations dessinees
+
+Deux reels du 28/10/2026, au niveau du reel arrets de travail, avec leur version
+publicite et leurs legendes. Selon le conseil recu par Romain, la pastille d'ouverture et
+la premiere phrase lue nomment le public (« Maitres de stage : », « Medecins traitants : »).
+
+Nouveaux inserts (lcdg/inserts.py, valeurs dans config/charte.py) : carte (une carte CPS
+qui glisse dans le lecteur, acceptee ou refusee), compteur (des rouleaux qui s'arretent
+sur « ? »), bouclier (une couverture en pointilles), departements (des tuiles qui se
+retournent), ordonnance (qui s'ecrit au stylo), sablier (un delai que rien ne fixe),
+pilule (une mention seule sous un dessin, la ou un tampon cacherait les libelles).
+L'appel accepte l'icone « infirmier » et un temps par etape ; les cartes a icone
+acceptent « compte_rendu », « concertation », « patient », et « question »: false.
+
+Le ticket resserre un libelle qui toucherait sa valeur ; la carte CPS ajuste le nom du
+titulaire a la part visible une fois engagee dans le lecteur (review Codex).
+
+Texte relu par un agent independant contre les PDF des articles avant la voix (12
+erreurs corrigees : une condition coupee, des opinions du regard du Cercle donnees comme
+des faits, un « il » ambigu) ; la methode est consignee dans CLAUDE.md.
+
+Review Codex : gpt-5.6-luna, effort high (deux passes).
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>

@@ -1,0 +1,134 @@
+{
+  "slug": "arrets-travail-mso",
+  "date": "2026-10-22",
+  "rubrique": "pro",
+  "label": "Arrêts de travail",
+  "sous_titre": "Arrêts de travail : *650 médecins* dans le viseur",
+  "appel": "Nos 2 recommandations :",
+  "voix_off": "homme_age",
+  "badge": "Mise sous objectifs",
+  "bandeau": "L’analyse complète | sur *notre site*",
+  "blocs": [
+    {
+      "duree": 3.0,
+      "texte": null,
+      "fichier": "B0.mp4",
+      "requete": "doctor filling form"
+    },
+    {
+      "duree": 7.0,
+      "fichier": "B1.mp4",
+      "requete": "office telephone",
+      "texte": "Arrêts de travail : retour de la *mise sous objectifs*. | Annoncée aux syndicats le 14 octobre.",
+      "voix": "L’Assurance Maladie relance la mise sous objectifs sur les arrêts de travail. | Elle l’a annoncée aux syndicats le quatorze octobre, selon MG France."
+    },
+    {
+      "duree": 5.0,
+      "type": "chiffre",
+      "valeur": 650,
+      "suffixe": " médecins",
+      "fichier": "B2.mp4",
+      "legende": "vont être contrôlés, *selon la CSMF*",
+      "requete": "envelopes letters",
+      "voix": "Six cent cinquante médecins vont être contrôlés, selon la C.S.M.F."
+    },
+    {
+      "duree": 5.5,
+      "fichier": "B3.mp4",
+      "requete": "man at computer monitor",
+      "texte": "Sur quels critères ? | *Pas une ligne* sur ameli.fr.",
+      "voix": "Sur quels critères ? | Au vingt-deux octobre, pas une ligne sur ameli.fr."
+    },
+    {
+      "duree": 8.0,
+      "fichier": "B7.mp4",
+      "requete": "page : ameli, SOS IJ",
+      "texte": "6 jours plus tard : *SOS IJ*, pour vous aider. | Arrêts complexes, 1er retour sous 48 h.",
+      "voix": "Six jours plus tard, la même Assurance Maladie lance S.O.S. I.J. pour vous aider : | un service d’amelipro pour les arrêts de travail complexes, avec un premier retour sous quarante-huit heures.",
+      "insert": {
+        "type": "duel",
+        "cartes": [
+          {
+            "date": "14 octobre",
+            "texte": "Une campagne de contrôle",
+            "ok": false,
+            "temps": 0
+          },
+          {
+            "date": "20 octobre",
+            "texte": "Un outil pour vous aider",
+            "ok": true,
+            "temps": 0
+          }
+        ]
+      }
+    },
+    {
+      "duree": 3.5,
+      "type": "phrase",
+      "fichier": "B4.mp4",
+      "requete": "telephone pink background",
+      "texte": "*Deux messages* contraires.",
+      "voix": "Deux messages contraires."
+    },
+    {
+      "duree": 7.0,
+      "fichier": "B8.mp4",
+      "requete": "tablet charts data",
+      "texte": "Un arrêt signalé dans SOS IJ sortira-t-il *du calcul* ? | Rien ne le dit.",
+      "voix": "Car un arrêt signalé dans S.O.S. I.J. sortira-t-il du calcul qui sert à cibler les médecins ? | Rien ne le dit."
+    },
+    {
+      "duree": 5.5,
+      "type": "phrase",
+      "fichier": "B6.mp4",
+      "requete": "signing certificate",
+      "texte": "Le plus exposé : celui qui suit *les cas lourds*.",
+      "voix": "Tant que ces arrêts comptent, le médecin le plus exposé, c’est celui qui suit les situations les plus difficiles."
+    },
+    {
+      "duree": 8.0,
+      "fichier": "B5.mp4",
+      "requete": "marking calendar",
+      "texte": "Ciblé ? *1 mois* pour vos observations. | *15 jours* pour refuser. Sinon, accepté.",
+      "voix": "Si vous êtes ciblé : un mois pour présenter vos observations, | puis quinze jours pour refuser la mise sous objectifs. Sans réponse, elle est considérée comme acceptée.",
+      "insert": {
+        "type": "frise",
+        "etapes": [
+          {
+            "label": "Vos chiffres notifiés",
+            "temps": 0
+          },
+          {
+            "label": "1 mois : vos observations",
+            "temps": 0
+          },
+          {
+            "label": "Proposition de MSO",
+            "temps": 1
+          },
+          {
+            "label": "15 jours pour refuser",
+            "temps": 1
+          },
+          {
+            "label": "Sans réponse : acceptée",
+            "alerte": true,
+            "temps": 1
+          }
+        ]
+      }
+    },
+    {
+      "duree": 5.0,
+      "fichier": "B9.mp4",
+      "requete": "notebook phone desk",
+      "texte": "Votre caisse vous appelle ? | Ce qu’il faut faire, *dès l’appel*.",
+      "voix": "Votre caisse vous appelle ? | Ce qu’il faut faire, dès l’appel, est sur le site du Cercle.",
+      "insert": {
+        "type": "verrou",
+        "n": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+Bandeau : un surlignage de plusieurs mots ne fait qu'un encadre
+
+« notre site » s'affichait en deux encadres (un par mot) : le bandeau avait ete
+concu pour un seul mot cle. Les mots surlignes qui se suivent sont desormais
+fusionnes en un seul encadre (Romain, 23/10/2026).
+
+Review Codex : gpt-5.6-luna, effort high, aucun constat. smoke_test conforme.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>

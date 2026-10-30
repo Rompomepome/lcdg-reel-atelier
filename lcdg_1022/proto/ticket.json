@@ -1,0 +1,4 @@
+{"type": "ticket", "titre": "Votre facturation", "lignes": [
+ {"label": "Dose : SKB ou SKC", "valeur": "remboursée", "ok": true, "temps": 0},
+ {"label": "Injection", "valeur": "pas à part", "ok": false, "temps": 1},
+ {"label": "Consultation", "valeur": "habituelle", "ok": true, "temps": 1}]}

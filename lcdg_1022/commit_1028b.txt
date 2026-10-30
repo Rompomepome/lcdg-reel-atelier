@@ -1,0 +1,17 @@
+Vaccins et cumul emploi-retraite : texte lu final, voix et versions publicite
+
+Texte lu reecrit apres relecture complete des deux articles (Romain, 28/10/2026) :
+ton qui reagit sur ce qui choque (l'avance des doses, l'absence de texte, la
+decision a l'aveugle), sans interjection en ouverture ; « ni le decret, ni
+l'arrete » plutot que « aucun texte » (l'article cite aussi la FAQ du ministere,
+dont il ne dit rien) ; « au prix public », « par an », « en regle generale »
+repris de l'article.
+
+Voix generees (vaccins : homme_jeune, 64 s ; cumul : Emilie, 80 s), reels
+rendus en 9:16 et en carre, et leurs versions publicite (37,6 s et 38,4 s)
+decoupees dans la meme narration. Texte de la publicite Meta vaccins aligne sur
+la voix.
+
+Contenu editorial seulement (script.json, legendes) : pas de review Codex.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>

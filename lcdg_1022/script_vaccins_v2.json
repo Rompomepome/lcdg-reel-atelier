@@ -1,0 +1,110 @@
+{
+  "slug": "vaccins-cabinet",
+  "date": "2026-10-22",
+  "rubrique": "pro",
+  "label": "Vaccins au cabinet",
+  "sous_titre": "Le vaccin « gratuit » que vous *payez d’abord*",
+  "appel": "Notre recommandation :",
+  "voix_off": "homme_jeune",
+  "badge": "Décret du 9 octobre",
+  "bandeau": "L’analyse complète | sur *notre site*",
+  "blocs": [
+    {
+      "duree": 3.0,
+      "texte": null,
+      "fichier": "B0.mp4",
+      "requete": "flu vaccine syringe vial"
+    },
+    {
+      "duree": 7.0,
+      "fichier": "B1.mp4",
+      "requete": "page : ameli, vaccination grippe, espace médecin",
+      "texte": "Grippe, Covid-19 : les vaccins *au cabinet*. | Le patient ciblé repart vacciné.",
+      "voix": "Depuis le onze octobre, vous pouvez garder au cabinet les vaccins contre la grippe et le Covid-19. | Le patient ciblé repart vacciné, dès la consultation."
+    },
+    {
+      "duree": 6.0,
+      "type": "chiffre",
+      "valeur": 11.75,
+      "decimales": 2,
+      "suffixe": " €",
+      "legende": "la dose de Vaxigrip : c’est vous qui *l’avancez*",
+      "fichier": "B3.mp4",
+      "requete": "pharmacist handing medicine",
+      "voix": "Mais ces doses, c’est vous qui les payez d’abord au pharmacien : onze euros soixante-quinze la dose de Vaxigrip."
+    },
+    {
+      "duree": 6.5,
+      "fichier": "B2.mp4",
+      "requete": "doctor typing computer office",
+      "texte": "Remboursée *une fois injectée*. | SKB, ou SKC pour le vaccin hautement dosé.",
+      "voix": "L’Assurance Maladie vous la rembourse une fois injectée : | c’est la majoration S.K.B., ou S.K.C. pour un vaccin hautement dosé."
+    },
+    {
+      "duree": 6.0,
+      "fichier": "B5.mp4",
+      "requete": "vaccine injection arm",
+      "texte": "L’injection ? *Aucun code.* | Elle se fond dans la consultation.",
+      "voix": "Et l’injection ? Aucun code : | elle se fait dans le cadre de la consultation."
+    },
+    {
+      "duree": 4.0,
+      "type": "phrase",
+      "fichier": "B6.mp4",
+      "requete": "vaccine vial blue background",
+      "texte": "Et la dose *qui ne sert pas* ?",
+      "voix": "Et la dose qui ne sert pas ?"
+    },
+    {
+      "duree": 7.5,
+      "fichier": "B7.mp4",
+      "requete": "vials on the table",
+      "texte": "Périmée ou perdue : *aucun texte* ne dit qui paie. | Selon la CSMF, c’est vous.",
+      "voix": "Périmée, ou perdue après une rupture de la chaîne du froid : aucun texte ne dit qui la paie. | Selon la C.S.M.F., elle reste à votre charge.",
+      "insert": {
+        "type": "circuit",
+        "lignes": [
+          {
+            "titre": "Dose injectée",
+            "etapes": [
+              "−11,75 €",
+              "+11,75 €"
+            ],
+            "fin": "remboursée",
+            "ok": true,
+            "temps": 0
+          },
+          {
+            "titre": "Dose perdue ou périmée",
+            "etapes": [
+              "−11,75 €",
+              "? €"
+            ],
+            "fin": "à votre charge ?",
+            "ok": false,
+            "temps": 1
+          }
+        ]
+      }
+    },
+    {
+      "duree": 5.5,
+      "type": "phrase",
+      "fichier": "B4.mp4",
+      "requete": "counting coins desk",
+      "texte": "Remboursé, *pas rémunéré*.",
+      "voix": "Un remboursement, pas une rémunération : rien pour la commande, rien pour le stock, rien pour les doses perdues."
+    },
+    {
+      "duree": 5.0,
+      "fichier": "B9.mp4",
+      "requete": "hands writing notebook",
+      "texte": "Combien de doses commander ? | Notre recommandation, *sur le site*.",
+      "voix": "Alors, combien de doses commander ? | Notre recommandation est sur le site du Cercle.",
+      "insert": {
+        "type": "verrou",
+        "n": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+Outils de la chaine complete des reels, repris de l'atelier
+
+La methode des reels du 28/10/2026 (docteurs juniors, acces direct aux IPA), livres sans
+aller-retour, entre dans le depot (Romain, 30/10/2026 : « fais-le pour les reels LCDG, tres
+pro avec beaucoup de motion design, en te basant sur les derniers »).
+
+Nouveaux scripts, jusqu'ici dans l'atelier sous des noms dates :
+- scripts/verifier.py : lignes par temps et mise en page 9:16 + carre, sans rendu ;
+- scripts/apercu.py : apercu sans voix (aucun credit) ;
+- scripts/livrer.py : 9:16, carre et livrables dans final/ ;
+- scripts/pub.py : version publicite decoupee dans la meme narration ;
+- scripts/controle_voix.py : debit, blancs, indications lues, transcription Scribe et
+  extrait sonore des passages a risque ;
+- scripts/proto_inserts.py : banc d'essai d'un insert.
+
+CLAUDE.md : les commandes, et la chaine complete du PDF au kit, dans l'ordre.
+pub.py et apercu.py gardent les plans carres propres (broll_carre) ; sans voix_off, la voix
+par defaut de la charte ; pub.py refuse un ancien reel a bloc 0 lu (review Codex).
+
+Review Codex : gpt-5.6-luna, effort high (trois passes).
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>

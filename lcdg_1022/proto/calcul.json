@@ -1,0 +1,3 @@
+{"type": "calcul", "titre": "Le calcul qui cible les médecins", "temps_question": 1, "parts": [
+ {"label": "Vos arrêts de travail", "valeur": 0.68},
+ {"label": "Arrêts signalés dans SOS IJ", "valeur": 0.32, "question": true}]}
