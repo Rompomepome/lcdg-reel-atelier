@@ -10,3 +10,4 @@
 - [Wording oral](wording-oral.md) — des mots qu'on dit, compris instantanément : jamais « si la date glisse », ni « patients suivis comme médecin traitant » (le patient n'est jamais le médecin traitant), ni raccourci de spécialiste (« L'injection ? Aucun code »)
 - [Reels déjà publiés](reels-deja-publies.md) — tout ce qui a été rendu avant le 22/10 est posté : ne jamais le refaire
 - [Moins d'allers-retours](moins-d-allers-retours.md) — 28/10 : juste du premier coup ; public nommé en 1re phrase (« Maîtres de stage : ») ; relecture indépendante du texte avant la voix
+- [Dépôts GitHub des reels](depots-github-reels.md) — lcdg-reel public ; atelier LCDG, medadom-reel, LP recrutement privés ; vidéos, B-roll et .env hors GitHub
