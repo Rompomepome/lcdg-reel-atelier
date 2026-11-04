@@ -1,0 +1,2 @@
+{"type": "calcul", "titre": "Le paiement partiel conseillé par la CSMF", "temps": 1, "temps_question": 2, "levee": 34, "parts": [
+  {"label": "Réglé", "valeur": 0.25}, {"label": "En litige", "valeur": 0.75, "question": true}]}

@@ -1,0 +1,16 @@
+Reels soins chez le pharmacien, cotisation a l'Ordre et premieres installations
+
+Trois reels du 04/11/2026 et leurs versions publicite, a partir des dossiers du Cercle du 3 novembre.
+
+- six illustrations dessinees (enseigne de pharmacie, messagerie securisee, courrier de l'Ordre, associes
+  et montant, plaques de medecin, motifs en grille) et cinq icones ;
+- tampon : "delai" le fait claquer apres le dessin ; calcul : "temps" fait arriver la carte, "levee" limite
+  la part qui se leve ; barres : la carte attend sa premiere barre, pour ne pas rester vide a l'ecran ;
+- controle du logo sur 6 plans au lieu de 4 : les 4 instants du carre tombaient sur un insert clair (238 px
+  mesures pour un logo de 122 px, conforme a l'image).
+
+Review Codex (gpt-5.6-luna, effort high), deux retours non retenus : la duree de 50-55 s du CLAUDE.md (les
+derniers reels depassent 80 s, et Romain a dit que la duree n'etait pas une contrainte) et la page de la Cour
+des comptes deja montree dans le reel minimum de patients (c'est le rapport cite).
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>

@@ -1,0 +1,5 @@
+{"type": "motifs", "cartes": [
+  {"icone": "brulure", "label": "Brûlures", "temps": 1},
+  {"icone": "plaie", "label": "Plaies simples", "temps": 1},
+  {"icone": "tique", "label": "Piqûres de tique", "temps": 1},
+  {"icone": "oeil", "label": "Conjonctivites", "temps": 1}]}

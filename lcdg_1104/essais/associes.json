@@ -1,0 +1,5 @@
+{"type": "associes", "lignes": [
+  {"titre": "Société d'exercice libéral", "ton": "rouge", "montants": [
+    {"n": 4, "montant": "2 190 €"}]},
+  {"titre": "Société civile professionnelle", "note": "quel que soit le nombre d'associés", "montants": [
+    {"n": 4, "montant": "547,50 €", "temps": 1}]}]}

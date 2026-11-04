@@ -1,0 +1,6 @@
+Atelier des reels du 04/11/2026 et kit de publication (reels 13 a 15)
+
+Generateur des scripts avec la source de chaque bloc, essais des illustrations, outils de controle, journal
+de la review Codex ; le kit passe a 15 reels et son ordre de publication est mis a jour.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>

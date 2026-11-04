@@ -1,0 +1,4 @@
+{"type": "messagerie", "titre": "Messagerie sécurisée", "messages": [
+  {"objet": "Évaluation d'un patient"},
+  {"objet": "Évaluation d'un patient"},
+  {"objet": "Patient seulement orienté", "ton": "rouge", "temps": 1}]}

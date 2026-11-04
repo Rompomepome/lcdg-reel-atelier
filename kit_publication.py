@@ -45,6 +45,18 @@ REELS = [  # ordre de publication conseille : (dossier, episode, slug, titre, mo
      "12. ACCÈS DIRECT AUX IPA EN CPTS", None,
      "avant le 1er décembre, début de l’expérimentation. "
      "Puis en publicité (textes dans legende_publicite_meta.txt)."),
+    ("13_Soins_chez_le_pharmacien", "2026-11-04-soins-pharmacien", "soins-pharmacien",
+     "13. SOINS CHEZ LE PHARMACIEN : CE QUE LE MÉDECIN TRAITANT VA RECEVOIR", None,
+     "en premier, avant la parution de l’arrêté : le reel dit qu’il est introuvable au 3 novembre. "
+     "Puis en publicité (textes dans legende_publicite_meta.txt)."),
+    ("14_Cotisation_Ordre_en_societe", "2026-11-04-cotisation-ordre", "cotisation-ordre",
+     "14. COTISATION À L’ORDRE EN SOCIÉTÉ", None,
+     "tant que le Conseil d’État n’a pas jugé le recours de la CSMF. "
+     "Puis en publicité (textes dans legende_publicite_meta.txt)."),
+    ("15_Premieres_installations", "2026-11-04-premieres-installations", "premieres-installations",
+     "15. PREMIÈRES INSTALLATIONS : +22,8 %", None,
+     "dès que possible : les chiffres datent du 22 octobre. "
+     "Puis en publicité (textes dans legende_publicite_meta.txt)."),
 ]
 # version publicite d'un reel (episode a part, monte depuis la meme narration)
 PUB = {"7_Minimum_patients": ("2026-10-13-minimum-patients-pub", "minimum-patients-pub"),
@@ -52,7 +64,10 @@ PUB = {"7_Minimum_patients": ("2026-10-13-minimum-patients-pub", "minimum-patien
        "9_Vaccins_au_cabinet": ("2026-10-22-vaccins-cabinet-pub", "vaccins-cabinet-pub"),
        "10_Cumul_emploi_retraite": ("2026-10-22-cumul-emploi-retraite-pub", "cumul-emploi-retraite-pub"),
        "11_Docteurs_juniors": ("2026-10-28-docteurs-juniors-pub", "docteurs-juniors-pub"),
-       "12_Acces_direct_IPA": ("2026-10-28-acces-direct-ipa-pub", "acces-direct-ipa-pub")}
+       "12_Acces_direct_IPA": ("2026-10-28-acces-direct-ipa-pub", "acces-direct-ipa-pub"),
+       "13_Soins_chez_le_pharmacien": ("2026-11-04-soins-pharmacien-pub", "soins-pharmacien-pub"),
+       "14_Cotisation_Ordre_en_societe": ("2026-11-04-cotisation-ordre-pub", "cotisation-ordre-pub"),
+       "15_Premieres_installations": ("2026-11-04-premieres-installations-pub", "premieres-installations-pub")}
 # rappels deja donnes pour tous les reels : on ne les repete pas reel par reel
 COMMUNS = ("- étiquette « Info IA »", "- réponse en message privé")
 
@@ -89,9 +104,10 @@ for dossier, *_ in REELS:
 lisez = ["REELS LCDG À PUBLIER",
          "====================",
          "",
-         "Ordre de publication conseillé (mis à jour le 28/10/2026) : 11 (docteurs juniors, avant",
-         "le 2 novembre, à booster), 9 et 10 (vaccins, cumul emploi-retraite), puis 12 (accès direct",
-         "aux IPA, avant le 1er décembre). Les reels 1 à 8 sont publiés.",
+         "Ordre de publication conseillé (mis à jour le 04/11/2026) : les nouveaux reels 13 (soins chez",
+         "le pharmacien, avant la parution de l’arrêté), 14 (cotisation à l’Ordre en société) et 15",
+         "(premières installations). Ceux qui restent de la série précédente : 9 et 10 (vaccins, cumul",
+         "emploi-retraite) et 12 (accès direct aux IPA, avant le 1er décembre). Les reels 1 à 8 sont publiés.",
          "Grippe (5) et fluoxétine (1) : leur date conseillée est passée (13 octobre, mi-octobre).",
          "S’ils ne sont pas encore en ligne, les faire revoir avant de les publier.",
          "",
@@ -104,7 +120,7 @@ lisez = ["REELS LCDG À PUBLIER",
          "- reel_1x1_linkedin.mp4 et couverture_1x1_linkedin.jpg : la vidéo LinkedIn et sa",
          "  miniature ;",
          "- legende_instagram_facebook.txt et legende_linkedin.txt : les textes à copier-coller ;",
-         "- reels 7 à 12 : publicite_9x16.mp4 et publicite_1x1.mp4, la version courte pour la",
+         "- reels 7 à 15 : publicite_9x16.mp4 et publicite_1x1.mp4, la version courte pour la",
          "  publicité, et legende_publicite_meta.txt, ses textes dans le gestionnaire de publicités Meta.",
          "",
          "À la racine du dossier : PROMPT_correction_articles.md, le prompt à coller dans Claude pour",
