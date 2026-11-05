@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: c52333eb-2092-4068-8d6a-41bf40843acc
-  modified: 2026-10-28T12:35:45.731Z
+  modified: 2026-11-05T18:04:44.904Z
 ---
 
 Depuis le 01/10/2026, les reels LCDG ont une **voix off de synthèse** (ElevenLabs, modèle
@@ -29,8 +29,8 @@ les voix de bibliothèque trop « annonce » et une voix avec de la réverbérat
   voix (« studio sec, sans réverbération »), qui demande de libérer un emplacement.
 - Jamais de bruitage à l'ouverture du reel (« tu as rajouté du bruit en entrée, il ne faut
   pas faire ça du tout », 02/10/2026) ; la musique finit par un fondu audible.
-- Comparer des voix en mesurant le bruit des pauses. La durée du reel n'est pas une
-  contrainte.
+- Comparer des voix en mesurant le bruit des pauses. La durée : une minute au plus depuis
+  le 05/11/2026 ([[reel-une-minute-accroche]]).
 - Compte ElevenLabs gratuit (Romain ne paiera jamais, voir [[jamais-payant]]) : 10 000
   crédits par mois (renouvellement le 27 du mois), 3 emplacements de voix, tous pris.
   Une narration complète (environ 1 250 caractères, modèle v3) a coûté environ 290

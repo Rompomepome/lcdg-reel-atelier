@@ -8,6 +8,11 @@
 - [Jamais payant](jamais-payant.md) — aucun abonnement ni outil payant, jamais (02/10/2026) : solutions gratuites seulement
 - [Pages officielles à l'écran](pages-officielles-a-l-ecran.md) — décret ou institution sans lieu cités : montrer la vraie page officielle capturée
 - [Wording oral](wording-oral.md) — des mots qu'on dit, compris instantanément : jamais « si la date glisse », ni « patients suivis comme médecin traitant » (le patient n'est jamais le médecin traitant), ni raccourci de spécialiste (« L'injection ? Aucun code »)
+- [Reels Medadom en dessins](medadom-reels-dessins.md) — outil séparé `tools/medadom-reel` (lire son CLAUDE.md) ; dessins Canva style Medadom ; texte gros ; scène « quand adresser » ; fin « Rejoignez Medadom » en 2e prise
 - [Reels déjà publiés](reels-deja-publies.md) — tout ce qui a été rendu avant le 22/10 est posté : ne jamais le refaire
-- [Moins d'allers-retours](moins-d-allers-retours.md) — 28/10 : juste du premier coup ; public nommé en 1re phrase (« Maîtres de stage : ») ; relecture indépendante du texte avant la voix
+- [Référence = pertinence](visuels-reference-pertinence.md) — une référence sert la force du concept, pas le design ; pas de flèche bancale
 - [Dépôts GitHub des reels](depots-github-reels.md) — lcdg-reel public ; atelier LCDG, medadom-reel, LP recrutement privés ; vidéos, B-roll et .env hors GitHub
+- [Moins d'allers-retours](moins-d-allers-retours.md) — 28/10 : juste du premier coup ; public nommé en 1re phrase (« Maîtres de stage : ») ; relecture indépendante du texte avant la voix
+- [Une minute, accroche d'abord](reel-une-minute-accroche.md) — 05/11 : jamais plus d'une minute ; capter en 1 à 3 secondes, l'ouverture est le plus important ; budget de caractères par voix
+- [Garder le plus fort](reel-garder-le-plus-fort.md) — 05/11 : relever ce qui mord dans le dossier et le garder à l'écran, dans la limite de la minute ; texte montré avant la voix
+- [Expliquer le pourquoi](reel-expliquer-le-pourquoi.md) — 05/11 : pas de « le décret ne le dit pas » en boucle, donner la raison puis la conséquence ; « Selon le Cercle » ou « Mais selon nous », jamais « Pour le Cercle »

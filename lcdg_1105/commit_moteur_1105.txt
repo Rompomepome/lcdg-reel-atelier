@@ -1,0 +1,15 @@
+Reels pharmacien, cotisation et installations refaits en moins d'une minute
+
+Les trois reels du 04/11 sont reecrits le 05/11/2026 : le conflit des la premiere phrase, un pourquoi par
+probleme, « Selon le Cercle » ou « selon nous » pour chaque opinion, et moins d'une minute (60 s au plus,
+demande de Romain). Le plan du recours de la CSMF montre sa vraie page ; le registre des plans suit les
+fichiers apres le reordonnancement des blocs ; l'illustration 92/8 sans source est remplacee.
+
+Moteur : deux reglages par episode, documentes dans CLAUDE.md. "voix_tempo" accelere au montage une prise
+trop lente, sans regeneration ; "son_limite_db" abaisse le limiteur quand l'encodage AAC fait depasser le
+plafond de crete sur une attaque de voix. Defauts inchanges ; smoke_test conforme.
+
+Review Codex (gpt-5.6-luna, effort high), trois passes : registre des plans desynchronise et proportion
+sans source (corriges), deux conditions coupees (corrigees), puis aucun defaut.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>

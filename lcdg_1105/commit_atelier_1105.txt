@@ -1,0 +1,8 @@
+Atelier des reels du 05/11/2026 : versions d'une minute et kit de publication
+
+Generateur des trois scripts (source de chaque fait en tete, budget de caracteres par voix, registre des
+plans tenu a jour par fichier), impression des textes a valider, journaux des trois passes de review
+Codex. Le kit retire les anciennes versions publicite des reels 13 a 15 : le reel lui-meme, sous la
+minute, sert de publicite.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
