@@ -45,18 +45,15 @@ REELS = [  # ordre de publication conseille : (dossier, episode, slug, titre, mo
      "12. ACCÈS DIRECT AUX IPA EN CPTS", None,
      "avant le 1er décembre, début de l’expérimentation. "
      "Puis en publicité (textes dans legende_publicite_meta.txt)."),
-    ("13_Soins_chez_le_pharmacien", "2026-11-04-soins-pharmacien", "soins-pharmacien",
-     "13. SOINS CHEZ LE PHARMACIEN : CE QUE LE MÉDECIN TRAITANT VA RECEVOIR", None,
-     "en premier, avant la parution de l’arrêté : le reel dit qu’il est introuvable au 3 novembre. "
-     "Puis en publicité : le reel lui-même, moins d’une minute (textes dans legende_publicite_meta.txt)."),
+    # 13 (soins chez le pharmacien) abandonne le 06/11/2026 : « aucune vraie valeur ajoutee » (Romain)
     ("14_Cotisation_Ordre_en_societe", "2026-11-04-cotisation-ordre", "cotisation-ordre",
      "14. COTISATION À L’ORDRE EN SOCIÉTÉ", None,
      "tant que le Conseil d’État n’a pas jugé le recours de la CSMF. "
-     "Puis en publicité : le reel lui-même, moins d’une minute (textes dans legende_publicite_meta.txt)."),
+     "Puis en publicité : version d’environ 30 s (textes dans legende_publicite_meta.txt)."),
     ("15_Premieres_installations", "2026-11-04-premieres-installations", "premieres-installations",
      "15. PREMIÈRES INSTALLATIONS : +22,8 %", None,
      "dès que possible : les chiffres datent du 22 octobre. "
-     "Puis en publicité : le reel lui-même, moins d’une minute (textes dans legende_publicite_meta.txt)."),
+     "Puis en publicité : version d’environ 30 s (textes dans legende_publicite_meta.txt)."),
 ]
 # version publicite d'un reel (episode a part, monte depuis la meme narration)
 PUB = {"7_Minimum_patients": ("2026-10-13-minimum-patients-pub", "minimum-patients-pub"),
@@ -64,9 +61,11 @@ PUB = {"7_Minimum_patients": ("2026-10-13-minimum-patients-pub", "minimum-patien
        "9_Vaccins_au_cabinet": ("2026-10-22-vaccins-cabinet-pub", "vaccins-cabinet-pub"),
        "10_Cumul_emploi_retraite": ("2026-10-22-cumul-emploi-retraite-pub", "cumul-emploi-retraite-pub"),
        "11_Docteurs_juniors": ("2026-10-28-docteurs-juniors-pub", "docteurs-juniors-pub"),
-       "12_Acces_direct_IPA": ("2026-10-28-acces-direct-ipa-pub", "acces-direct-ipa-pub")}
-# reels 13 a 15 refaits le 05/11/2026 en moins d'une minute (Romain : « il faudrait pas qu'il depasse
-# 1 minute ») : leurs anciennes versions publicite portent l'ancien texte, le reel lui-meme sert de publicite
+       "12_Acces_direct_IPA": ("2026-10-28-acces-direct-ipa-pub", "acces-direct-ipa-pub"),
+       # reels 14 et 15 refaits le 06/11/2026 en phrases construites (environ 1 min 55) ; publicites
+       # d'environ 30 s decoupees dans la nouvelle narration (Romain : « les versions pub je veux bien »)
+       "14_Cotisation_Ordre_en_societe": ("2026-11-04-cotisation-ordre-pub", "cotisation-ordre-pub"),
+       "15_Premieres_installations": ("2026-11-04-premieres-installations-pub", "premieres-installations-pub")}
 # rappels deja donnes pour tous les reels : on ne les repete pas reel par reel
 COMMUNS = ("- étiquette « Info IA »", "- réponse en message privé")
 
@@ -97,16 +96,18 @@ def propres(a_faire):
 # on ne vide que ce que ce script produit : les autres fichiers du dossier (le prompt de
 # correction des articles) sont conserves
 KIT.mkdir(parents=True, exist_ok=True)
-for dossier, *_ in REELS:
+# reels abandonnes : leur dossier sort du kit, pour qu'on ne les publie pas par erreur
+ABANDONNES = ("13_Soins_chez_le_pharmacien",)   # 06/11/2026, Romain : « supprime le dossier 13 »
+for dossier in [d for d, *_ in REELS] + list(ABANDONNES):
     if (KIT / dossier).exists():
         shutil.rmtree(KIT / dossier)
 lisez = ["REELS LCDG À PUBLIER",
          "====================",
          "",
-         "Ordre de publication conseillé (mis à jour le 05/11/2026) : les nouveaux reels 13 (soins chez",
-         "le pharmacien, avant la parution de l’arrêté), 14 (cotisation à l’Ordre en société) et 15",
-         "(premières installations), refaits le 05/11 en moins d’une minute, avec l’accroche dès la",
-         "première seconde. Ceux qui restent de la série précédente : 9 et 10 (vaccins, cumul",
+         "Ordre de publication conseillé (mis à jour le 06/11/2026) : les nouveaux reels 14 (cotisation",
+         "à l’Ordre en société) et 15 (premières installations), refaits le 06/11 en phrases complètes,",
+         "avec l’accroche dès la première seconde. Le 13 (soins chez le pharmacien) est abandonné.",
+         "Ceux qui restent de la série précédente : 9 et 10 (vaccins, cumul",
          "emploi-retraite) et 12 (accès direct aux IPA, avant le 1er décembre). Les reels 1 à 8 sont publiés.",
          "Grippe (5) et fluoxétine (1) : leur date conseillée est passée (13 octobre, mi-octobre).",
          "S’ils ne sont pas encore en ligne, les faire revoir avant de les publier.",
@@ -120,9 +121,8 @@ lisez = ["REELS LCDG À PUBLIER",
          "- reel_1x1_linkedin.mp4 et couverture_1x1_linkedin.jpg : la vidéo LinkedIn et sa",
          "  miniature ;",
          "- legende_instagram_facebook.txt et legende_linkedin.txt : les textes à copier-coller ;",
-         "- reels 7 à 12 : publicite_9x16.mp4 et publicite_1x1.mp4, la version courte pour la",
-         "  publicité ; reels 13 à 15 : le reel lui-même, qui dure moins d’une minute ;",
-         "- reels 7 à 15 : legende_publicite_meta.txt, les textes du gestionnaire de publicités Meta.",
+         "- reels 7 à 15 : publicite_9x16.mp4 et publicite_1x1.mp4, la version courte pour la",
+         "  publicité, et legende_publicite_meta.txt, ses textes dans le gestionnaire de publicités Meta.",
          "",
          "À la racine du dossier : PROMPT_correction_articles.md, le prompt à coller dans Claude pour",
          "corriger les articles du site (mode d’emploi en tête du fichier).",

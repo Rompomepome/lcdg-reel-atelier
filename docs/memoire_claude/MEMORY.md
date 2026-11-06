@@ -13,6 +13,7 @@
 - [Référence = pertinence](visuels-reference-pertinence.md) — une référence sert la force du concept, pas le design ; pas de flèche bancale
 - [Dépôts GitHub des reels](depots-github-reels.md) — lcdg-reel public ; atelier LCDG, medadom-reel, LP recrutement privés ; vidéos, B-roll et .env hors GitHub
 - [Moins d'allers-retours](moins-d-allers-retours.md) — 28/10 : juste du premier coup ; public nommé en 1re phrase (« Maîtres de stage : ») ; relecture indépendante du texte avant la voix
-- [Une minute, accroche d'abord](reel-une-minute-accroche.md) — 05/11 : jamais plus d'une minute ; capter en 1 à 3 secondes, l'ouverture est le plus important ; budget de caractères par voix
+- [Vraies phrases, accroche d'abord](reel-une-minute-accroche.md) — 06/11 : phrases construites qui apprennent quelque chose, jamais télégraphique ; environ 1 min 45 à 2 min ; conflit dès la 1re seconde
+- [Sujet à valeur ajoutée](reel-sujet-valeur-ajoutee.md) — 06/11 : reel pharmacien abandonné (« aucune vraie valeur ajoutée ») ; pas d'angle « payé pour lire » ; dire quand un dossier ne vaut pas un reel
 - [Garder le plus fort](reel-garder-le-plus-fort.md) — 05/11 : relever ce qui mord dans le dossier et le garder à l'écran, dans la limite de la minute ; texte montré avant la voix
 - [Expliquer le pourquoi](reel-expliquer-le-pourquoi.md) — 05/11 : pas de « le décret ne le dit pas » en boucle, donner la raison puis la conséquence ; « Selon le Cercle » ou « Mais selon nous », jamais « Pour le Cercle »

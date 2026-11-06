@@ -1,0 +1,15 @@
+Cotisation et installations reecrits en phrases construites ; reel pharmacien abandonne
+
+Romain, 06/11/2026 : « il nous faut de vraies phrases car on ne comprend pas du tout », « fais de vraies
+phrases construites, on doit leur apprendre des choses reelles ». Les deux reels passent a environ 1 min 50,
+chaque notion expliquee (la file active, ce que fait un recours, l'ecart de 1 a 4), avec leurs versions
+publicite d'environ 45 s. Le reel « soins chez le pharmacien » est abandonne (« aucune vraie valeur
+ajoutee »). La page de la Cour des comptes est remontee plus longue (elle etait lue a 0,74x) ; le plan de la
+calculatrice, repris, est reinscrit au registre des plans. CLAUDE.md : la regle de la minute du 05/11
+laisse la place aux phrases construites.
+
+Review Codex (gpt-5.6-luna, effort high), deux passes : registre (corrige), « certains » a l'ecran
+(corrige). Ecartees : « patients plus lourds », tire du regard du Cercle et attribue ; la voix du bloc 1, qui
+reprend la phrase du dossier.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
