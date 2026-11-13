@@ -1,0 +1,3 @@
+{"type": "jauge", "titre": "Votre indicateur d’arrêts de travail",
+ "tickets": [{"label": "Arrêt maladie", "temps": 0}, {"label": "Arrêt maladie", "temps": 0},
+             {"label": "Arrêt lié au travail", "ton": "rouge", "temps": 1}]}

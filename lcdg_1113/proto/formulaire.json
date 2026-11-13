@@ -1,0 +1,4 @@
+{"type": "formulaire", "titre": "Qui peut remplir le formulaire ?",
+ "lignes": [{"label": "Pédopsychiatres", "temps": 1}, {"label": "Psychiatres", "temps": 1},
+            {"label": "Pédiatres", "temps": 1}, {"label": "Neuropédiatres", "temps": 2},
+            {"label": "Neurologues", "temps": 2}, {"label": "Généralistes", "ferme": true, "temps": 2}]}

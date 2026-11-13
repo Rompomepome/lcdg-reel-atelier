@@ -1,0 +1,2 @@
+{"type": "renvoi", "etapes": [{"label": "Assurance Maladie"}, {"label": "Pharmacien", "temps": 1},
+                             {"label": "Qui remplit ?", "question": true, "temps": 2}]}

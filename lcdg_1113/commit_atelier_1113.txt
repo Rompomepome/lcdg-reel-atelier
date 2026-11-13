@@ -1,0 +1,13 @@
+Atelier du 13/11 : generateur des reels maladie professionnelle et TDAH, kit 16 et 17
+
+lcdg_1113/scripts_1113.py : les scripts des deux reels, sources plan par plan ; le registre des plans
+suit les fichiers quand l'ordre des blocs change, et la requete vient toujours du generateur ; limiteur
+a -4 dB (l'encodage AAC faisait monter une attaque de voix a +0,6 dBTP). fiche_textes_1113.py et
+textes_1113.md : texte a l'ecran, voix et animation de chaque plan, relus par Romain. proto/ : les
+reglages d'essai des huit nouvelles scenes. kit_publication.py : reels 16 et 17 et leurs publicites,
+articles pas encore en ligne le 13/11 (liens a completer). sources/ : les deux dossiers du 10/11.
+
+Review Codex (gpt-5.6-luna, effort high) : garder la requete par fichier, ecartee. C'est ce qui avait
+decale les plans du TDAH quand des blocs ont fusionne ; un commentaire l'explique dans le code.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>

@@ -1,0 +1,3 @@
+{"type": "delai", "titre": "Délai de réponse de la caisse", "jours": 120, "temps": 1,
+ "fin": "Sans réponse : maladie reconnue", "temps_fin": 2,
+ "retour": "Le délai repart-il ?", "temps_retour": 3}

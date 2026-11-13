@@ -54,6 +54,15 @@ REELS = [  # ordre de publication conseille : (dossier, episode, slug, titre, mo
      "15. PREMIÈRES INSTALLATIONS : +22,8 %", None,
      "dès que possible : les chiffres datent du 22 octobre. "
      "Puis en publicité : version d’environ 30 s (textes dans legende_publicite_meta.txt)."),
+    # reels du 13/11/2026 : articles du 10/11, pas encore en ligne le 13/11 (liens a completer)
+    ("16_Maladie_pro_tableau_57", "2026-11-10-maladie-pro-tableau-57", "maladie-pro-tableau-57",
+     "16. MALADIE PROFESSIONNELLE : L’IRM DE L’ÉPAULE ET LE TABLEAU 57", None,
+     "dès que l’article est en ligne, tant que la liste d’examens d’ameli indique encore l’IRM. "
+     "Puis en publicité : version d’environ 45 s (textes dans legende_publicite_meta.txt)."),
+    ("17_TDAH_Xurta_Tentin", "2026-11-10-tdah-xurta-tentin", "tdah-xurta-tentin",
+     "17. TDAH : XURTA ET TENTIN REMBOURSÉS, SOUS FORMULAIRE", None,
+     "dès que l’article est en ligne : l’Assurance Maladie peut préciser le cas des patients déjà traités. "
+     "Puis en publicité : version d’environ 45 s (textes dans legende_publicite_meta.txt)."),
 ]
 # version publicite d'un reel (episode a part, monte depuis la meme narration)
 PUB = {"7_Minimum_patients": ("2026-10-13-minimum-patients-pub", "minimum-patients-pub"),
@@ -65,7 +74,9 @@ PUB = {"7_Minimum_patients": ("2026-10-13-minimum-patients-pub", "minimum-patien
        # reels 14 et 15 refaits le 06/11/2026 en phrases construites (environ 1 min 55) ; publicites
        # d'environ 30 s decoupees dans la nouvelle narration (Romain : « les versions pub je veux bien »)
        "14_Cotisation_Ordre_en_societe": ("2026-11-04-cotisation-ordre-pub", "cotisation-ordre-pub"),
-       "15_Premieres_installations": ("2026-11-04-premieres-installations-pub", "premieres-installations-pub")}
+       "15_Premieres_installations": ("2026-11-04-premieres-installations-pub", "premieres-installations-pub"),
+       "16_Maladie_pro_tableau_57": ("2026-11-10-maladie-pro-tableau-57-pub", "maladie-pro-tableau-57-pub"),
+       "17_TDAH_Xurta_Tentin": ("2026-11-10-tdah-xurta-tentin-pub", "tdah-xurta-tentin-pub")}
 # rappels deja donnes pour tous les reels : on ne les repete pas reel par reel
 COMMUNS = ("- étiquette « Info IA »", "- réponse en message privé")
 
@@ -104,9 +115,11 @@ for dossier in [d for d, *_ in REELS] + list(ABANDONNES):
 lisez = ["REELS LCDG À PUBLIER",
          "====================",
          "",
-         "Ordre de publication conseillé (mis à jour le 06/11/2026) : les nouveaux reels 14 (cotisation",
-         "à l’Ordre en société) et 15 (premières installations), refaits le 06/11 en phrases complètes,",
-         "avec l’accroche dès la première seconde. Le 13 (soins chez le pharmacien) est abandonné.",
+         "Ordre de publication conseillé (mis à jour le 13/11/2026) : les nouveaux reels 16 (maladie",
+         "professionnelle, tableau 57) et 17 (TDAH, Xurta et Tentin), dès que leurs articles sont en",
+         "ligne : leurs liens sont à compléter (voir « À faire »). Puis 14 (cotisation à l’Ordre en",
+         "société) et 15 (premières installations), refaits le 06/11 en phrases complètes, avec",
+         "l’accroche dès la première seconde. Le 13 (soins chez le pharmacien) est abandonné.",
          "Ceux qui restent de la série précédente : 9 et 10 (vaccins, cumul",
          "emploi-retraite) et 12 (accès direct aux IPA, avant le 1er décembre). Les reels 1 à 8 sont publiés.",
          "Grippe (5) et fluoxétine (1) : leur date conseillée est passée (13 octobre, mi-octobre).",
@@ -121,7 +134,7 @@ lisez = ["REELS LCDG À PUBLIER",
          "- reel_1x1_linkedin.mp4 et couverture_1x1_linkedin.jpg : la vidéo LinkedIn et sa",
          "  miniature ;",
          "- legende_instagram_facebook.txt et legende_linkedin.txt : les textes à copier-coller ;",
-         "- reels 7 à 15 : publicite_9x16.mp4 et publicite_1x1.mp4, la version courte pour la",
+         "- reels 7 à 17 : publicite_9x16.mp4 et publicite_1x1.mp4, la version courte pour la",
          "  publicité, et legende_publicite_meta.txt, ses textes dans le gestionnaire de publicités Meta.",
          "",
          "À la racine du dossier : PROMPT_correction_articles.md, le prompt à coller dans Claude pour",
