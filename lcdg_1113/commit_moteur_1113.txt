@@ -1,0 +1,21 @@
+Reels maladie professionnelle (tableau 57) et TDAH (Xurta, Tentin) ; musique en boucle ; 8 scenes animees
+
+Romain, 13/11/2026 : « l'objectif est de s'ameliorer un petit peu a chaque fois », « le motion doit
+etre beaucoup plus developpe que ca ! », « les sujets doivent vraiment etre lus et pas etre
+monotones ». Deux reels d'environ 1 min 50 (voix Emilie et Jeanne, une indication de jeu par plan),
+leurs versions publicite (43 et 47 s, decoupees dans la meme narration), leurs legendes et leurs plans.
+
+lcdg/inserts.py : huit scenes dessinees sur mesure, en mouvement continu : rature (avec un scanner
+d'IRM), formulaire, delai, jauge, dossier, addition, renvoi, guichet.
+lcdg/son.py : plus long que son morceau, le reel fait boucler la musique en fondu enchaine (courbes a
+puissance constante) ; elle s'eteignait vers 97 s (« pourquoi la musique s'arrete brusquement ? »).
+Les deux reels passent leur limiteur a -4 dB : l'encodage AAC faisait monter une attaque de voix du
+premier plan a +0,6 dBTP.
+
+Review Codex (gpt-5.6-luna, effort high), deux passes. Corrige : les bruitages des scenes addition et
+guichet, un son par mouvement comme dans le reste du moteur (les boites du milieu tombaient sans
+bruit, le guichet ne sonnait que deux fois). Ecarte : boucler seulement au-dela de la duree du
+fichier ; le morceau s'eteint avant la fin de son fichier (-58 dB a 99 s pour 101 s), un commentaire
+l'explique dans son.py.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
