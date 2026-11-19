@@ -16,7 +16,7 @@ Visuels : `lcdg_1119/visuels/` (PNG 1080 × 1350 pour le fil, 1080 × 1920 pour 
 
 Secteur 3 : au 1er janvier 2027, les prescriptions des médecins non conventionnés ne seront plus remboursées. Leurs patients viendront vers vous.
 
-Médicaments, actes et prestations prescrits par un médecin non conventionné ne donneront plus lieu à remboursement, sauf ce qu'il prescrit gratuitement pour lui-même et ses proches (article 76 de la loi de financement de la Sécurité sociale pour 2026). Le 1er octobre, le Conseil d'État a refusé de transmettre au Conseil constitutionnel la question soulevée par des syndicats.
+Médicaments, actes et prestations prescrits par un médecin non conventionné ne donneront plus lieu à remboursement, sauf ce qu'il prescrit à titre gracieux, pour lui-même et ses proches (article 76 de la loi de financement de la Sécurité sociale pour 2026). Le 1er octobre, le Conseil d'État a refusé de transmettre au Conseil constitutionnel la question soulevée par des syndicats.
 
 Dans le carrousel : ce qui va arriver au cabinet, ce que vous pouvez préparer dès décembre, la question à confier à votre secrétariat, et les 3 questions encore sans réponse. À enregistrer pour décembre.
 
@@ -45,13 +45,13 @@ Peut devenir un rendez-vous fixe chaque semaine (même gabarit, même nom). Les 
 
 ### Instagram
 
-Le point pénuries du 19 novembre : 6 médicaments en tension, la date de retour annoncée par l'ANSM et le geste au cabinet.
+Le point pénuries du 19 novembre : 6 médicaments en tension signalés par l'ANSM, leur date de retour annoncée et le geste au cabinet.
 
 Jext 300 µg (retour annoncé courant décembre), diazépam Teva 5 mg (fin novembre), cotrimoxazole Teva 800 mg/160 mg (janvier 2027), nifédipine Viatris L.P. 30 mg (début décembre), furosémide 20 et 40 mg (tensions annoncées pour plusieurs mois encore en 2027), Zovirax 200 mg/5 ml en suspension buvable (courant janvier 2027).
 
 Prescrire en DCI, vérifier les stylos d'adrénaline, signaler le stock de dépannage au pharmacien : tout est dans le carrousel. À enregistrer pour vos consultations.
 
-Ce que le Cercle demande à l'ANSM et les questions encore ouvertes : dans le dossier complet (inscription gratuite), lien en bio.
+Ce que le Cercle demande pour le prescripteur et les questions encore ouvertes : dans le dossier complet (inscription gratuite), lien en bio.
 
 #medecingeneraliste #penuries #ansm #prescription #lecercledesgeneralistes
 
@@ -65,7 +65,7 @@ Même texte que l'Instagram, avec le lien à la fin : [URL-PENURIES]?utm_source=
 
 ### Instagram et Facebook (visuel 4:5)
 
-Titre en première ligne sur Facebook : Médecins : 1 an pour vous faire payer en tiers payant
+Titre en première ligne sur Facebook : Le Sénat vote 1 an pour vous faire payer en tiers payant (médecins et soignants libéraux)
 
 Tiers payant : le texte voté par le Sénat le 16 novembre (article 32 du projet de loi de financement de la Sécurité sociale pour 2027) fixe à 1 an après l'acte le délai pour vous faire payer, contre 2 ans aujourd'hui selon le rapport de la commission. Il impose aussi des logiciels de facturation agréés par l'Uncam.
 
