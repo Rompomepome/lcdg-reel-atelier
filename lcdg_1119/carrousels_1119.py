@@ -111,7 +111,7 @@ def fiche(f, num, total):
     yb = max(y + 70, 860)
     d.rectangle([0, yb, W, H], fill=PALE)
     d.text((MARGE, yb + 56), f["qui"], font=police(28, "Bold"), fill=BLEU)
-    ecrire(d, MARGE, yb + 110, W - 2 * MARGE - 140, f["geste"], 42, graisse="SemiBold", graisse_forte="ExtraBold",
+    ecrire(d, MARGE, yb + 110, W - 2 * MARGE - 140, f["geste"], 38, graisse="SemiBold", graisse_forte="ExtraBold",
            couleur=NUIT, interligne=1.3)
     if num < total:
         fleche(d)
@@ -121,12 +121,13 @@ def fiche(f, num, total):
 # ------------------------------------------------------------------ Secteur 3 (PDF p. 9 et 10)
 SECTEUR3 = [
     # p. 9, SITUATION ; ESSENTIEL (« Quand : au 1er janvier 2027 »)
-    {"titre": f"Leurs ordonnances ne seront *plus remboursées*", "taille_titre": 88, "bandeau_min": 700,
-     "texte": f"Au **1er{NB}janvier 2027**, ce que prescrivent les médecins non conventionnés (secteur{NB}3) ne sera "
-              f"plus remboursé. **Leurs patients viendront vers vous.**",
+    {"titre": f"Secteur{NB}3{NB}: leurs ordonnances ne seront *plus remboursées*", "taille_titre": 82,
+     "bandeau_min": 700,
+     "texte": f"À partir du **1er{NB}janvier 2027**, ce que prescrivent les médecins non conventionnés ne sera plus "
+              f"remboursé, sauf exception. **Leurs patients viendront vers vous.**",
      "image": [{"type": "ordonnance", "titre": "Ordonnance", "marque": f"Secteur{NB}3",
                 "lignes": [{"label": "Médicaments"}, {"label": "Biologie"}, {"label": "Kinésithérapie"}],
-                "pied": f"Plus remboursée au 1er{NB}janvier 2027"}]},
+                "pied": f"Dès le 1er{NB}janvier 2027{NB}: non remboursée"}]},
     # p. 9, CE QUI EST CONFIRMÉ (L. 162-5-10 complété par l'article 76 : « Les produits de santé, les actes et les
     # prestations prescrits […] à l'exception de ceux prescrits par ces médecins à titre gracieux, pour eux-mêmes et
     # pour leurs proches ») ; p. 10 (« biologie, imagerie, kinésithérapie, soins infirmiers, transports »)
@@ -135,7 +136,7 @@ SECTEUR3 = [
               f"médecin non conventionné. Donc aussi la biologie, l{AP}imagerie, la kiné, les soins infirmiers, les "
               f"transports.\nUne seule exception{NB}: ce qu{AP}il prescrit **à titre gracieux**, pour lui-même et ses "
               f"proches.",
-     "image": {"type": "ticket", "titre": f"Prescrit en secteur{NB}3, au 1er{NB}janvier", "lignes": [
+     "image": {"type": "ticket", "titre": f"Prescrit en secteur{NB}3 dès le 1er{NB}janvier 2027", "lignes": [
          {"label": "Médicaments", "valeur": "non remboursés", "ok": False},
          {"label": "Biologie, imagerie", "valeur": "non remboursées", "ok": False},
          {"label": "Kiné, soins infirmiers", "valeur": "non remboursés", "ok": False},
@@ -143,11 +144,11 @@ SECTEUR3 = [
     # p. 9, CE QUI EST CONFIRMÉ (CE n° 517230 du 1er octobre 2026 : refus de renvoyer la QPC de MS3, UFML-S, SML et
     # d'autres ; « il juge que médecins conventionnés et non conventionnés ne sont pas dans une situation comparable et
     # que le droit à la protection de la santé n'est pas atteint, un médecin conventionné restant accessible »)
-    {"titre": f"Le Conseil d{AP}État *a tranché*",
+    {"titre": f"Le Conseil d{AP}État *dit non*",
      "texte": f"Des syndicats ont contesté la mesure. Le 1er{NB}octobre, le Conseil d{AP}État a refusé de "
-              f"transmettre leur question au Conseil constitutionnel.\nSon raisonnement{NB}: le droit à la "
-              f"protection de la santé n{AP}est pas atteint, puisqu{AP}**un médecin conventionné reste "
-              f"accessible**. Ce médecin conventionné, **c{AP}est vous.**",
+              f"transmettre leur question au Conseil constitutionnel.\nIl juge les deux situations non comparables, et "
+              f"le droit à la protection de la santé non atteint, **un médecin conventionné restant accessible**."
+              f"\nSelon nous, ce médecin conventionné, **ce sera souvent vous.**",
      "image": [{"type": "lettre", "entete": f"Conseil d{AP}État", "titre": f"Décision du 1er{NB}octobre 2026"},
                {"type": "tampon", "texte": "Question non transmise", "sur": True}]},
     # p. 10, L'IMPACT (afflux en janvier : renouvellements, biologie, kiné ; pleine période hivernale) et REGARD
@@ -155,8 +156,8 @@ SECTEUR3 = [
     # reprendre un traitement suppose une consultation et un examen, pas un tampon. »)
     {"titre": f"Le piège de *la recopie*",
      "texte": f"Selon le Cercle, janvier va apporter un **afflux de demandes**{NB}: renouvellements de traitements "
-              f"chroniques, biologie, kiné. En pleine période hivernale.\nMais une prescription engage celui qui la "
-              f"signe. Selon nous, reprendre un traitement suppose **une consultation et un examen, pas un "
+              f"chroniques, biologie, kiné. En pleine période hivernale.\nMais selon nous, une prescription engage "
+              f"celui qui la signe{NB}: reprendre un traitement suppose **une consultation et un examen, pas un "
               f"tampon.**",
      "image": {"type": "guichet", "enseigne": "Généraliste", "papier": "Recopie"}},
     # p. 10, RECOMMANDATIONS, médecin généraliste conventionné
@@ -164,19 +165,20 @@ SECTEUR3 = [
      "texte": f"Notre recommandation{NB}: prévoyez **dès décembre des créneaux de reprise de suivi** pour ces "
               f"patients.\nEt à cette consultation, proposez-leur de vous **déclarer médecin traitant**, plutôt que "
               f"de recopier l{AP}ordonnance.",
-     "image": {"type": "calendrier", "annee": 2026, "mois": 12, "du": 1, "au": 4,
-               "legende": "Créneaux de reprise de suivi"}},
+     "image": {"type": "icones", "cartes": [
+         {"icone": "horloge", "label": "Dès décembre : créneaux de reprise", "question": False},
+         {"icone": "patient", "label": "Vous, déclaré médecin traitant", "question": False}]}},
     # p. 10, RECOMMANDATIONS, secrétariat médical
     {"titre": f"Une question *au téléphone*",
-     "texte": f"Votre secrétariat peut repérer ces patients dès décembre. Quand un patient appelle pour une "
+     "texte": f"Votre secrétariat peut repérer ces patients au téléphone. Quand un patient appelle pour une "
               f"ordonnance{NB}: **«{NB}Qui vous l{AP}a prescrite{NB}?{NB}»**\nSi ce médecin n{AP}est pas "
-              f"conventionné, lui proposer **une consultation avant le 1er{NB}janvier 2027**, plutôt qu{AP}un simple "
+              f"conventionné{NB}: proposez au patient **une consultation avant le 1er{NB}janvier 2027**, plutôt qu{AP}un simple "
               f"renouvellement.",
-     "image": {"type": "appel", "etapes": [{"icone": "telephone", "label": f"«{NB}Qui vous l{AP}a prescrite{NB}?{NB}»"},
-                                           {"icone": "courrier", "label": f"Consultation avant le 1er{NB}janvier",
-                                            "temps": 1}]}},
+     "image": {"type": "icones", "cartes": [
+         {"icone": "casque", "label": f"«{NB}Qui vous l{AP}a prescrite{NB}?{NB}»", "question": False},
+         {"icone": "patient", "label": f"Consultation avant le 1er{NB}janvier", "question": False}]}},
     # p. 9-10, CE QUI POSE QUESTION (3 questions au 19 novembre)
-    {"titre": f"Personne *ne sait*",
+    {"titre": f"Ce que les textes *ne disent pas*",
      "texte": f"Une ordonnance de plusieurs mois, rédigée en 2026 et délivrée en 2027{NB}: remboursée ou pas{NB}? "
               f"**L{AP}article{NB}76 ne règle pas ce cas.**\nEt aucun texte lu ne dit comment le pharmacien saura "
               f"que le prescripteur n{AP}est pas conventionné, ni comment le patient, le laboratoire ou l{AP}infirmier "
@@ -187,7 +189,7 @@ SECTEUR3 = [
     # de préciser le sort des ordonnances en cours, et de reconnaître la consultation de reprise de traitement comme une
     # consultation à part entière » (3 demandes, gardées pour le site)
     {"titre": f"Ce que le Cercle *demande*",
-     "texte": f"Le Cercle adresse **3{NB}demandes à l{AP}Assurance Maladie**, avant le 1er{NB}janvier. Elles sont "
+     "texte": f"Le Cercle adresse **3{NB}demandes à l{AP}Assurance Maladie**. Elles sont "
               f"dans notre analyse complète, avec ce que la mesure change pour votre cabinet{NB}: dossier de la revue "
               f"du 19{NB}novembre.",
      "adresse": True, "image": {"type": "verrou", "n": 3}},
@@ -198,8 +200,8 @@ SECTEUR3 = [
 PENURIES_OUVERTURE = {
     # p. 17, SITUATION et L'ESSENTIEL ; furosémide : actualité de l'ANSM du 18 novembre (CONTEXTE)
     "titre": f"Le point *pénuries*", "taille_titre": 110,
-    "texte": f"6 médicaments en tension, signalés par l{AP}ANSM au 19{NB}novembre. Pour chacun{NB}: **la date de "
-             f"retour annoncée, et un geste au cabinet.**\nÀ enregistrer, pour l{AP}avoir sous la main en "
+    "texte": f"6 médicaments en tension, parmi ceux que signale l{AP}ANSM au 19{NB}novembre. Pour chacun{NB}: "
+             f"**ce qu{AP}annonce l{AP}ANSM, et ce qu{AP}il faut savoir au cabinet.**\nÀ enregistrer, pour l{AP}avoir sous la main en "
              f"consultation.",
     "image": {"type": "pharmacie", "pilules": [{"texte": "Contingenté en ville"},
                                                {"texte": "Retour annoncé", "temps": 1}]}}
@@ -209,29 +211,29 @@ FICHES = [
     {"nom": f"Jext 300{NB}µg", "forme": f"Adrénaline, stylo prérempli · contingenté en{NB}ville",
      "libelle": f"RETOUR ANNONCÉ PAR L{AP}ANSM", "date": f"Courant décembre 2026", "taille_date": 92,
      "qui": "NOTRE CONSEIL",
-     "geste": f"Vérifiez que le patient allergique a **2{NB}stylos non périmés**, comme le demande la check-list "
-              f"de l{AP}ANSM."},
+     "geste": f"Vérifiez que chaque patient allergique a **2{NB}stylos non périmés** (check-list de l{AP}ANSM). "
+              f"Plus de Jext dans sa pharmacie{NB}? Signalez le **«{NB}Stock de dépannage d{AP}urgence en ville{NB}»**."},
     # p. 17 (fiche du 3 novembre : remise à disposition fin novembre 2026) ; p. 19, RECOMMANDATIONS (DCI)
     {"nom": f"Diazépam 5{NB}mg", "forme": f"Diazépam Teva 5{NB}mg · contingenté en ville et à{NB}l{AP}hôpital",
      "libelle": f"RETOUR ANNONCÉ PAR L{AP}ANSM", "date": "Fin novembre 2026", "qui": "NOTRE CONSEIL",
-     "geste": f"Prescrivez **en DCI**{NB}: le pharmacien pourra délivrer celui d{AP}un autre laboratoire, s{AP}il "
-              f"est disponible."},
+     "geste": f"Prescrivez **en DCI**{NB}: la fiche de l{AP}ANSM ne vise que la spécialité de Teva. Le pharmacien "
+              f"pourra ainsi délivrer celle d{AP}un autre laboratoire, si elle est disponible."},
     # p. 17 (fiche du 4 novembre : remise à disposition prévue en janvier 2027) ; p. 19, RECOMMANDATIONS (DCI)
     {"nom": "Cotrimoxazole", "forme": f"Cotrimoxazole Teva 800{NB}mg/160{NB}mg · contingenté en{NB}ville",
      "libelle": f"RETOUR ANNONCÉ PAR L{AP}ANSM", "date": "Janvier 2027", "taille_date": 120, "qui": "NOTRE CONSEIL",
-     "geste": f"Prescrivez **en DCI**{NB}: le pharmacien pourra délivrer celui d{AP}un autre laboratoire, s{AP}il "
-              f"est disponible."},
+     "geste": f"Prescrivez **en DCI**{NB}: la fiche de l{AP}ANSM ne vise que la spécialité de Teva. Le pharmacien "
+              f"pourra ainsi délivrer celle d{AP}un autre laboratoire, si elle est disponible."},
     # p. 18 (fiche du 26 octobre : remise à disposition prévue début décembre 2026) ; p. 19, RECOMMANDATIONS (DCI ;
     # « stock limité de dépannage d'urgence en ville »)
     {"nom": f"Nifédipine LP 30{NB}mg", "forme": f"Nifédipine Viatris L.P. 30{NB}mg · contingenté en{NB}ville",
      "libelle": f"RETOUR ANNONCÉ PAR L{AP}ANSM", "date": "Début décembre 2026", "qui": "NOTRE CONSEIL",
-     "geste": f"Prescrivez **en DCI**, et signalez au pharmacien le **«{NB}stock limité de dépannage d{AP}urgence "
-              f"en ville{NB}»**."},
+     "geste": f"Prescrivez **en DCI**{NB}: la fiche ne vise que la spécialité de Viatris. Et signalez au "
+              f"pharmacien le **«{NB}stock limité de dépannage d{AP}urgence en ville{NB}»**."},
     # p. 17, CONTEXTE (ANSM, 18 novembre : « devraient durer encore plusieurs mois en 2027 » ; « permet au pharmacien
     # de remplacer les comprimés indisponibles par une préparation magistrale, sans nouvelle ordonnance »)
     {"nom": f"Furosémide 20 et 40{NB}mg", "forme": "Comprimés",
-     "libelle": f"TENSIONS SELON L{AP}ANSM (18{NB}NOVEMBRE)", "date": f"Encore plusieurs mois en{NB}2027",
-     "taille_date": 80, "qui": f"CE QUE PERMET L{AP}ANSM",
+     "libelle": f"TENSIONS SELON L{AP}ANSM (18{NB}NOVEMBRE)", "date": f"Devraient durer encore plusieurs mois en{NB}2027",
+     "taille_date": 70, "qui": f"CE QUE PERMET L{AP}ANSM",
      "geste": f"**Pas de nouvelle ordonnance**{NB}: le pharmacien peut remplacer les comprimés indisponibles par une "
               f"préparation magistrale."},
     # p. 18 (fiche du 17 novembre : remise à disposition courant janvier 2027 ; « La spécialité Zovirax 200 mg
@@ -239,7 +241,8 @@ FICHES = [
     {"nom": "Zovirax suspension", "forme": f"Aciclovir 200{NB}mg/5{NB}ml, suspension buvable · contingenté en{NB}ville",
      "libelle": f"RETOUR ANNONCÉ PAR L{AP}ANSM", "date": "Courant janvier 2027", "taille_date": 96,
      "qui": f"BON À SAVOIR (ANSM)",
-     "geste": f"**Zovirax 200{NB}mg comprimés reste disponible** pendant la tension de la suspension buvable."},
+     "geste": f"«{NB}La spécialité **Zovirax 200{NB}mg comprimés reste disponible** pendant la durée de la tension "
+              f"de la suspension buvable{NB}»."},
 ]
 PENURIES_FIN = {
     # p. 18, L'IMPACT (« un contingentement ne veut pas dire que le produit manque partout : la disponibilité peut

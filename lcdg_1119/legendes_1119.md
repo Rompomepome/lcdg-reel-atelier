@@ -19,7 +19,9 @@ Au 1er janvier 2027, les prescriptions des médecins non conventionnés ne seron
 
 Pas seulement les médicaments : l'article 76 vise aussi les actes et les prestations prescrits, donc la biologie, l'imagerie, la kiné, les soins infirmiers, les transports. Seule exception : ce que ces médecins prescrivent à titre gracieux, pour eux-mêmes et leurs proches.
 
-Dans le carrousel : le raisonnement du Conseil d'État, le piège de la recopie, ce que vous pouvez préparer dès décembre, la question à confier à votre secrétariat, et ce que personne ne sait encore. À enregistrer pour décembre.
+Dans le carrousel : le raisonnement du Conseil d'État, le piège de la recopie, ce que vous pouvez préparer dès décembre, la question à confier à votre secrétariat, et les questions encore ouvertes. À enregistrer pour décembre.
+
+Et vous, ces patients ont-ils déjà commencé à vous appeler ?
 
 Les 3 demandes du Cercle à l'Assurance Maladie : dans le dossier complet (inscription gratuite), lien en bio.
 
@@ -33,7 +35,7 @@ Même texte que l'Instagram, avec le lien à la fin : [URL-SECTEUR3]?utm_source=
 
 ### LinkedIn (document ou images)
 
-Au 1er janvier 2027, l'article 76 de la loi de financement de la Sécurité sociale pour 2026 rend non remboursables les produits de santé, actes et prestations prescrits par les médecins non conventionnés, sauf ceux prescrits à titre gracieux pour eux-mêmes et leurs proches. Le 1er octobre 2026, le Conseil d'État a refusé de transmettre la question prioritaire de constitutionnalité soulevée par des syndicats : selon lui, le droit à la protection de la santé n'est pas atteint, un médecin conventionné restant accessible.
+Au 1er janvier 2027, l'article 76 de la loi de financement de la sécurité sociale pour 2026 rend non remboursables les produits de santé, actes et prestations prescrits par les médecins non conventionnés, sauf ceux prescrits à titre gracieux pour eux-mêmes et leurs proches. Le 1er octobre 2026, le Conseil d'État a refusé de transmettre la question prioritaire de constitutionnalité soulevée par des syndicats : selon lui, le droit à la protection de la santé n'est pas atteint, un médecin conventionné restant accessible.
 
 Selon le Cercle, l'effet pour le généraliste conventionné est un afflux de demandes en janvier, en pleine période hivernale. Trois questions restent ouvertes au 19 novembre : le sort d'une ordonnance de 2026 délivrée en 2027, l'information du pharmacien, celle du patient, du laboratoire et de l'infirmier.
 
@@ -49,9 +51,11 @@ revérifié chaque fiche le jour même.
 
 Le point pénuries du 19 novembre : 6 médicaments en tension signalés par l'ANSM, leur date de retour annoncée et un geste au cabinet.
 
-Jext 300 µg (retour annoncé courant décembre), diazépam Teva 5 mg (fin novembre), cotrimoxazole Teva 800 mg/160 mg (janvier 2027), nifédipine Viatris L.P. 30 mg (début décembre), furosémide 20 et 40 mg (tensions annoncées pour plusieurs mois encore en 2027), Zovirax 200 mg/5 ml en suspension buvable (courant janvier 2027).
+Jext 300 µg (retour annoncé courant décembre), diazépam Teva 5 mg (fin novembre), cotrimoxazole Teva 800 mg/160 mg (janvier 2027), nifédipine Viatris L.P. 30 mg (début décembre), furosémide 20 et 40 mg (tensions qui « devraient durer encore plusieurs mois en 2027 », selon l'ANSM), Zovirax 200 mg/5 ml en suspension buvable (courant janvier 2027).
 
 À enregistrer, pour l'avoir sous la main en consultation.
+
+Et vous, quelle tension vous a posé problème cette semaine ?
 
 Ce que le Cercle demande pour le prescripteur et les questions encore ouvertes : dans le dossier complet (inscription gratuite), lien en bio.
 
@@ -62,6 +66,14 @@ Ce que le Cercle demande pour le prescripteur et les questions encore ouvertes :
 Titre en première ligne : Pénuries : ce que le prescripteur peut faire cette semaine
 
 Même texte que l'Instagram, avec le lien à la fin : [URL-PENURIES]?utm_source=facebook&utm_medium=carrousel&utm_campaign=penuries
+
+### LinkedIn (document ou images)
+
+L'ANSM signale au 19 novembre 2026 de nouvelles tensions, dont le stylo Jext 300 microgrammes (adrénaline), et maintient celles du cotrimoxazole Teva 800 mg/160 mg, du diazépam Teva 5 mg et de la nifédipine Viatris L.P. 30 mg. Pour le furosémide 20 et 40 mg, elle annonce que les tensions « devraient durer encore plusieurs mois en 2027 » et permet au pharmacien de remplacer les comprimés indisponibles par une préparation magistrale, sans nouvelle ordonnance.
+
+Selon le Cercle, un contingentement ne veut pas dire que le produit manque partout : la disponibilité peut varier d'une officine et d'une semaine à l'autre. Les fiches de l'ANSM sur Jext, le cotrimoxazole, le diazépam et la nifédipine ne comportent aucune recommandation aux prescripteurs.
+
+Ce que le Cercle demande pour le prescripteur (inscription gratuite) : [URL-PENURIES]?utm_source=linkedin&utm_medium=social&utm_campaign=penuries
 
 ## 3. Tiers payant et DPC (`tiers_payant_4x5.png`, `story_tiers_payant.png`, `story_dpc.png`)
 
