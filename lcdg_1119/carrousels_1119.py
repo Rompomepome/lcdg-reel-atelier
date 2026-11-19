@@ -32,9 +32,9 @@ MARGE = 90
 SORTIE = Path(__file__).resolve().parent / "carrousels"
 
 
-def titre(d, y, texte, taille=96):
+def titre(d, y, texte, taille=72):
     """Titre en capitales, Montserrat Black ; *mot* en bleu."""
-    return ecrire(d, MARGE, y, W - 2 * MARGE, texte.upper(), taille, graisse="Black", graisse_forte="Black",
+    return ecrire(d, MARGE, y, W - 2 * MARGE, texte, taille, graisse="ExtraBold", graisse_forte="ExtraBold",
                   couleur=NUIT, accent=BLEU, interligne=1.04)
 
 
@@ -71,7 +71,7 @@ def slide(s, num, total, rubrique):
     d = ImageDraw.Draw(im)
     entete(im, d, num, total, rubrique)
     y = 150
-    y += titre(d, y, s["titre"], s.get("taille_titre", 92))
+    y += titre(d, y, s["titre"], s.get("taille_titre", 72))
     y += 34
     y += ecrire(d, MARGE, y, W - 2 * MARGE, s["texte"], s.get("taille", 38), graisse="Regular",
                 graisse_forte="Bold", couleur=TEXTE, interligne=1.36)
@@ -84,7 +84,10 @@ def slide(s, num, total, rubrique):
         d.text((MARGE + l + 90, y + 40), "Lien en bio", font=police(30, "SemiBold"), fill=GRIS, anchor="lm")
         y += 80
     ill = illustration(s["image"]) if s.get("image") else None
-    bandeau_image(im, d, max(y + 50, s.get("bandeau_min", 820)), ill)
+    yb = max(y + 50, s.get("bandeau_min", 820))
+    if ill is not None and H - yb < 400:
+        print(f"[!] {rubrique} {num}/{total} : bandeau de l'image trop bas ({H - yb} px), raccourcir le texte")
+    bandeau_image(im, d, yb, ill)
     if num < total:
         fleche(d)
     return im
@@ -105,7 +108,7 @@ def fiche(f, num, total):
     y += 70
     d.text((MARGE, y), f["libelle"], font=police(30, "Bold"), fill=GRIS)
     y += 56
-    y += ecrire(d, MARGE, y, W - 2 * MARGE, f["date"].upper(), f.get("taille_date", 104), graisse="Black",
+    y += ecrire(d, MARGE, y, W - 2 * MARGE, f["date"], f.get("taille_date", 96), graisse="ExtraBold",
                 graisse_forte="Black", couleur=BLEU, accent=BLEU, interligne=1.0)
     # le geste, dans le bandeau pâle du bas
     yb = max(y + 70, 860)
@@ -121,7 +124,7 @@ def fiche(f, num, total):
 # ------------------------------------------------------------------ Secteur 3 (PDF p. 9 et 10)
 SECTEUR3 = [
     # p. 9, SITUATION ; ESSENTIEL (« Quand : au 1er janvier 2027 »)
-    {"titre": f"Secteur{NB}3{NB}: leurs ordonnances ne seront *plus remboursées*", "taille_titre": 82,
+    {"titre": f"Secteur{NB}3{NB}: leurs prescriptions *ne seront plus remboursées*",
      "bandeau_min": 700,
      "texte": f"À partir du **1er{NB}janvier 2027**, ce que prescrivent les médecins non conventionnés ne sera plus "
               f"remboursé, sauf exception. **Leurs patients viendront vers vous.**",
@@ -131,7 +134,7 @@ SECTEUR3 = [
     # p. 9, CE QUI EST CONFIRMÉ (L. 162-5-10 complété par l'article 76 : « Les produits de santé, les actes et les
     # prestations prescrits […] à l'exception de ceux prescrits par ces médecins à titre gracieux, pour eux-mêmes et
     # pour leurs proches ») ; p. 10 (« biologie, imagerie, kinésithérapie, soins infirmiers, transports »)
-    {"titre": f"Pas seulement *les médicaments*",
+    {"titre": f"Pas seulement les médicaments{NB}: *la kiné aussi*",
      "texte": f"L{AP}article{NB}76 vise les produits de santé, **les actes et les prestations** prescrits par un "
               f"médecin non conventionné. Donc aussi la biologie, l{AP}imagerie, la kiné, les soins infirmiers, les "
               f"transports.\nUne seule exception{NB}: ce qu{AP}il prescrit **à titre gracieux**, pour lui-même et ses "
@@ -144,9 +147,9 @@ SECTEUR3 = [
     # p. 9, CE QUI EST CONFIRMÉ (CE n° 517230 du 1er octobre 2026 : refus de renvoyer la QPC de MS3, UFML-S, SML et
     # d'autres ; « il juge que médecins conventionnés et non conventionnés ne sont pas dans une situation comparable et
     # que le droit à la protection de la santé n'est pas atteint, un médecin conventionné restant accessible »)
-    {"titre": f"Le Conseil d{AP}État *dit non*",
-     "texte": f"Des syndicats ont contesté la mesure. Le 1er{NB}octobre, le Conseil d{AP}État a refusé de "
-              f"transmettre leur question au Conseil constitutionnel.\nIl juge les deux situations non comparables, et "
+    {"titre": f"Le Conseil d{AP}État *rejette le recours*",
+     "texte": f"Le 1er{NB}octobre, il a refusé de transmettre au Conseil constitutionnel la question "
+              f"soulevée par des syndicats.\nIl juge les deux situations non comparables, et "
               f"le droit à la protection de la santé non atteint, **un médecin conventionné restant accessible**."
               f"\nSelon nous, ce médecin conventionné, **ce sera souvent vous.**",
      "image": [{"type": "lettre", "entete": f"Conseil d{AP}État", "titre": f"Décision du 1er{NB}octobre 2026"},
@@ -154,14 +157,14 @@ SECTEUR3 = [
     # p. 10, L'IMPACT (afflux en janvier : renouvellements, biologie, kiné ; pleine période hivernale) et REGARD
     # (« Le généraliste ne doit pas devenir un guichet de recopie. Une prescription engage celui qui la signe :
     # reprendre un traitement suppose une consultation et un examen, pas un tampon. »)
-    {"titre": f"Le piège de *la recopie*",
+    {"titre": f"Recopier l{AP}ordonnance{NB}? *Plutôt une consultation*",
      "texte": f"Selon le Cercle, janvier va apporter un **afflux de demandes**{NB}: renouvellements de traitements "
-              f"chroniques, biologie, kiné. En pleine période hivernale.\nMais selon nous, une prescription engage "
+              f"chroniques, biologie, kiné, en pleine période hivernale.\nMais selon nous, une prescription engage "
               f"celui qui la signe{NB}: reprendre un traitement suppose **une consultation et un examen, pas un "
               f"tampon.**",
      "image": {"type": "guichet", "enseigne": "Généraliste", "papier": "Recopie"}},
     # p. 10, RECOMMANDATIONS, médecin généraliste conventionné
-    {"titre": f"Décembre, *pas janvier*",
+    {"titre": f"Prévoyez des créneaux *dès décembre*",
      "texte": f"Notre recommandation{NB}: prévoyez **dès décembre des créneaux de reprise de suivi** pour ces "
               f"patients.\nEt à cette consultation, proposez-leur de vous **déclarer médecin traitant**, plutôt que "
               f"de recopier l{AP}ordonnance.",
@@ -169,7 +172,7 @@ SECTEUR3 = [
          {"icone": "horloge", "label": "Dès décembre : créneaux de reprise", "question": False},
          {"icone": "patient", "label": "Vous, déclaré médecin traitant", "question": False}]}},
     # p. 10, RECOMMANDATIONS, secrétariat médical
-    {"titre": f"Une question *au téléphone*",
+    {"titre": f"Au téléphone{NB}: *«{NB}Qui{NB}vous l{AP}a{NB}prescrite{NB}?{NB}»*",
      "texte": f"Votre secrétariat peut repérer ces patients au téléphone. Quand un patient appelle pour une "
               f"ordonnance{NB}: **«{NB}Qui vous l{AP}a prescrite{NB}?{NB}»**\nSi ce médecin n{AP}est pas "
               f"conventionné{NB}: proposez au patient **une consultation avant le 1er{NB}janvier 2027**, plutôt qu{AP}un simple "
@@ -178,7 +181,7 @@ SECTEUR3 = [
          {"icone": "casque", "label": f"«{NB}Qui vous l{AP}a prescrite{NB}?{NB}»", "question": False},
          {"icone": "patient", "label": f"Consultation avant le 1er{NB}janvier", "question": False}]}},
     # p. 9-10, CE QUI POSE QUESTION (3 questions au 19 novembre)
-    {"titre": f"Ce que les textes *ne disent pas*",
+    {"titre": f"Trois questions *encore sans réponse*",
      "texte": f"Une ordonnance de plusieurs mois, rédigée en 2026 et délivrée en 2027{NB}: remboursée ou pas{NB}? "
               f"**L{AP}article{NB}76 ne règle pas ce cas.**\nEt aucun texte lu ne dit comment le pharmacien saura "
               f"que le prescripteur n{AP}est pas conventionné, ni comment le patient, le laboratoire ou l{AP}infirmier "
@@ -188,10 +191,9 @@ SECTEUR3 = [
     # p. 10, REGARD : « Le Cercle demande à l'Assurance Maladie d'informer les patients concernés avant le 1er janvier,
     # de préciser le sort des ordonnances en cours, et de reconnaître la consultation de reprise de traitement comme une
     # consultation à part entière » (3 demandes, gardées pour le site)
-    {"titre": f"Ce que le Cercle *demande*",
+    {"titre": f"3 demandes du Cercle *à l{AP}Assurance Maladie*",
      "texte": f"Le Cercle adresse **3{NB}demandes à l{AP}Assurance Maladie**. Elles sont "
-              f"dans notre analyse complète, avec ce que la mesure change pour votre cabinet{NB}: dossier de la revue "
-              f"du 19{NB}novembre.",
+              f"dans notre analyse complète, dossier de la revue du 19{NB}novembre.",
      "adresse": True, "image": {"type": "verrou", "n": 3}},
 ]
 
@@ -199,7 +201,7 @@ SECTEUR3 = [
 # Ouverture et fin en slides « récit » ; une fiche par médicament entre les deux.
 PENURIES_OUVERTURE = {
     # p. 17, SITUATION et L'ESSENTIEL ; furosémide : actualité de l'ANSM du 18 novembre (CONTEXTE)
-    "titre": f"Le point *pénuries*", "taille_titre": 110,
+    "titre": f"Le point pénuries *du 19{NB}novembre*", "taille_titre": 84,
     "texte": f"6 médicaments en tension, parmi ceux que signale l{AP}ANSM au 19{NB}novembre. Pour chacun{NB}: "
              f"**ce qu{AP}annonce l{AP}ANSM, et ce qu{AP}il faut savoir au cabinet.**\nÀ enregistrer, pour l{AP}avoir sous la main en "
              f"consultation.",
@@ -209,7 +211,7 @@ FICHES = [
     # p. 17 (fiche du 13 novembre : remise à disposition courant décembre 2026) ; p. 19, RECOMMANDATIONS (check-list
     # de l'ANSM pour Jext ; « Stock de dépannage d'urgence en ville »)
     {"nom": f"Jext 300{NB}µg", "forme": f"Adrénaline, stylo prérempli · contingenté en{NB}ville",
-     "libelle": f"RETOUR ANNONCÉ PAR L{AP}ANSM", "date": f"Courant décembre 2026", "taille_date": 92,
+     "libelle": f"RETOUR ANNONCÉ PAR L{AP}ANSM", "date": f"Courant décembre 2026", "taille_date": 88,
      "qui": "NOTRE CONSEIL",
      "geste": f"Vérifiez que chaque patient allergique a **2{NB}stylos non périmés** (check-list de l{AP}ANSM). "
               f"Plus de Jext dans sa pharmacie{NB}? Signalez le **«{NB}Stock de dépannage d{AP}urgence en ville{NB}»**."},
@@ -220,7 +222,7 @@ FICHES = [
               f"pourra ainsi délivrer celle d{AP}un autre laboratoire, si elle est disponible."},
     # p. 17 (fiche du 4 novembre : remise à disposition prévue en janvier 2027) ; p. 19, RECOMMANDATIONS (DCI)
     {"nom": "Cotrimoxazole", "forme": f"Cotrimoxazole Teva 800{NB}mg/160{NB}mg · contingenté en{NB}ville",
-     "libelle": f"RETOUR ANNONCÉ PAR L{AP}ANSM", "date": "Janvier 2027", "taille_date": 120, "qui": "NOTRE CONSEIL",
+     "libelle": f"RETOUR ANNONCÉ PAR L{AP}ANSM", "date": "Janvier 2027", "taille_date": 92, "qui": "NOTRE CONSEIL",
      "geste": f"Prescrivez **en DCI**{NB}: la fiche de l{AP}ANSM ne vise que la spécialité de Teva. Le pharmacien "
               f"pourra ainsi délivrer celle d{AP}un autre laboratoire, si elle est disponible."},
     # p. 18 (fiche du 26 octobre : remise à disposition prévue début décembre 2026) ; p. 19, RECOMMANDATIONS (DCI ;
@@ -233,13 +235,13 @@ FICHES = [
     # de remplacer les comprimés indisponibles par une préparation magistrale, sans nouvelle ordonnance »)
     {"nom": f"Furosémide 20 et 40{NB}mg", "forme": "Comprimés",
      "libelle": f"TENSIONS SELON L{AP}ANSM (18{NB}NOVEMBRE)", "date": f"Devraient durer encore plusieurs mois en{NB}2027",
-     "taille_date": 70, "qui": f"CE QUE PERMET L{AP}ANSM",
+     "taille_date": 66, "qui": f"CE QUE PERMET L{AP}ANSM",
      "geste": f"**Pas de nouvelle ordonnance**{NB}: le pharmacien peut remplacer les comprimés indisponibles par une "
               f"préparation magistrale."},
     # p. 18 (fiche du 17 novembre : remise à disposition courant janvier 2027 ; « La spécialité Zovirax 200 mg
     # comprimés reste disponible pendant la durée de la tension de la suspension buvable »)
     {"nom": "Zovirax suspension", "forme": f"Aciclovir 200{NB}mg/5{NB}ml, suspension buvable · contingenté en{NB}ville",
-     "libelle": f"RETOUR ANNONCÉ PAR L{AP}ANSM", "date": "Courant janvier 2027", "taille_date": 96,
+     "libelle": f"RETOUR ANNONCÉ PAR L{AP}ANSM", "date": "Courant janvier 2027", "taille_date": 92,
      "qui": f"BON À SAVOIR (ANSM)",
      "geste": f"«{NB}La spécialité **Zovirax 200{NB}mg comprimés reste disponible** pendant la durée de la tension "
               f"de la suspension buvable{NB}»."},
