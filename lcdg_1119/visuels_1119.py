@@ -529,8 +529,7 @@ def serie(nom, slides):
 
 if __name__ == "__main__":
     SORTIE.mkdir(exist_ok=True)
-    serie("secteur3", SECTEUR3)
-    serie("penuries", PENURIES)
+    # les carrousels Secteur 3 et Pénuries sont passés dans carrousels_1119.py (format récit, 19/11)
     autres = {"tiers_payant_4x5": slide_chiffre(TIERS_PAYANT, H_FIL),
               "story_tiers_payant": slide_chiffre(TIERS_PAYANT_STORY, H_STORY),
               "story_dpc": slide_story(DPC_STORY),

@@ -1,6 +1,6 @@
 # Revue du 19/11/2026 — carrousels, visuel chiffre et stories : légendes de publication
 
-Visuels : `lcdg_1119/visuels/` (PNG 1080 × 1350 pour le fil, 1080 × 1920 pour les stories), refaits par
+Carrousels : `lcdg_1119/carrousels/` (`python carrousels_1119.py`). Visuel chiffre et stories : `lcdg_1119/visuels/` (PNG 1080 × 1350 pour le fil, 1080 × 1920 pour les stories), refaits par
 `python visuels_1119.py`. Les légendes du reel taxe lapin et de ses deux stories sont dans
 `lcdg-reel/episodes/2026-11-19-taxe-lapin-senat/legendes.md`.
 
@@ -8,19 +8,20 @@ Visuels : `lcdg_1119/visuels/` (PNG 1080 × 1350 pour le fil, 1080 × 1920 pour 
 - remplacer les `[URL-...]` par les adresses des dossiers sur le site (site non joignable depuis la session du 19/11) ;
 - Facebook : les carrousels passent en album (mêmes images, dans l'ordre) ; le titre en première ligne vise le médecin.
 
-## 1. Carrousel Secteur 3 (7 slides, `secteur3_1.png` à `secteur3_7.png`)
+## 1. Carrousel Secteur 3 (8 slides, `carrousels/secteur3_1.png` à `secteur3_8.png`)
 
-À publier dès que possible : il prépare décembre (les créneaux) et le 1er janvier.
+Format récit (19/11) : une idée par slide, une illustration des reels en bas. À publier dès que possible : il prépare
+décembre (les créneaux) et le 1er janvier.
 
 ### Instagram
 
-Secteur 3 : au 1er janvier 2027, les prescriptions des médecins non conventionnés ne seront plus remboursées. Leurs patients viendront vers vous.
+Au 1er janvier 2027, les prescriptions des médecins non conventionnés ne seront plus remboursées. Leurs patients viendront vers vous.
 
-Médicaments, actes et prestations prescrits par un médecin non conventionné ne donneront plus lieu à remboursement, sauf ce qu'il prescrit à titre gracieux, pour lui-même et ses proches (article 76 de la loi de financement de la Sécurité sociale pour 2026). Le 1er octobre, le Conseil d'État a refusé de transmettre au Conseil constitutionnel la question soulevée par des syndicats.
+Pas seulement les médicaments : l'article 76 vise aussi les actes et les prestations prescrits, donc la biologie, l'imagerie, la kiné, les soins infirmiers, les transports. Seule exception : ce que ces médecins prescrivent à titre gracieux, pour eux-mêmes et leurs proches.
 
-Dans le carrousel : ce qui va arriver au cabinet, ce que vous pouvez préparer dès décembre, la question à confier à votre secrétariat, et les 3 questions encore sans réponse. À enregistrer pour décembre.
+Dans le carrousel : le raisonnement du Conseil d'État, le piège de la recopie, ce que vous pouvez préparer dès décembre, la question à confier à votre secrétariat, et ce que personne ne sait encore. À enregistrer pour décembre.
 
-Ce que le Cercle demande à l'Assurance Maladie : dans le dossier complet (inscription gratuite), lien en bio.
+Les 3 demandes du Cercle à l'Assurance Maladie : dans le dossier complet (inscription gratuite), lien en bio.
 
 #medecingeneraliste #secteur3 #medecinnonconventionne #ordonnance #lecercledesgeneralistes
 
@@ -32,24 +33,25 @@ Même texte que l'Instagram, avec le lien à la fin : [URL-SECTEUR3]?utm_source=
 
 ### LinkedIn (document ou images)
 
-Au 1er janvier 2027, l'article 76 de la loi de financement de la Sécurité sociale pour 2026 rend non remboursables les produits de santé, actes et prestations prescrits par les médecins non conventionnés, sauf ceux prescrits à titre gracieux pour eux-mêmes et leurs proches. Le Conseil d'État a refusé le 1er octobre 2026 de transmettre la question prioritaire de constitutionnalité soulevée par des syndicats.
+Au 1er janvier 2027, l'article 76 de la loi de financement de la Sécurité sociale pour 2026 rend non remboursables les produits de santé, actes et prestations prescrits par les médecins non conventionnés, sauf ceux prescrits à titre gracieux pour eux-mêmes et leurs proches. Le 1er octobre 2026, le Conseil d'État a refusé de transmettre la question prioritaire de constitutionnalité soulevée par des syndicats : selon lui, le droit à la protection de la santé n'est pas atteint, un médecin conventionné restant accessible.
 
 Selon le Cercle, l'effet pour le généraliste conventionné est un afflux de demandes en janvier, en pleine période hivernale. Trois questions restent ouvertes au 19 novembre : le sort d'une ordonnance de 2026 délivrée en 2027, l'information du pharmacien, celle du patient, du laboratoire et de l'infirmier.
 
-Notre analyse et nos recommandations (inscription gratuite) : [URL-SECTEUR3]?utm_source=linkedin&utm_medium=social&utm_campaign=secteur-3
+Notre analyse et nos 3 demandes à l'Assurance Maladie (inscription gratuite) : [URL-SECTEUR3]?utm_source=linkedin&utm_medium=social&utm_campaign=secteur-3
 
-## 2. Carrousel « Le point pénuries » (8 slides, `penuries_1.png` à `penuries_8.png`)
+## 2. Carrousel « Le point pénuries » (8 slides, `carrousels/penuries_1.png` à `penuries_8.png`)
 
-Peut devenir un rendez-vous fixe chaque semaine (même gabarit, même nom). Les dates sont celles de l'ANSM au 19/11 :
-à republier seulement après avoir revérifié chaque fiche le jour même.
+Fiche épurée (19/11) : par médicament, la date en très grand et un seul geste. Peut devenir un rendez-vous fixe chaque
+semaine (même gabarit, même nom). Les dates sont celles de l'ANSM au 19/11 : à republier seulement après avoir
+revérifié chaque fiche le jour même.
 
 ### Instagram
 
-Le point pénuries du 19 novembre : 6 médicaments en tension signalés par l'ANSM, leur date de retour annoncée et le geste au cabinet.
+Le point pénuries du 19 novembre : 6 médicaments en tension signalés par l'ANSM, leur date de retour annoncée et un geste au cabinet.
 
 Jext 300 µg (retour annoncé courant décembre), diazépam Teva 5 mg (fin novembre), cotrimoxazole Teva 800 mg/160 mg (janvier 2027), nifédipine Viatris L.P. 30 mg (début décembre), furosémide 20 et 40 mg (tensions annoncées pour plusieurs mois encore en 2027), Zovirax 200 mg/5 ml en suspension buvable (courant janvier 2027).
 
-Prescrire en DCI, vérifier les stylos d'adrénaline, signaler le stock de dépannage au pharmacien : tout est dans le carrousel. À enregistrer pour vos consultations.
+À enregistrer, pour l'avoir sous la main en consultation.
 
 Ce que le Cercle demande pour le prescripteur et les questions encore ouvertes : dans le dossier complet (inscription gratuite), lien en bio.
 
