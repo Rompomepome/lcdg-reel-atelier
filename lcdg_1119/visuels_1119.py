@@ -528,15 +528,6 @@ def serie(nom, slides):
 
 
 if __name__ == "__main__":
-    SORTIE.mkdir(exist_ok=True)
-    # les carrousels Secteur 3 et Pénuries sont passés dans carrousels_1119.py (format récit, 19/11)
-    autres = {"tiers_payant_4x5": slide_chiffre(TIERS_PAYANT, H_FIL),
-              "story_tiers_payant": slide_chiffre(TIERS_PAYANT_STORY, H_STORY),
-              "story_dpc": slide_story(DPC_STORY),
-              "story_taxe_lapin_sondage": slide_story(LAPIN_SONDAGE),
-              "story_taxe_lapin_lien": slide_story(LAPIN_LIEN)}
-    for n, im in autres.items():
-        im.save(SORTIE / f"{n}.png", optimize=True)
-    planche("chiffre_et_stories", list(autres.values())[1:], cols=4)
-    autres["tiers_payant_4x5"].resize((540, 675)).save(SORTIE / "planche_tiers_payant.png")
-    print(len(list(SORTIE.glob("*.png"))), "images dans", SORTIE)
+    # depuis le 20/11, les stories et le visuel « 1 an » viennent de stories_1119.py (format des carrousels) ; ce
+    # module ne sert plus que de boîte à outils (texte riche, couleurs du Cercle)
+    print("Lancer stories_1119.py (stories, visuel 1 an) et carrousels_1119.py (carrousels).")
