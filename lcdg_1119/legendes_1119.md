@@ -5,7 +5,6 @@ Carrousels : `lcdg_1119/carrousels/` (`python carrousels_1119.py`). Visuel chiff
 `lcdg-reel/episodes/2026-11-19-taxe-lapin-senat/legendes.md`.
 
 À faire par Romain avant de publier :
-- remplacer les `[URL-...]` par les adresses des dossiers sur le site (site non joignable depuis la session du 19/11) ;
 - Facebook : les carrousels passent en album (mêmes images, dans l'ordre) ; le titre en première ligne vise le médecin.
 
 ## 1. Carrousel Secteur 3 (8 slides, `carrousels/secteur3_1.png` à `secteur3_8.png`)
@@ -31,7 +30,7 @@ Les 3 demandes du Cercle à l'Assurance Maladie : dans le dossier complet (inscr
 
 Titre en première ligne : Médecins généralistes : ce qui arrive au cabinet au 1er janvier avec le secteur 3
 
-Même texte que l'Instagram, avec le lien à la fin : [URL-SECTEUR3]?utm_source=facebook&utm_medium=carrousel&utm_campaign=secteur-3
+Même texte que l'Instagram, avec le lien à la fin : https://www.lecercledesgeneralistes.fr/article/medecin-secteur-3-ordonnances-non-remboursees-des-janvier-2027?utm_source=facebook&utm_medium=carrousel&utm_campaign=secteur-3
 
 ### LinkedIn (document ou images)
 
@@ -39,7 +38,7 @@ Au 1er janvier 2027, l'article 76 de la loi de financement de la sécurité soci
 
 Selon le Cercle, l'effet pour le généraliste conventionné est un afflux de demandes en janvier, en pleine période hivernale. Trois questions restent ouvertes au 19 novembre : le sort d'une ordonnance de 2026 délivrée en 2027, l'information du pharmacien, celle du patient, du laboratoire et de l'infirmier.
 
-Notre analyse et nos 3 demandes à l'Assurance Maladie (inscription gratuite) : [URL-SECTEUR3]?utm_source=linkedin&utm_medium=social&utm_campaign=secteur-3
+Notre analyse et nos 3 demandes à l'Assurance Maladie (inscription gratuite) : https://www.lecercledesgeneralistes.fr/article/medecin-secteur-3-ordonnances-non-remboursees-des-janvier-2027?utm_source=linkedin&utm_medium=social&utm_campaign=secteur-3
 
 ## 2. Carrousel « Le point pénuries » (8 slides, `carrousels/penuries_1.png` à `penuries_8.png`)
 
@@ -65,7 +64,7 @@ Ce que le Cercle demande pour le prescripteur et les questions encore ouvertes :
 
 Titre en première ligne : Pénuries : ce que le prescripteur peut faire cette semaine
 
-Même texte que l'Instagram, avec le lien à la fin : [URL-PENURIES]?utm_source=facebook&utm_medium=carrousel&utm_campaign=penuries
+Même texte que l'Instagram, avec le lien à la fin : https://www.lecercledesgeneralistes.fr/article/penuries-jext-diazepam-et-cotrimoxazole-difficiles-a-trouver?utm_source=facebook&utm_medium=carrousel&utm_campaign=penuries
 
 ### LinkedIn (document ou images)
 
@@ -73,7 +72,7 @@ L'ANSM signale au 19 novembre 2026 de nouvelles tensions, dont le stylo Jext 300
 
 Selon le Cercle, un contingentement ne veut pas dire que le produit manque partout : la disponibilité peut varier d'une officine et d'une semaine à l'autre. Les fiches de l'ANSM sur Jext, le cotrimoxazole, le diazépam et la nifédipine ne comportent aucune recommandation aux prescripteurs.
 
-Ce que le Cercle demande pour le prescripteur (inscription gratuite) : [URL-PENURIES]?utm_source=linkedin&utm_medium=social&utm_campaign=penuries
+Ce que le Cercle demande pour le prescripteur (inscription gratuite) : https://www.lecercledesgeneralistes.fr/article/penuries-jext-diazepam-et-cotrimoxazole-difficiles-a-trouver?utm_source=linkedin&utm_medium=social&utm_campaign=penuries
 
 ## 3. Tiers payant et DPC (`tiers_payant_4x5.png`, `story_tiers_payant.png`, `story_dpc.png`)
 
@@ -89,10 +88,10 @@ Texte non définitif : il doit encore passer en commission mixte paritaire. Ce q
 
 #medecingeneraliste #tierspayant #plfss2027 #facturation #lecercledesgeneralistes
 
-Lien Facebook : [URL-ARTICLE]?utm_source=facebook&utm_medium=post&utm_campaign=tiers-payant
+Lien Facebook : https://www.lecercledesgeneralistes.fr/article/plfss-2027-ce-que-le-senat-a-vote-pour-votre-cabinet?utm_source=facebook&utm_medium=post&utm_campaign=tiers-payant
 
 ### Stories (même jour)
 
 1. `story_tiers_payant.png` : sans sticker, ou un sticker lien sous le texte.
 2. `story_dpc.png` : sticker lien sous la flèche, texte du sticker « Le dossier PLFSS ».
-   Lien : [URL-ARTICLE]?utm_source=instagram&utm_medium=story&utm_campaign=dpc
+   Lien : https://www.lecercledesgeneralistes.fr/article/plfss-2027-ce-que-le-senat-a-vote-pour-votre-cabinet?utm_source=instagram&utm_medium=story&utm_campaign=dpc
