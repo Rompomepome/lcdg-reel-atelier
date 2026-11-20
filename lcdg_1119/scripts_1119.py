@@ -62,7 +62,7 @@ TAXE_LAPIN = {
     "slug": "taxe-lapin-senat", "date": "2026-11-19", "rubrique": "pro", "label": "Taxe lapin",
     "sous_titre": f"5{NB}€ annoncés, mais *jusqu{AP}au prix* de la consultation",
     "appel": f"Notre recommandation{NB}:", "voix_off": "femme_jeune", "badge": "Médecins libéraux",
-    "bandeau": BANDEAU, "son_limite_db": -4.0, "voix_tempo": 1.08,
+    "bandeau": BANDEAU, "son_limite_db": -4.0, "voix_tempo": 1.12,
     "blocs": [
         {"duree": 3.0, "texte": None, "fichier": "B0.mp4", "requete": "empty waiting room chairs daylight"},
         # l'accroche : l'écart entre l'annonce en séance (le sénateur qui a défendu l'amendement n° 7) et le texte
@@ -204,7 +204,7 @@ TELECONSULTATION = {
              {"label": "Quel médecin ?", "question": True, "temps": 1}]}},
         # p. 7, L'IMPACT (lecture du dossier, attribuée) : « un patient âgé peut être vu à domicile, en téléconsultation,
         # par un autre médecin, et revenir avec une ordonnance dont il ignore l'origine si rien n'est versé au DMP »
-        {"duree": 11.0, "fichier": "B6.mp4", "requete": "prescription paper kitchen table elderly hands",
+        {"duree": 11.0, "fichier": "B6.mp4", "requete": "handwriting on paper close up pen",
          "texte": f"Selon nous, s{AP}il est vu par *un autre médecin*… | "
                   f"il peut revenir avec une ordonnance… *d{AP}où vient-elle*{NB}? | "
                   f"Vous ne le saurez pas si rien n{AP}est versé *au dossier*.",
@@ -214,7 +214,7 @@ TELECONSULTATION = {
         # p. 6, SITUATION et L'ESSENTIEL (« rien n'est définitif » ; « Que faire : proposer dès maintenant à ces patients
         # la téléconsultation assistée avec les infirmiers libéraux du secteur, qui la facturent déjà ») ; p. 6, tarifs
         # selon le rapport (10 € lors d'un soin, 12 € dans un lieu dédié, 15 € au domicile)
-        {"duree": 13.0, "fichier": "B7.mp4", "requete": "nurse arriving home visit bag daylight",
+        {"duree": 13.0, "fichier": "B7.mp4", "requete": "hands on steering wheel driving daylight",
          "texte": f"Le texte n{AP}est *pas définitif*. | "
                   f"Mais vous pouvez déjà la proposer avec *les infirmiers libéraux*. | "
                   f"Selon le rapport, ils la facturent{NB}: *15{NB}€* au domicile.",
